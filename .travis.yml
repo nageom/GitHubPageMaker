@@ -2,7 +2,7 @@ sudo: false
 language: ruby
 cache: bundler
 rvm:
-  - 2.6.6
+  - 2.7.3
 
 install:
   # Install Jekyll and dependencies
@@ -10,7 +10,7 @@ install:
 
 before_script:
   - git config --global user.email "nageom1123@naver.com"
-  - git config --global user.name "Nageom Goh"
+  - git config --global user.name "nageom"
 
 script: bundle exec rake site:deploy --quiet #--trace
 
@@ -22,10 +22,10 @@ script: bundle exec rake site:deploy --quiet #--trace
 env:
   global:
     secure: "ejMtgjvMI/7AAIftWd65bP6fkeTEq+P0XilIqYz976YeLpnKTHMEdEl6GqpYtibNMRiqRerSCl8Qeul5DElv8Ul/J2arUcRVKfx2PFjn+ohJyen2vzY5aoZyTl784OJzITzkfbaYo9JUFa32tc
-kCQfxg6Hjd4l3iesOqQTHw5kg/VM6eeSHUBc6pwo14BVE4V7ehe2MNNiXcrE+10aOQTLUR0TPggO3PKYGHJ46xrGhL11TPSivgcgV2AetAGcyPg/U2disvPPe1VNhLN8R2qgU/MKkHLBWhpSZPKtAVWp7Yg8p
-fsEyWtz5kSDPJMEVwQ1Nus0Z6IdgiLSultFSzhezsetfzTF8DuyAhcVsoKWo3bL6Rcudu7MunMlwxUjhcsbMduuQ9nCG7ceBkOWXqwlNqt3xcu2LOxEpIGPVOUfOUxy3F3wDeES8TRaQJ45oAF4p/NJRnfT/9
-uoHfea+o7OOhzD6yO7tNPpYXD7cbJrL9SfFdABY9tHX5wzaKU2sO49AU8gk4jdgvUH+DbHH3bLKIkiMd1cwrSdPzkxOJqHhuxR84SzK0FRcwAGQ7nmPtCXA2dQZdpIPLrnLnBk/IW1W+l8Dne8O0tcJF7MiIE
-P6ITYFGQxAat/BgVHcoD6odTQDmx8sdiCc55nNN10YHs3FRtD9/J9eBKdOj3EnldOg="
+            kCQfxg6Hjd4l3iesOqQTHw5kg/VM6eeSHUBc6pwo14BVE4V7ehe2MNNiXcrE+10aOQTLUR0TPggO3PKYGHJ46xrGhL11TPSivgcgV2AetAGcyPg/U2disvPPe1VNhLN8R2qgU/MKkHLBWhpSZPKtAVWp7Yg8p
+            fsEyWtz5kSDPJMEVwQ1Nus0Z6IdgiLSultFSzhezsetfzTF8DuyAhcVsoKWo3bL6Rcudu7MunMlwxUjhcsbMduuQ9nCG7ceBkOWXqwlNqt3xcu2LOxEpIGPVOUfOUxy3F3wDeES8TRaQJ45oAF4p/NJRnfT/9
+            uoHfea+o7OOhzD6yO7tNPpYXD7cbJrL9SfFdABY9tHX5wzaKU2sO49AU8gk4jdgvUH+DbHH3bLKIkiMd1cwrSdPzkxOJqHhuxR84SzK0FRcwAGQ7nmPtCXA2dQZdpIPLrnLnBk/IW1W+l8Dne8O0tcJF7MiIE
+            P6ITYFGQxAat/BgVHcoD6odTQDmx8sdiCc55nNN10YHs3FRtD9/J9eBKdOj3EnldOg="
 branches:
   only:
     - master
