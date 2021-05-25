@@ -1,0 +1,12 @@
+jekyll :
+  name: jekyll
+  description: False
+  cover: assets/built/images/ruby.jpg
+python :
+  name: python
+  description: False
+  cover: assets/built/images/ruby.jpg
+economy :
+  name: economy
+  description: False
+  cover: assets/built/images/ruby.jpg
