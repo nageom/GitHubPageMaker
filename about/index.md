@@ -9,4 +9,4 @@ subclass: 'post page'
 ---
 
 About 내용입니다. about/index.md 여기 
-자동화 1차 시도
+자동화 2차 시도
