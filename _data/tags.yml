@@ -1,12 +1,20 @@
 jekyll :
   name: jekyll
   description: False
-  cover: assets/built/images/ruby.jpg
+  cover: assets/built/images/cover/ruby.jpg
 python :
   name: python
   description: False
-  cover: assets/built/images/ruby.jpg
-economy :
-  name: economy
+  cover: assets/built/images/cover/ruby.jpg
+oracle :
+  name: oracle
   description: False
-  cover: assets/built/images/ruby.jpg
+  cover: assets/built/images/cover/ruby.jpg
+spring :
+  name: spring
+  description: False
+  cover: assets/built/images/cover/ruby.jpg
+java :
+  name: java
+  description: False
+  cover: assets/built/images/cover/ruby.jpg

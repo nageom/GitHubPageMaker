@@ -3,7 +3,7 @@ nageom :
   name: nageom        # user full name : Martin Luther King
   url_full:             # Homepage url
   url:
-  bio: <a href="https://www.youtube.com/channel/UCp-MztINXTRVkRGCnqnYNlQ">얼큰우동TV, 쉽게배우는 IT(Programming,Machine Learning,금융)</a>
+  bio:
   # 회사정보
   picture: assets/built/images/RubyIcon.jpg   # author image
   facebook:             # facebook ID
