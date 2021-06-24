@@ -51,14 +51,14 @@ title: nageom's blog
 description: IT 공부방
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
-cover: assets/built/images/cover/cover2.png
+cover: assets/built/images/algorithm/cover_algorithm.png
 # blog home에 표시될 blog cover image.
 
 logo:
 logo_dark:
 
 #루비
-favicon: assets/built/images/favicon.jpg
+favicon: assets/built/images/cover/cover_yellow.jpg
 # favicon으로 사용할 image - title 부분
 
 production_url: https://nageom.github.io/
@@ -146,9 +146,8 @@ exclude:
   - assets/images
   - _posts/angular
   - _posts/et-cetera
-  #  - _posts/python
+  #  - _posts/some
   - _posts/typescript
-  #  - _posts/jekyll
   - _posts/iot
   - _posts/r
   - _posts/economy

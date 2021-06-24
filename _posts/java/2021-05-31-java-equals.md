@@ -1,9 +1,9 @@
 ---
 layout: post
 current: post
-cover: assets/built/images/java/1.png
+cover: assets/built/images/java/cover/cover_equals.jpg
 navigation: True
-title: Java_equals와 "=="연산자의 차이
+title: Java_equals와 '=='연산자의 차이
 date: 2021-05-25 00:14:00
 tags: [java]
 class: post-template
@@ -27,9 +27,9 @@ hashcode란 Object클래스의 메서드가 리턴하는 각 객체에 대응하
 기본적으로 hashCode는 객체의 주소값과 연관이 있습니다
    
 
-![ex_screenshot](./assets/built/images/java/1.png)
+![ex_screenshot](../../assets/built/images/java/equals/1.png)
 
-![ex_screenshot](./assets/built/images/java/2.png)
+![ex_screenshot](../../assets/built/images/java/equals/2.png)
 
 비교했을때 주소값이 다른 obj와 obj2의 hashcode값이 다르죠   
 그리고   
@@ -42,8 +42,8 @@ obj2의 주소값 @ 뒤의 값 6d06d69c (16진수) -> hashCode 1829164700(10진�
 멍-충   
 주소값이 서로 다르지만 문자열은 같은 두 String 객체를 가지고 hashCode를 비교해보았습니다. 
 
-![ex_screenshot](./assets/built/images/java/4.png)
-![ex_screenshot](./assets/built/images/java/3.png)
+![ex_screenshot](../../assets/built/images/java/equals/4.png)
+![ex_screenshot](../../assets/built/images/java/equals/3.png)
 주소값은 다르지만 같은 문자열에 대해 hashCode가 같은 것을 볼 수 있습니다.    
 응? 주소값으로 hashCode만드는데 주소값이 다른데 hashCode가 같네? 모순모순!    
 이라고 할 뻔 했지만   

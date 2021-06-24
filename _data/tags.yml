@@ -1,20 +1,24 @@
-jekyll :
-  name: jekyll
+some :
+  name: some
   description: False
-  cover: assets/built/images/cover/ruby.jpg
-python :
-  name: python
-  description: False
-  cover: assets/built/images/cover/ruby.jpg
+  cover: assets/built/images/algorithm/cover_algorithm.png
 oracle :
   name: oracle
   description: False
-  cover: assets/built/images/cover/ruby.jpg
+  cover: assets/built/images/algorithm/cover_algorithm.png
 spring :
   name: spring
   description: False
-  cover: assets/built/images/cover/ruby.jpg
+  cover: assets/built/images/algorithm/cover_algorithm.png
 java :
   name: java
   description: False
-  cover: assets/built/images/cover/ruby.jpg
+  cover: assets/built/images/algorithm/cover_algorithm.png
+algorithm :
+  name: algorithm
+  description: False
+  cover: assets/built/images/algorithm/cover_algorithm.png
+error :
+  name: error
+  description: False
+  cover: assets/built/images/algorithm/cover_algorithm.png
