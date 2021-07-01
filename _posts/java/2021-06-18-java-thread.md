@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/built/images/java/thread/coverThread.png
+cover: assets/built/images/java/cover/cover_java.png
 navigation: True
 title: 쓰레드(thread)와 러버블(Runnable)로 쓰레드 구현 
 date: 2021-06-18 00:14:00

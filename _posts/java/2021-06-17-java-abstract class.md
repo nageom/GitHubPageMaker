@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/built/images/java/cover/cover_interface.jpg
+cover: assets/built/images/java/cover/cover_java.png
 navigation: True
 title: 추상과 인터페이스 
 date: 2021-06-17 00:14:00

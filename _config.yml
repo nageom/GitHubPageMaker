@@ -48,7 +48,7 @@ baseurl: /
 title: nageom's blog
 # 자신의 blog title.
 
-description: IT 공부방
+description: 티끌모아 공부방
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
 cover: assets/built/images/algorithm/cover_algorithm.png
