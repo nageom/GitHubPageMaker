@@ -22,7 +22,7 @@ wrapper클래스와 String, Date, File과 같은 것들이며 기본적으로 �
 그래서 <U>Comparable을 구현한 클래스는 정렬이 가능하다는 것을 의미한다. </U> 
 
 
-Comparator와 COmparable의 실제 소스
+Comparator와 Comparable의 실제 소스
 ~~~javascript
 public interface Comparator{
     int compare(Object o1, Object o2) {

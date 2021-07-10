@@ -37,8 +37,6 @@ author: nageom
 3번 학생이 2번 학생이나 4번 학생에게 체육복을 빌려주면 학생 4명이 체육수업을 들을 수 있습니다.
 
 
-
-
 <h6>[풀이과정]</h6>
 n 크기의 boolean[] flag를 만들어
 1. lost는 false 나머지는 true 
@@ -162,14 +160,61 @@ public class Gym {
 		int result = solution(n, lost, reserve);
 		
 		System.out.println("Result : "+ result );
-
 	}
 }
 
+~~~
+결과
+![ex_screenshot](../../assets/built/images/coding/greedy(1)_2.png)
+
+**[새로운 풀이]**<br>
+다른 분들의 풀이를 살펴보았다. 나는 true와 false만 담을 수 있는 boolean배열을 사용해서 <br>
+손봐야 하는 부분들이 번거롭게 생겼었고, <br>
+이 분은 int[] 배열에 0,-1,1 로 구분해주어서 더 깔끔한 코드를 완성했다.  <br>
+~~~javascript
+package greedy;
+
+public class Gym2 {
+	public static int solution(int n, int[] lost, int[] reserve) {
+		int[] people = new int[n];
+        int answer = n;
+
+        for (int l : lost) 
+            people[l-1]--;
+        for (int r : reserve) 
+            people[r-1]++;
+
+        for (int i = 0; i < people.length; i++) {
+            if(people[i] == -1) {
+                if(i-1>=0 && people[i-1] == 1) {
+                    people[i]++;
+                    people[i-1]--;
+                }else if(i+1< people.length && people[i+1] == 1) {
+                    people[i]++;
+                    people[i+1]--;
+                }else 
+                    answer--;
+            }
+        }
+        return answer;
+    }
+
+	public static void main(String[] args) {
+		
+		int n= 5;
+		int[] lost= {3,5};
+		int[] reserve = {2,4};
+		//5나와야함 
+		int result = solution(n, lost, reserve);
+		
+		System.out.println("Result : "+ result );
+	}
+
+}
 
 ~~~
-
-
+**이해하려 적어본 메모**
+![ex_screenshot](../../assets/built/images/coding/greedy(1)_3.png.jpg)
 
 
 
