@@ -11,7 +11,7 @@ class: post-template
 subclass: 'post'
 author: nageom
 ---
-* * *
+
 해시테이블과 해시맵의 차이를 알아보기 전, 어떤 것 인지부터 알아보도록 하겠습니다. 
 > 해시테이블(Hash Table)
 

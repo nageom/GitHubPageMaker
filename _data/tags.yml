@@ -26,3 +26,7 @@ coding :
   name: coding
   description: False
   cover: assets/built/images/algorithm/cover_algorithm.png
+blockchain :
+  name: blockchain
+  description: False
+  cover: assets/built/images/algorithm/cover_algorithm.png

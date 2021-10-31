@@ -4,7 +4,7 @@ current: post
 cover: assets/built/images/coding/cover_coding.jpg
 
 navigation: True
-title: <프로그래머스> 힙(Heap)  Level 3  디스크 컨트롤러 (2)
+title: <프로그래머스> 힙(Heap)  Level 3  디스크 컨트롤러 (3)
 date: 2021-06-28 00:14:00
 tags: [coding]
 class: post-template

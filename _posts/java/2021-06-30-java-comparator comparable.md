@@ -37,7 +37,7 @@ public interface Comparable {
 참고 : Comparable은 java.lang패키지에 있고, Comparator는 java.util패키지에 있다. 
 
 compare()와 compareTo()는 선언형태와 이름이 약간 다를 뿐 두 객체를 비교한다는 같은 기능을 목적으로한다. 
-compareTo()으ㅣ 반환값은 int이지만 실제로는 비교하는 두 객체가 같으면 0, 비교하는 값보다 작으면 음수, 크면 양수를 반환하도록 구현해야한다.<br> 
+compareTo()의 반환값은 int로 비교하는 두 객체가 같으면 0, 비교하는 값보다 작으면 음수, 크면 양수를 반환하도록 구현해야한다.<br> 
 compare()도 이와 동일.<br>
 
 **Integer클래스의 compareTo메서드**
@@ -72,7 +72,7 @@ static void sort(Object[] a , Comparator c) //지정한 Comparator에 의한 정
 다만 compare()의 매개변수가 Object 타입이기 때문에 compareTo()를 바로 호출할 수 없으므로 먼저 Comparable로 형변환해야 한다는 것을 명심하자.
 매개변수를 Integer, String 등으로 받는 경우에 형변환 필요없이 바로 compareTo()를 호출이 가능하다. 
 
-
+참고문서 - 자바의 정석 
 
 
 

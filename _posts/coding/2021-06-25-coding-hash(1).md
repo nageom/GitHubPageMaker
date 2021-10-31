@@ -11,9 +11,7 @@ class: post-template
 subclass: 'post'
 author: nageom
 ---
-* * *
 <h6> 프로그래머스 > 해시 > 위장문제</h6>
-
 경우의 수를 구하는 문제인데 <br>
 나는 경우의 수를 구하는게 너무 약해서 도와줘요 구글! 을 했다 <br>
 옷 경우의 수 구하기..  <br>

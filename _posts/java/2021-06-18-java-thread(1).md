@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/built/images/java/cover/cover_java.png
 navigation: True
-title: 쓰레드 구현 
+title: 쓰레드 구현 (1)
 date: 2021-06-18 00:14:00
 tags: [java]
 class: post-template
@@ -11,7 +11,10 @@ subclass: 'post'
 author: nageom
 ---
 ***
-
+아래의 코드를 보면,
+Runnable인터페이스는 오로지 run()만 정의되어 있는 간단한 인터페이스이다.
+Runnable인터페이스를 구현하기 위해서 할 일은 추상메서드인 run() 의 몸통{}을
+만들어 주는 것뿐이다.
 ~~~ javascript
 package thread;
 
@@ -57,10 +60,7 @@ class MyThread02 extends A implements Runnable {
 	} 
 }
 ~~~
-위의 코드를 보며, 
-Runnable인터페이스는 오로지 run()만 정의되어 있는 간단한 인터페이스이다.
-Runnable인터페이스를 구현하기 위해서 할 일은 추상메서드인 run() 의 몸통{}을
-만들어 주는 것뿐이다.
+
 
 
 

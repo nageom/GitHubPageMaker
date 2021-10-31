@@ -12,8 +12,7 @@ subclass: 'post'
 author: nageom
 ---
 * * *
-**프로그래머스 > 완전탐색 > 카펫**
-
+**프로그래머스 > 완전탐색 > 카펫**<br>
 Leo는 카펫을 사러 갔다가 아래 그림과 같이 중앙에는 노란색으로 칠해져 있고 테두리 1줄은 갈색으로 칠해져 있는 격자 모양 카펫을 봤습니다.
 ![ex_screenshot](../../assets/built/images/coding/exhaustive search(3)_1.png)
 Leo는 집으로 돌아와서 아까 본 카펫의 노란색과 갈색으로 색칠된 격자의 개수는 기억했지만, 전체 카펫의 크기는 기억하지 못했습니다.

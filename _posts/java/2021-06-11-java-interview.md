@@ -11,9 +11,7 @@ subclass: 'post'
 author: nageom
 ---
 ***
-![ex_screenshot](../../assets/built/images/java/itv.png)
-
-
+면접질문을 공부하면서 정리해둔 메모
 <h5><자바 JVM, 컴파일러, JDK와 JRE></h5>
 JRE - 자바코드가 실행 될 수 있는 환경 , JVM을 생성하는 디스크 상의 부분    
 JVM - 자바와 OS사이에서 중개자 역할을 수행하며 자바가 OS에 구애받지 않고     

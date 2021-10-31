@@ -18,8 +18,8 @@ author: nageom
 _includes / oracle-table-of-contents.html 목록파일 추가해줘야함
 2) gist 문서가져올때 (따음표 제거)   
 > <'script src="https://gist.github.com/nageom/7dcd0b8fedc4ce5e44003d237e2fc0fa.js"></script'>   
-   또는      
-   {'% gist nageom/7dcd0b8fedc4ce5e44003d237e2fc0fa %}'
+   
+   {'% gist nageom/7dcd0b8fedc4ce5e44003d237e2fc0fa %'} 는 비추천 
    
 <script src="https://gist.github.com/nageom/7dcd0b8fedc4ce5e44003d237e2fc0fa.js"></script>
 
