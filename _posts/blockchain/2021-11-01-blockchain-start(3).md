@@ -4,7 +4,7 @@ current: post
 cover: assets/built/images/coding/cover_coding.jpg
 navigation: True
 title: 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp 
-date: 2021-11-01 00:00:00
+date: 2021-10-31 00:00:00
 tags: [blockchain]
 class: post-template
 subclass: 'post'
