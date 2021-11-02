@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/built/images/coding/cover_coding.jpg
+cover: assets/built/images/blockchain/blockCover.jpg
 navigation: True
 title: 블록체인의 시작(4)_ERC20토큰과 스마트컨트랙트, Dapp 
 date: 2021-10-31 00:00:00
@@ -58,5 +58,4 @@ author: nageom
 이더리움 플랫폼에서는 각각의 디앱이 발행한 토큰을 통합하여 현금화하는 것이 가능하다.
 다양한 디앱에 흩어져있는 ERC-20 표준 호환 토큰들이 나중에 통합이 가능하여 한 번에 이더로 모두 바꾸고 현금화 할 수 있는것이다.
 
-다음시간에는 디앱의종류 중 디파이에 대해 알아볼것이다. 
 

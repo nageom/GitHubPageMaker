@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/built/images/coding/cover_coding.jpg
+cover: assets/built/images/blockchain/blockCover.jpg
 navigation: True
 title: 블록체인의 시작(2)_스마트컨트랙트
 date: 2021-10-31 00:00:00

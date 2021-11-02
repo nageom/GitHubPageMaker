@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/built/images/coding/cover_coding.jpg
+cover: assets/built/images/blockchain/blockCover.jpg
 navigation: True
 title: 블록체인의 시작(4)_디파이 
 date: 2021-11-01 00:00:00
