@@ -19,6 +19,7 @@ author: nageom
 -> 대형 프로젝트, 팀으로 일할 경우 버그를 최소화하기 좋다
 -> 언어가 예측 가능하고 읽기 쉬운 코드로 자바스크립트를 더 잘 사용할 수 있게 해준다. 
 
+먼저, **기본 설정** <br>
 Yarn 은 프로젝트의 의존성을 관리하는 JavaScript의 패키지 매니저<br>
 = Java의 gradle 
 
@@ -26,17 +27,39 @@ npm 보다 빠르고 안전하며 npm과 같이 자바스크립트 패키지의 
 시스템에서 의존 패키지 설치하거나 업데이트하는 등의 다양한 명령을 제공, package.json을 통해 의존 패키지를 구분한다. 
 
 하지만 나는 yarn 이 돌아가지 않아서 npm을 사용했다. <br>
-* yarn initialize <br>
+* 1.yarn initialize <br>
 (> yarn init) 또는 
 (>npm init ) <br>
 
-
-* 타임스크립트 설치  <br>
+* 2.타임스크립트 설치  <br>
   (> yarn global add typescript) 
 또는
   (> npm install typescript)
 
-1.일단 냅다 블록 구조 만들기
+* 3.tsconfig.json 파일 생성 
+타임스크립트가 어떻게 자바스크립트로 컴파일 할지 명시해둘 파일
+
+![ex_screenshot](../../assets/built/images/blockchain/bc4.png)
+
+* 4.index.ts 파일 생성
+블록체인 만들 ts 파일 -> 컴파일하면 index.js가 생성됨
+
+* 5.컴파일은 tsc 또는 npx tsc 
+여기까지하고 컴파일 실행해보자
+
+* 6.tsc-watch 패키지 설치<br>
+원래는 ts코드가 바뀔때마다 js로 컴파일 하고 node로 실행<br>
+-> ts코드가 수정 될때마다 자동으로 컴파일하고 js를 실행해줌 (쉽게 말해 tsc의 watch모드 )<br>
+  (> yarn add tsc-watch --dev 또는 npm add tsc-watch --dev)<br>
+그니까 yarn start, yarn start 계속 안쳐도 수정될때마다 알아서 컴파일, 실행 되서 출력값 띄워줌<br>
+  ![ex_screenshot](../../assets/built/images/blockchain/bc5.png)
+참고로 yarn으로 init했을때와 npm 으로 init했을때의 package.json 형태가 다르다. <br>
+yarn의 경우 "script"가 없으니 추가해주면 되고<br>
+npm의 경우 "test"까지 만들어져있으니 "start"만 추가해준다. <br>
+
+> 블록체인 생성
+
+1.이제 index.ts에 냅다 블록 구조 만들기
 ~~~ javascript
 class Block {
   public index:number;
@@ -156,9 +179,7 @@ createNewBlock("첫 블록");
 createNewBlock("아더 블록");
 ~~~
 
-포스팅을 마치며<br>
-타임스크립트는 처음 사용해봤는데 나는 자바 유저인데도
-사용할만했다. 이로써 블록체인의 구조는 대강 알겠다. 
+
 
 
 
