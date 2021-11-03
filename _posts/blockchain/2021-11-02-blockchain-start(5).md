@@ -10,6 +10,7 @@ class: post-template
 subclass: 'post'
 author: nageom
 ---
+{% include blockchain-table-of-contents.html %}
 * * *
 블록체인은 대충 알겠고 그래서 코드는 어떻게 쓰는데? <br>
 해서 냅다 니콜라스의 도움으로 typescript로 간단 블록체인 구조를 생성해보았다. 

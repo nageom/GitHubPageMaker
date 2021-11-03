@@ -10,6 +10,7 @@ class: post-template
 subclass: 'post'
 author: nageom
 ---
+{% include blockchain-table-of-contents.html %}
 * * *
 > 디파이와 서비스 
 

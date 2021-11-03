@@ -6,11 +6,12 @@ navigation: True
 title: 블록체인의 시작(1)_개념
 date: 2021-10-31 00:00:00
 tags: [blockchain]
-class: post-template
+class: post-templates
 subclass: 'post'
 author: nageom
 ---
-* * *
+{% include blockchain-table-of-contents.html %}
+***
 블록체인을 좀 쉽고 빠르게 습득하기 위한 포스팅. <BR>
 
 내가 블록체인을 공부할 때에는 읽어도 정말 읽어도 몰랐다 <br>
@@ -18,7 +19,6 @@ author: nageom
 기초부터 정리해봤다. <br>
 1. 블록체인이란?<br>
 2. 블록은?<br>
-
 3. 블록체인 : 말그대로 블록이 체인 형태로 이어져있는 형태. 개발자에게겐 노드가 체인처럼 쭉 연결되어 있는셈. 
 왜 여기저기에서 블록체인 이야기가 들릴까?
 그건 블록체인이 디지털 데이터를 신뢰할 수 있게 만들어준 기술이기 때문이다. 

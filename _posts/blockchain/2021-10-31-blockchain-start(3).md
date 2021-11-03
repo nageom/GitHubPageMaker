@@ -3,13 +3,14 @@ layout: post
 current: post
 cover: assets/built/images/blockchain/blockCover.jpg
 navigation: True
-title: 블록체인의 시작(4)_ERC20토큰과 스마트컨트랙트, Dapp 
+title: 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp 
 date: 2021-10-31 00:00:00
 tags: [blockchain]
 class: post-template
 subclass: 'post'
 author: nageom
 ---
+{% include blockchain-table-of-contents.html %}
 * * *
 1. 코인과 토큰의 차이.
 2. ERC20? 
@@ -56,6 +57,8 @@ author: nageom
 
 본래 각각의 앱을 사용하면서 발생되는 일정부분의 포인트를 통합하여 사용하는 것은 같은 회사계열의 앱이 아닌 이상 거의 불가능하지만 
 이더리움 플랫폼에서는 각각의 디앱이 발행한 **ERC-20 표준 호환 토큰들을 통합**하여 현금화하는 것이 가능하다.
+
+
 
 
 **내용 계속 추가 할 예정**

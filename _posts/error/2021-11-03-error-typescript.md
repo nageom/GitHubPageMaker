@@ -4,7 +4,7 @@ current: post
 cover: assets/built/images/error/5.png
 navigation: True
 title: 자바스크립트 backtick(`)과 single quoto(') 나만 주의.. 
-date: 2021-05-25 00:14:00
+date: 2021-11-03 00:00:00
 tags: [error]
 class: post-template
 subclass: 'post'
