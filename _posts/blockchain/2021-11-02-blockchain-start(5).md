@@ -36,22 +36,22 @@ npm 보다 빠르고 안전하며 npm과 같이 자바스크립트 패키지의 
 또는
   (> npm install typescript)
 
-* 3.tsconfig.json 파일 생성 
+* 3.tsconfig.json 파일 생성 <br>
 타임스크립트가 어떻게 자바스크립트로 컴파일 할지 명시해둘 파일
 
 ![ex_screenshot](../../assets/built/images/blockchain/bc4.png)
 
-* 4.index.ts 파일 생성
+* 4.index.ts 파일 생성<br>
 블록체인 만들 ts 파일 -> 컴파일하면 index.js가 생성됨
 
-* 5.컴파일은 tsc 또는 npx tsc 
+* 5.컴파일은 tsc 또는 npx tsc <br>
 여기까지하고 컴파일 실행해보자
 
 * 6.tsc-watch 패키지 설치<br>
 원래는 ts코드가 바뀔때마다 js로 컴파일 하고 node로 실행<br>
 -> ts코드가 수정 될때마다 자동으로 컴파일하고 js를 실행해줌 (쉽게 말해 tsc의 watch모드 )<br>
   (> yarn add tsc-watch --dev 또는 npm add tsc-watch --dev)<br>
-그니까 yarn start, yarn start 계속 안쳐도 수정될때마다 알아서 컴파일, 실행 되서 출력값 띄워줌<br>
+그니까 tsc, yarn start, yarn start를 계속 안쳐도 수정될때마다 알아서 컴파일, 실행 되서 출력값 띄워줌<br>
   ![ex_screenshot](../../assets/built/images/blockchain/bc5.png)
 참고로 yarn으로 init했을때와 npm 으로 init했을때의 package.json 형태가 다르다. <br>
 yarn의 경우 "script"가 없으니 추가해주면 되고<br>
