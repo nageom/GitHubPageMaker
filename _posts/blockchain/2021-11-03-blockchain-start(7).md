@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/built/images/blockchain/blockCover.jpg
 navigation: True
-title: 블록체인의 시작(6)_스마트컨트랙트 작성(2)
+title: 블록체인의 시작(7)_스마트컨트랙트 작성(2)
 date: 2021-11-03 00:00:00
 tags: [blockchain]
 class: post-template
