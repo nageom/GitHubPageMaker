@@ -70,7 +70,7 @@ deploy: 코드를 이더리움에 배포 클릭!
 올릴때 가스비가 소비하나요? 라는 안내문이 뜹니다. 확인 클릭
 <br><br>
 잠깐 시간이 지나면 터미널에 블록이 생성되었다고 뜹니다. 
-![ex_screenshot](../../assets/built/images/blockchain/bc38.png)
+![ex_screenshot](../../assets/built/images/blockchain/bc38.jpg)
 
 
 
