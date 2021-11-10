@@ -51,7 +51,7 @@ title: nageom's blog
 description: 티끌모아 공부방
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
-cover: assets/built/images/algorithm/cover_algorithm.png
+cover: assets/built/images/cover/back.png
 # blog home에 표시될 blog cover image.
 
 logo:
