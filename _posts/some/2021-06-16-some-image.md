@@ -13,5 +13,11 @@ author: nageom
 이미지 삽입
 ![ex_screenshot](../../assets/built/images/cover/monkey.jpg)
 
-![ex_screenshot] 뒤에 홀따옴표 지우고 사용<br>
-> ![ex_screenshot]'(../../assets/built/images/파일명.png)
+
+
+~~~ javascript
+
+![ex_screenshot](../../assets/built/images/java/interview/1.jpg) {: width="200" height="200}
+![title](../../assets/built/images/java/interview/1.jpg) 
+<img src="../../assets/built/images/java/interview/1.jpg" width="300" height="300">
+~~~
