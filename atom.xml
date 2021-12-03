@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>티끌모아 공부방</description>
+    <link>
+    https://nageom.github.io</link>
+    
+      
+      <item>
+        <title>블록체인의 시작(7)_ERC20토큰 만들기</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 블록체인 카테고리&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(1)&quot;&gt; 블록체인의 시작(1)_개념 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(2)&quot;&gt; 블록체인의 시작(2)_스마트컨트랙트 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(3)&quot;&gt; 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(4)&quot;&gt; 블록체인의 시작(4)_디파이 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(5)&quot;&gt; 블록체인의 시작(5)_블록체인 이해하기  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(6)&quot;&gt; 블록체인의 시작(6)_스마트컨트랙트 작성(1)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(7)&quot;&gt; 블록체인의 시작(7)_스마트컨트랙트 작성(2)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(8)&quot;&gt; 블록체인의 시작(8)_ERC20토큰 만들기   &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;오늘은 ERC20토큰을 만들어보기~! &lt;br /&gt;
+전 포스팅을 하나식 보셨다면 이더리움 관련 개발은 
+Remix IDE가 필요하다~ 를 아실거에요 &lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/blockchain-start(8)</link>
+        <guid isPermaLink="true">https://nageom.github.io/blockchain-start(8)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자바스크립트 backtick(`)과 single quoto(') 나만 주의..</title>
+        
+          <description>&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/error-typescript</link>
+        <guid isPermaLink="true">https://nageom.github.io/error-typescript</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>블록체인의 시작(7)_스마트컨트랙트 작성(2)</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 블록체인 카테고리&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(1)&quot;&gt; 블록체인의 시작(1)_개념 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(2)&quot;&gt; 블록체인의 시작(2)_스마트컨트랙트 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(3)&quot;&gt; 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(4)&quot;&gt; 블록체인의 시작(4)_디파이 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(5)&quot;&gt; 블록체인의 시작(5)_블록체인 이해하기  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(6)&quot;&gt; 블록체인의 시작(6)_스마트컨트랙트 작성(1)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(7)&quot;&gt; 블록체인의 시작(7)_스마트컨트랙트 작성(2)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(8)&quot;&gt; 블록체인의 시작(8)_ERC20토큰 만들기   &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h6&gt;지난 포스팅에서는 IDE를 IntelliJ를 사용했습니다. 
+이번 포스팅은 이더리움에서 제공하는 IDE Remix를 사용하는 포스팅입니다.&lt;/h6&gt;
+
+</description>
+        
+        <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/blockchain-start(7)</link>
+        <guid isPermaLink="true">https://nageom.github.io/blockchain-start(7)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>블록체인의 시작(6)_스마트컨트랙트 작성(1)</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 블록체인 카테고리&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(1)&quot;&gt; 블록체인의 시작(1)_개념 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(2)&quot;&gt; 블록체인의 시작(2)_스마트컨트랙트 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(3)&quot;&gt; 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(4)&quot;&gt; 블록체인의 시작(4)_디파이 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(5)&quot;&gt; 블록체인의 시작(5)_블록체인 이해하기  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(6)&quot;&gt; 블록체인의 시작(6)_스마트컨트랙트 작성(1)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(7)&quot;&gt; 블록체인의 시작(7)_스마트컨트랙트 작성(2)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(8)&quot;&gt; 블록체인의 시작(8)_ERC20토큰 만들기   &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;오늘은 스마트컨트랙트 개발을 해볼겁니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/blockchain-start(6)</link>
+        <guid isPermaLink="true">https://nageom.github.io/blockchain-start(6)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>블록체인의 시작(5)_블록체인 이해하기</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 블록체인 카테고리&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(1)&quot;&gt; 블록체인의 시작(1)_개념 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(2)&quot;&gt; 블록체인의 시작(2)_스마트컨트랙트 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(3)&quot;&gt; 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(4)&quot;&gt; 블록체인의 시작(4)_디파이 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(5)&quot;&gt; 블록체인의 시작(5)_블록체인 이해하기  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(6)&quot;&gt; 블록체인의 시작(6)_스마트컨트랙트 작성(1)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(7)&quot;&gt; 블록체인의 시작(7)_스마트컨트랙트 작성(2)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(8)&quot;&gt; 블록체인의 시작(8)_ERC20토큰 만들기   &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;블록체인은 대충 알겠고 그래서 코드는 어떻게 쓰는데? &lt;br /&gt;
+해서 냅다 니콜라스의 도움으로 typescript로 간단 블록체인 구조를 생성해보았다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/blockchain-start(5)</link>
+        <guid isPermaLink="true">https://nageom.github.io/blockchain-start(5)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>블록체인의 시작(4)_디파이</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 블록체인 카테고리&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(1)&quot;&gt; 블록체인의 시작(1)_개념 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(2)&quot;&gt; 블록체인의 시작(2)_스마트컨트랙트 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(3)&quot;&gt; 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(4)&quot;&gt; 블록체인의 시작(4)_디파이 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(5)&quot;&gt; 블록체인의 시작(5)_블록체인 이해하기  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(6)&quot;&gt; 블록체인의 시작(6)_스마트컨트랙트 작성(1)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(7)&quot;&gt; 블록체인의 시작(7)_스마트컨트랙트 작성(2)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(8)&quot;&gt; 블록체인의 시작(8)_ERC20토큰 만들기   &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;디파이와 서비스&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/blockchain-start(4)</link>
+        <guid isPermaLink="true">https://nageom.github.io/blockchain-start(4)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 블록체인 카테고리&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(1)&quot;&gt; 블록체인의 시작(1)_개념 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(2)&quot;&gt; 블록체인의 시작(2)_스마트컨트랙트 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(3)&quot;&gt; 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(4)&quot;&gt; 블록체인의 시작(4)_디파이 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(5)&quot;&gt; 블록체인의 시작(5)_블록체인 이해하기  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(6)&quot;&gt; 블록체인의 시작(6)_스마트컨트랙트 작성(1)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(7)&quot;&gt; 블록체인의 시작(7)_스마트컨트랙트 작성(2)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(8)&quot;&gt; 블록체인의 시작(8)_ERC20토큰 만들기   &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+  &lt;li&gt;코인과 토큰의 차이.&lt;/li&gt;
+  &lt;li&gt;ERC20?&lt;/li&gt;
+  &lt;li&gt;Dapp(디앱)??&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        
+        <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/blockchain-start(3)</link>
+        <guid isPermaLink="true">https://nageom.github.io/blockchain-start(3)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>블록체인의 시작(2)_스마트컨트랙트</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 블록체인 카테고리&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(1)&quot;&gt; 블록체인의 시작(1)_개념 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(2)&quot;&gt; 블록체인의 시작(2)_스마트컨트랙트 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(3)&quot;&gt; 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(4)&quot;&gt; 블록체인의 시작(4)_디파이 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(5)&quot;&gt; 블록체인의 시작(5)_블록체인 이해하기  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(6)&quot;&gt; 블록체인의 시작(6)_스마트컨트랙트 작성(1)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(7)&quot;&gt; 블록체인의 시작(7)_스마트컨트랙트 작성(2)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(8)&quot;&gt; 블록체인의 시작(8)_ERC20토큰 만들기   &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h6&gt;스마트컨트랙트는 블록체인 위에 올리는 코드이다. &lt;/h6&gt;
+&lt;p&gt;본래는 코드대로 실행되는 계약 시스템이였지만 블록체인에 도입됨으로써 취약했던 보안과 신뢰를 보완하여 세상에 나왔다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/blockchain-start(2)</link>
+        <guid isPermaLink="true">https://nageom.github.io/blockchain-start(2)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>블록체인의 시작(1)_개념</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 블록체인 카테고리&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(1)&quot;&gt; 블록체인의 시작(1)_개념 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(2)&quot;&gt; 블록체인의 시작(2)_스마트컨트랙트 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(3)&quot;&gt; 블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(4)&quot;&gt; 블록체인의 시작(4)_디파이 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(5)&quot;&gt; 블록체인의 시작(5)_블록체인 이해하기  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(6)&quot;&gt; 블록체인의 시작(6)_스마트컨트랙트 작성(1)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(7)&quot;&gt; 블록체인의 시작(7)_스마트컨트랙트 작성(2)  &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-start(8)&quot;&gt; 블록체인의 시작(8)_ERC20토큰 만들기   &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;블록체인을 좀 쉽고 빠르게 습득하기 위한 포스팅. &lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/blockchain-start(1)</link>
+        <guid isPermaLink="true">https://nageom.github.io/blockchain-start(1)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>쓰레드-동기화(Synchronization) (4)</title>
+        
+          <description>&lt;p&gt;오늘은 &lt;u&gt;'사용해본적은 있지만 자세히는 모른다 시리즈'&lt;/u&gt;의 synchronized에 대해 포스팅해보려한다. 가보자&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 05 Aug 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-thread(5)</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-thread(5)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>쓰레드-실행제어편 (4)</title>
+        
+          <description>&lt;p&gt;쓰레드의 스케줄링을 위해 기초지식 다지기&lt;br /&gt;
+쓰레드 프로그래밍이 어려운 이유가 동기화(synchronization)과 스케줄링(scheduling) 때문이다. 
+이를 잘하기 위해서는 쓰레드의 상태와 관련 메서드의 공부가 필요하다. 
+그래서 공부할 것들을 적어봤다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 03 Aug 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-thread(4)</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-thread(4)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>쓰레드 정리 (3)</title>
+        
+          <description>&lt;h6&gt; 첫번째 알아볼 쓰레드 정의는 &lt;/h6&gt;
+&lt;p&gt;쓰레드는 우선순위(priority)이다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 29 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-thread(3)</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-thread(3)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>쓰레드- start()와 run() (2)</title>
+        
+          <description>&lt;p&gt;쓰레드를 구현하고 나면서 드는 생각이 있었다. &lt;br /&gt;
+쓰레드를 실행시킬 때 run()과 start()를 구분해서 사용할까?&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-thread(22)</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-thread(22)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;정렬&gt; 힙 정렬(Heap Sort)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;힙이란??&lt;/strong&gt;
+최댓값이나 최솟값을 찾아내는 연산을 빠르게 하기위해 고안된 완전 이진트리를 기본으로 한 자료구조입니다. 
+최소힙, 최대힙이 있는데 트리 루트가 최솟값인지, 최댓값인지에 따라 구분된다.&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 12 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/algorithm-heap-sort</link>
+        <guid isPermaLink="true">https://nageom.github.io/algorithm-heap-sort</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 탐욕법 구명보트</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;프로그래머스 &amp;gt; 탐욕법 &amp;gt; 구명보트&lt;/strong&gt;&lt;br /&gt;
+문제 설명&lt;br /&gt;
+무인도에 갇힌 사람들을 구명보트를 이용하여 구출하려고 합니다. 구명보트는 작아서 한 번에 최대 2명씩 밖에 탈 수 없고, 무게 제한도 있습니다.&lt;br /&gt;
+예를 들어, 사람들의 몸무게가 [70kg, 50kg, 80kg, 50kg]이고 구명보트의 무게 제한이 100kg이라면 2번째 사람과 4번째 사람은 같이 탈 수 있지만 1번째 사람과 3번째 사람의 무게의 합은 150kg이므로 구명보트의 무게 제한을 초과하여 같이 탈 수 없습니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 10 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-greedy(4)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-greedy(4)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 탐욕법 큰 수 만들기</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;프로그래머스 &amp;gt; 탐욕법 &amp;gt; 큰 수 만들기&lt;/strong&gt;&lt;br /&gt;
+문제 설명&lt;br /&gt;
+어떤 숫자에서 k개의 수를 제거했을 때 얻을 수 있는 가장 큰 숫자를 구하려 합니다.&lt;br /&gt;
+예를 들어, 숫자 1924에서 수 두 개를 제거하면 [19, 12, 14, 92, 94, 24] 를 만들 수 있습니다. 이 중 가장 큰 숫자는 94 입니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 09 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-greedy(3)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-greedy(3)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>프로세스와 쓰레드</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h6&gt;[프로세스와 쓰레드의 개념]&lt;/h6&gt;
+&lt;p&gt;프로세스(process)란 간단히 말해서 ‘실행 중인 프로그램(program)’이다.
+지금 당장 작업 관리자를 열어 확인 할 수 있는 실행 중인 프로그램을 말한다. (멜론, 이클립스.. )&lt;br /&gt;
+프로그램을 실행하면 OS로부터 실행에 필요한 자원(메모리)을 할당받아 프로세스가 된다. 
+정확히는 프로세스는 프로그램을 수행하는 데 필요한 데이터와 메모리 등의 자원 그리고 
+쓰레드로 구성되어 있으며, 이 때 쓰레드는 실제로 작업을 수행하는 친구이다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 07 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-thread-basic</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-thread-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자바의 애너테이션(annotation)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;간단히 프로그램의 소스코드 안에 다른 프로그램을 위한 정보를 미리 약속된 형식으로 포함시킨 것이 바로 애너테이션이다. 
+애너테이션은 주석처럼 프로그래밍 언어에 영향을 미치지 않으면서도 다른 프로그램에게 유용한 정보를 제공할 수 있다는 장점을 갖는다.&lt;br /&gt; 
+예로, 특정 메서드만 테스트하기 원한다면 ‘@Test’ 애너테이션을 메서드에 붙임으로 테스트 프로그램에게
+테스트 할 것을 알리는 역할을 하며, 메서드가 포함된 프로그램 자체에 아무런 영향을 미치지 않는다.&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 05 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-annotation</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-annotation</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 탐욕법 체육복</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;프로그래머스 &amp;gt; 탐욕법 &amp;gt; 체육법&lt;/strong&gt;&lt;br /&gt;
+문제 설명&lt;br /&gt;
+점심시간에 도둑이 들어, 일부 학생이 체육복을 도난당했습니다. 다행히 여벌 체육복이 있는 학생이 이들에게 체육복을 빌려주려 합니다. 학생들의 번호는 체격 순으로 매겨져 있어, 바로 앞번호의 학생이나 바로 뒷번호의 학생에게만 체육복을 빌려줄 수 있습니다. 예를 들어, 4번 학생은 3번 학생이나 5번 학생에게만 체육복을 빌려줄 수 있습니다. 체육복이 없으면 수업을 들을 수 없기 때문에 체육복을 적절히 빌려 최대한 많은 학생이 체육수업을 들어야 합니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 04 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-greedy(1)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-greedy(1)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 완전탐색 카펫(3)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;프로그래머스 &amp;gt; 완전탐색 &amp;gt; 카펫&lt;/strong&gt;&lt;br /&gt;
+Leo는 카펫을 사러 갔다가 아래 그림과 같이 중앙에는 노란색으로 칠해져 있고 테두리 1줄은 갈색으로 칠해져 있는 격자 모양 카펫을 봤습니다.
+&lt;img src=&quot;../../assets/built/images/coding/exhaustive search(3)_1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;
+Leo는 집으로 돌아와서 아까 본 카펫의 노란색과 갈색으로 색칠된 격자의 개수는 기억했지만, 전체 카펫의 크기는 기억하지 못했습니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 04 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-exhaustive-search(3)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-exhaustive-search(3)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 완전탐색  Level 2 소수찾기(2)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;*프로그래머스 &amp;gt; 완전탐색 &amp;gt; 소수찾기&lt;/em&gt;&lt;br /&gt;
+문제 설명&lt;br /&gt;
+한자리 숫자가 적힌 종이 조각이 흩어져있습니다. 흩어진 종이 조각을 붙여 소수를 몇 개 만들 수 있는지 알아내려 합니다.&lt;br /&gt;
+각 종이 조각에 적힌 숫자가 적힌 문자열 numbers가 주어졌을 때, 종이 조각으로 만들 수 있는 소수가 몇 개인지 return 하도록 solution 함수를 완성해주세요.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-exhaustive-search(2)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-exhaustive-search(2)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 정렬  Level 2 H-Index(3)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;프로그래머스 &amp;gt; 정렬 &amp;gt; H-Index&lt;/strong&gt;
+문제 설명
+H-Index는 과학자의 생산성과 영향력을 나타내는 지표입니다. 어느 과학자의 H-Index를 나타내는 값인 h를 구하려고 합니다. 위키백과1에 따르면, H-Index는 다음과 같이 구합니다.&lt;br /&gt;
+어떤 과학자가 발표한 논문 n편 중, h번 이상 인용된 논문이 h편 이상이고 나머지 논문이 h번 이하 인용되었다면 h의 최댓값이 이 과학자의 H-Index입니다.&lt;br /&gt;
+어떤 과학자가 발표한 논문의 인용 횟수를 담은 배열 citations가 매개변수로 주어질 때, 이 과학자의 H-Index를 return 하도록 solution 함수를 작성해주세요.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 01 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-sort(3)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-sort(3)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 완전탐색  Level 1 모의고사(1)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;프로그래머스 &amp;gt; 완전탐색 &amp;gt; 모의고사&lt;/strong&gt;&lt;br /&gt;
+문제 설명&lt;br /&gt;
+수포자는 수학을 포기한 사람의 준말입니다. 수포자 삼인방은 모의고사에 수학 문제를 전부 찍으려 합니다. 수포자는 1번 문제부터 마지막 문제까지 다음과 같이 찍습니다.&lt;br /&gt;
+1번 수포자가 찍는 방식: 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, …&lt;br /&gt;
+2번 수포자가 찍는 방식: 2, 1, 2, 3, 2, 4, 2, 5, 2, 1, 2, 3, 2, 4, 2, 5, …&lt;br /&gt;
+3번 수포자가 찍는 방식: 3, 3, 1, 1, 2, 2, 4, 4, 5, 5, 3, 3, 1, 1, 2, 2, 4, 4, 5, 5, …&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 01 Jul 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-exhaustive-search(1)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-exhaustive-search(1)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Comparator와 Comparable</title>
+        
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;자주 쓰이는 Arrays.sort() 를 이용해 배열을 정렬할 때, 사실 내림&amp;amp;오름차순 말고도 원하는 대로
+정렬이 가능한데 이를 가능하게 해주는 인터페이스 두가지를 소개하고자한다. &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Wed, 30 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-comparator-comparable</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-comparator-comparable</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 정렬  Level 2 가장 큰 수(2)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;프로그래머스 &amp;gt; 정렬 &amp;gt; K번째 수&lt;/strong&gt;&lt;br /&gt;
+문제 설명&lt;br /&gt;
+0 또는 양의 정수가 주어졌을 때, 정수를 이어 붙여 만들 수 있는 가장 큰 수를 알아내 주세요.&lt;br /&gt;
+예를 들어, 주어진 정수가 [6, 10, 2]라면 [6102, 6210, 1062, 1026, 2610, 2106]를 만들 수 있고, 이중 가장 큰 수는 6210입니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 30 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-sort(2)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-sort(2)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 정렬  Level 1 K번째 수(1)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;프로그래머스 &amp;gt; 정렬 &amp;gt; K번째 수&lt;/strong&gt;
+문제 설명
+배열 array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때, k번째에 있는 수를 구하려 합니다.&lt;br /&gt;
+예를 들어 array가 [1, 5, 2, 6, 3, 7, 4], i = 2, j = 5, k = 3이라면&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 30 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-sort(1)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-sort(1)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;정렬&gt; 병합 정렬(Merge Sort)</title>
+        
+          <description>&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Tue, 29 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/algorithm-merge-sort</link>
+        <guid isPermaLink="true">https://nageom.github.io/algorithm-merge-sort</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 힙(Heap)  Level 3  디스크 컨트롤러 (3)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;프로그래머스 &amp;gt; 힙(Heap) &amp;gt;디스크 컨트롤러&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Mon, 28 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-heap(3)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-heap(3)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 힙(Heap)  Level 3 이중우선순위큐 (2)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h6&gt; 프로그래머스 &amp;gt; 힙(Heap) &lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;문제 설명&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 28 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-heap(2)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-heap(2)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 힙(Heap)  Level 2 더 맵게 (1)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h6&gt; 프로그래머스 &amp;gt; 힙(Heap) &lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;문제 설명&lt;/strong&gt; &lt;br /&gt;
+매운 것을 좋아하는 Leo는 모든 음식의 스코빌 지수를 K 이상으로 만들고 싶습니다. 모든 음식의 스코빌 지수를 K 이상으로 만들기 위해 Leo는 스코빌 지수가 가장 낮은 두 개의 음식을 아래와 같이 특별한 방법으로 섞어 새로운 음식을 만듭니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 27 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-heap(1)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-heap(1)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 스택/큐  Level 2 주식가격 (3)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h6&gt; 프로그래머스 &amp;gt; 스택/큐 &lt;/h6&gt;
+&lt;p&gt;문제 설명&lt;br /&gt;
+초 단위로 기록된 주식가격이 담긴 배열 prices가 매개변수로 주어질 때, 가격이 떨어지지 않은 기간은 몇 초인지를 return 하도록 solution 함수를 완성하세요.&lt;br /&gt;
+제한사항&lt;br /&gt;
+prices의 각 가격은 1 이상 10,000 이하인 자연수입니다.&lt;br /&gt;
+prices의 길이는 2 이상 100,000 이하입니다.&lt;br /&gt;&lt;br /&gt;
+입출력 예&lt;br /&gt;
+prices             	return&lt;br /&gt;
+[1, 2, 3, 2, 3]	[4, 3, 1, 1, 0]&lt;br /&gt;&lt;br /&gt;
+입출력 예 설명&lt;br /&gt;
+1초 시점의 ₩1은 끝까지 가격이 떨어지지 않았습니다.&lt;br /&gt;
+2초 시점의 ₩2은 끝까지 가격이 떨어지지 않았습니다.&lt;br /&gt;
+3초 시점의 ₩3은 1초뒤에 가격이 떨어집니다. 따라서 1초간 가격이 떨어지지 않은 것으로 봅니다.&lt;br /&gt;
+4초 시점의 ₩2은 1초간 가격이 떨어지지 않았습니다.&lt;br /&gt;
+5초 시점의 ₩3은 0초간 가격이 떨어지지 않았습니다.&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 27 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-stack&queue(3)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-stack&queue(3)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 스택/큐 Level 2 프린터 (2)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h6&gt; 프로그래머스 &amp;gt; 스택/큐 &lt;/h6&gt;
+&lt;p&gt;중요도에 관한 배열이 주어지고 
+프린트 요청이 들어온 문서들을 이 배열에 맞춰 재배열하고 
+지정한 문서가 몇번째로 프린트되는지 리턴해줘야하는 &lt;u&gt;QUEUE&lt;/u&gt;를 이용한 ‘프린터’문제이다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 26 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-stack&queue(2)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-stack&queue(2)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 스택/큐 Level 2 기능개발 (1)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h6&gt; 프로그래머스 &amp;gt; 스택/큐 &lt;/h6&gt;
+&lt;p&gt;큐를 사용해서 100을 넘은 데이터들은 순서대로 빼내는 문제였다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 25 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-stack&queue(1)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-stack&queue(1)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;프로그래머스&gt; 해시(Hash)  Level 2 위장문제 (1)</title>
+        
+          <description>&lt;h6&gt; 프로그래머스 &amp;gt; 해시 &amp;gt; 위장문제&lt;/h6&gt;
+&lt;p&gt;경우의 수를 구하는 문제인데 &lt;br /&gt;
+나는 경우의 수를 구하는게 너무 약해서 도와줘요 구글! 을 했다 &lt;br /&gt;
+옷 경우의 수 구하기..  &lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 25 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/coding-hash(1)</link>
+        <guid isPermaLink="true">https://nageom.github.io/coding-hash(1)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;정렬&gt; 퀵 정렬 (Quick Sort)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h6&gt;퀵 정렬 알고리즘&lt;/h6&gt;
+&lt;p&gt;시간 복잡도 O(N^2)를 갖는 알고리즘은 10만 개가 넘어가면 일반적인 상황에서 사용하기가 매우 어렵다. 정말 오래걸린다는 말이다. &lt;br /&gt;
+그리하여 나온 빠른 정렬 알고리즘이 퀵 정렬 알고리즘이다. &lt;br /&gt;
+‘분할 정복’ 알고리즘으로 평균 속도가 O(N* log2N) 이다. &lt;br /&gt;
+이름 그대로 정말 빠른 정렬 &lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 24 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/algorithm-quick-sort</link>
+        <guid isPermaLink="true">https://nageom.github.io/algorithm-quick-sort</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;정렬&gt; 삽입 정렬(Insertion Sort)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h3&gt; 삽입 정렬(Insertion Sort) &lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;h6&gt;[각 숫자를 적절한 위치에 삽입하는 방법 ]&lt;/h6&gt;
+&lt;p&gt;필요할 때만 위치를 바꾸기 떄문에 &lt;br /&gt;
+버블 정렬, 선택정렬보다 더 빠르다. (O(N^2) 중에서)&lt;br /&gt;
+그렇지만 정렬이 되어있지 않은 경우는 다름없는 O(N^2) 이기때문에 항상 비효율적이지 않다고는 말할 수 없다. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 22 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/algorithm-insertion-sort</link>
+        <guid isPermaLink="true">https://nageom.github.io/algorithm-insertion-sort</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;정렬&gt; 정렬 알고리즘의 개요와 선택정렬(Select Sort)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h3&gt;알고리즘의 시작, 정렬 &lt;/h3&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Tue, 22 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/algorithm-select-sort</link>
+        <guid isPermaLink="true">https://nageom.github.io/algorithm-select-sort</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>&lt;정렬&gt;버블정렬(Bubble Sort)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h4&gt;버블정렬 &lt;/h4&gt;
+
+</description>
+        
+        <pubDate>Tue, 22 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/algorithm-bubble-sort</link>
+        <guid isPermaLink="true">https://nageom.github.io/algorithm-bubble-sort</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>알고리즘의 시작</title>
+        
+          <description>&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;본격적으로 알고리즘 공부를 시작해보려한다. 좋은 강의영상을 찾아서 기분이 조크등요!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Mon, 21 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/algorithm-start</link>
+        <guid isPermaLink="true">https://nageom.github.io/algorithm-start</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자바 1.8버전 차이를 알아보자</title>
+        
+          <description>&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;요즘은 자바의 정석이라는 책으로 공부중인데 읽다보면 중간중간 JDK 버전 상승에 따라 바뀐 기능에 대해서도
+조금씩 나온다. 사실 면접질문에서도 나왔는데 대답을 하지 못한게 한이 맺혀서.. 책에 나올때마다 포스팅 하려합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Fri, 18 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-version</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-version</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>쓰레드 구현 (1)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;아래의 코드를 보면,
+Runnable인터페이스는 오로지 run()만 정의되어 있는 간단한 인터페이스이다.
+Runnable인터페이스를 구현하기 위해서 할 일은 추상메서드인 run() 의 몸통{}을
+만들어 주는 것뿐이다.
+~~~ javascript
+package thread;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 18 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-thread(1)</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-thread(1)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>추상과 인터페이스</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;면접질문 공부하는데 추상클래스와 인터페이스 차이가 헷갈려서 해보는 포스팅이다 &lt;br /&gt;
+그래서 이번에 구입한 자바의정석으로 공부하고 포스팅 도전 &lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 17 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-abstract-class</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-abstract-class</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>마크업 [이미지 삽입]</title>
+        
+          <description>&lt;p&gt;이미지 삽입
+&lt;img src=&quot;../../assets/built/images/cover/monkey.jpg&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 16 Jun 2021 16:40:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/some-image</link>
+        <guid isPermaLink="true">https://nageom.github.io/some-image</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>기술면접 예상 질문</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;면접질문을 공부하면서 정리해둔 메모&lt;/p&gt;
+&lt;h5&gt;&amp;lt;자바 JVM, 컴파일러, JDK와 JRE&amp;gt;&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/built/images/java/interview/2.jpg&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 11 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-interview</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-interview</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>hashTable과 hashMap의 차이는?</title>
+        
+          <description>&lt;p&gt;해시테이블과 해시맵의 차이를 알아보기 전, 어떤 것 인지부터 알아보도록 하겠습니다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;해시테이블(Hash Table)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Wed, 02 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/algorithm-basic</link>
+        <guid isPermaLink="true">https://nageom.github.io/algorithm-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>알고리즘과 자료구조는?</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;오늘의 주제는 알고리즘과 자료구조의 차이입니다. &lt;br /&gt;
+카테고리를 정하려다보니까 궁금해지더라고요. 한번 볼까요? &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 01 Jun 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/algorithm-hashTable</link>
+        <guid isPermaLink="true">https://nageom.github.io/algorithm-hashTable</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Spring - basic</title>
+        
+          <description>&lt;p&gt;vscode commit test&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 25 May 2021 00:28:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/Spring-basic-copy</link>
+        <guid isPermaLink="true">https://nageom.github.io/Spring-basic-copy</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>깃 협업을 해보자</title>
+        
+          <description>&lt;p&gt;이제 깃허브에 소스파일을 올린적은 있지만 협업에 사용해본적은 없다. 
+취업기념 깃 공부 뿌웽웽&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 25 May 2021 00:28:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/spring-git</link>
+        <guid isPermaLink="true">https://nageom.github.io/spring-git</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Spring - basic</title>
+        
+          <description>&lt;p&gt;Spring&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 25 May 2021 00:28:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/Spring-basic</link>
+        <guid isPermaLink="true">https://nageom.github.io/Spring-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Oracle-DataType_2</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 연관 게시물 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./oracle-basic_1&quot;&gt; Oracle RDBMS란? SQL은? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./oracle-DataType_2&quot;&gt;Oracle 데이터타입? &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;3) 데이터타입
+   &lt;img src=&quot;../../assets/built/images/oracle/create.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 25 May 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/oracle-DataType_2</link>
+        <guid isPermaLink="true">https://nageom.github.io/oracle-DataType_2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Oracle-basic_1</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 연관 게시물 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./oracle-basic_1&quot;&gt; Oracle RDBMS란? SQL은? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./oracle-DataType_2&quot;&gt;Oracle 데이터타입? &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;1) RDBMS : 관계형 데이터베이스 관리 시스템&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;데이터베이스의 종류: 네트워크형, 계층형, 관계형, NoSQL DB &lt;br /&gt;
+그 중, 시각적으로 쉽게 데이터를 확인 할 수 있는 장점으로 가장 많이 사용되는 형태의 데이터베이스를
+RDB_관계형 데이터베이스라고 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Tue, 25 May 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/oracle-basic_1</link>
+        <guid isPermaLink="true">https://nageom.github.io/oracle-basic_1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Java_equals와 '=='연산자 그리고 hashCode()</title>
+        
+          <description>&lt;hr /&gt;
+&lt;p&gt;안녕하세요 오늘은 비교비교 equals 와 ‘==’ 에 대해 알아보려합니다.  &lt;br /&gt;
+우선  &lt;strong&gt;equals&lt;/strong&gt;는 메서드 &lt;br /&gt;
+&lt;strong&gt;==연산자&lt;/strong&gt;는 비교를 위한 연산자입니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 25 May 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/java-equals</link>
+        <guid isPermaLink="true">https://nageom.github.io/java-equals</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>REST-API JDK ERROR</title>
+        
+          <description>&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Tue, 25 May 2021 00:14:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/error-JDK</link>
+        <guid isPermaLink="true">https://nageom.github.io/error-JDK</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>추천 목록, gist 보여주기</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 연관 게시물 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./some-code&quot;&gt;코드보여주기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./some-listAndGist&quot;&gt;추천 목록, gist 보여주기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;마크업 언어 사용 예시&lt;/h5&gt;
+&lt;p&gt;1) 목록 보여줄때 (홀따음표 제거)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;”{“% include python-table-of-contents.html %}”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Thu, 20 May 2021 16:40:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/some-listAndGist</link>
+        <guid isPermaLink="true">https://nageom.github.io/some-listAndGist</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>코드 보여주기</title>
+        
+          <description>&lt;p&gt;마크업언어 활용하기 코드 넣기 (검정바탕)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;’~~~javascript’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Mon, 17 May 2021 16:40:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/some-code</link>
+        <guid isPermaLink="true">https://nageom.github.io/some-code</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gettysburg Address</title>
+        
+          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 19 Nov 1863 10:18:00 +0000</pubDate>
+        <link>
+        https://nageom.github.io/gettysburg-address</link>
+        <guid isPermaLink="true">https://nageom.github.io/gettysburg-address</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://nageom.github.io/tag/oracle/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://nageom.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-12-03T13:01:30+00:00</updated>
+  <id>https://nageom.github.io/tag/oracle/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">nageom’s blog | </title>
+  
+
+  
+    <subtitle>티끌모아 공부방</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Oracle-DataType_2</title>
+      <link href="https://nageom.github.io/oracle-DataType_2" rel="alternate" type="text/html" title="Oracle-DataType_2" />
+      <published>2021-05-25T00:14:00+00:00</published>
+      <updated>2021-05-25T00:14:00+00:00</updated>
+      <id>https://nageom.github.io/oracle-DataType_2</id>
+      <content type="html" xml:base="https://nageom.github.io/oracle-DataType_2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 연관 게시물 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./oracle-basic_1&quot;&gt; Oracle RDBMS란? SQL은? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./oracle-DataType_2&quot;&gt;Oracle 데이터타입? &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;3) 데이터타입
+   &lt;img src=&quot;../../assets/built/images/oracle/create.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;데이터 타입 : 컬럼이 저장되는 데이터 유형이다. &lt;br /&gt;
+이는 문자 데이터, 숫자 데이터 , 날짜 데이터, LOB 데이터 타입이 있다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>nageom</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oracle" />
+      
+
+      
+        <summary type="html">연관 게시물 Oracle RDBMS란? SQL은? Oracle 데이터타입? 3) 데이터타입</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Oracle-basic_1</title>
+      <link href="https://nageom.github.io/oracle-basic_1" rel="alternate" type="text/html" title="Oracle-basic_1" />
+      <published>2021-05-25T00:14:00+00:00</published>
+      <updated>2021-05-25T00:14:00+00:00</updated>
+      <id>https://nageom.github.io/oracle-basic_1</id>
+      <content type="html" xml:base="https://nageom.github.io/oracle-basic_1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt; 연관 게시물 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./oracle-basic_1&quot;&gt; Oracle RDBMS란? SQL은? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./oracle-DataType_2&quot;&gt;Oracle 데이터타입? &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;1) RDBMS : 관계형 데이터베이스 관리 시스템&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;데이터베이스의 종류: 네트워크형, 계층형, 관계형, NoSQL DB &lt;br /&gt;
+그 중, 시각적으로 쉽게 데이터를 확인 할 수 있는 장점으로 가장 많이 사용되는 형태의 데이터베이스를
+RDB_관계형 데이터베이스라고 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/built/images/oracle/basicTable.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;행과열 조합으로 테이블 형태를 띄고있으며 각 테이블과 테이블의 관계를 제약조건에 따라 구분할 수 있으며 &lt;br /&gt;
+대표적으로 Oracle, MySQL, MriaDB, MS-SQL 등이 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2)  SQL    (Oracle)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;관계형 데이터베이서 관리 시스템 (RDBMS)의 데이터를 관리하기 위해 설계된 특수 목적의 프로그래밍 언어&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;즉! 쉽게! 데이터를 관리하기위해 사용하는 언어입니다.
+백번 설명보다 해보는게 최고입니다. 바로 사용법 보도록하죠
+개념적으로&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DDL_Data Definition Language (데이터 정의어)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;테이블 자체를 생성,변경,삭제 등&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/built/images/oracle/ddl.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DML_Data Manipulation Language (데이터 조작어)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;테이블안의 내용을 조회,삽입,삭제 등 
+&lt;img src=&quot;../../assets/built/images/oracle/dml.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DCL_Data Control Language (데이터 제어어)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;DB에 접근하고 객체를 사용함에 대한 권한에 대한 명령어
+&lt;img src=&quot;../../assets/built/images/oracle/dcl.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TCL_Transaction Control Language (트랜잭션 제어어)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;논리적인 작업의 단위를 묶어서 DML 에 의한 조작된 결과를 작업단위(트랜잭션)별로 제어하는 명령어 &lt;br /&gt;
+ :&amp;gt; 그냥 아차! 싶은 작업을 되돌릴수도 있고, 아차! 하기전에 저장하기도 할 수 있는 명령어    &lt;br /&gt;
+&lt;img src=&quot;../../assets/built/images/oracle/tcl.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>nageom</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oracle" />
+      
+
+      
+        <summary type="html">연관 게시물 Oracle RDBMS란? SQL은? Oracle 데이터타입? 1) RDBMS : 관계형 데이터베이스 관리 시스템 데이터베이스의 종류: 네트워크형, 계층형, 관계형, NoSQL DB 그 중, 시각적으로 쉽게 데이터를 확인 할 수 있는 장점으로 가장 많이 사용되는 형태의 데이터베이스를 RDB_관계형 데이터베이스라고 합니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

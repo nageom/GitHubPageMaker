@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Search Result</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- 웹 폰트-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+    <!-- syntax.css 추가 -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="티끌모아 공부방" />
+    <link rel="shortcut icon" href="https://nageom.github.io/assets/built/images/cover/cover_yellow.jpg" type="image/png" />
+    <link rel="canonical" href="https://nageom.github.io/search" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="nageom's blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Search Result" />
+    <meta property="og:description" content="티끌모아 공부방" />
+    <meta property="og:url" content="https://nageom.github.io/search" />
+    <meta property="og:image" content="https://nageom.github.io/assets/built/images/cover/back.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Search Result" />
+    <meta name="twitter:description" content="티끌모아 공부방" />
+    <meta name="twitter:url" content="https://nageom.github.io/" />
+    <meta name="twitter:image" content="https://nageom.github.io/assets/built/images/cover/back.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="nageom's blog" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "nageom's blog",
+        "logo": "https://nageom.github.io/"
+    },
+    "url": "https://nageom.github.io/search",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://nageom.github.io/assets/built/images/cover/back.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://nageom.github.io/search"
+    },
+    "description": "티끌모아 공부방"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
+
+
+</head>
+<body class="page-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <meta name="google-site-verification" content="5yRcMhXxk4w9QCP0s_gceuV8iTzlGcIqFn6vBzVbT-g" />
+<!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="https://nageom.github.io/">nageom's blog</a>
+            
+        
+        
+            
+<ul class="nav" role="menu">
+    <!--<li class="nav-home" role="menuitem"><a href="/">Home</a></li> -->
+    <!--<li class="nav-about" role="menuitem"><a href="/about/">About</a></li> -->
+<!--
+    <li class="nav-archive" role="menuitem">
+        <a href="/author_archive.html">Tag별 Posts</a>
+    </li>
+-->
+    <li class="nav-python" role="menuitem"><a href="/tag/java/">Java</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/algorithm/">자료구조와 알고리즘</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/coding/">코딩테스트</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/some/">알쓸잡</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/oracle/">Oracle</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/spring/">Spring</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/error/">error</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/blockchain/">블록체인</a></li>
+
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+
+</ul>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">Search Result</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
+
+<ul class="mylist" id="search-results"></ul>
+
+<script>
+    window.store = {
+    
+    "blockchain-start-8": {
+        "title": "블록체인의 시작(7)_ERC20토큰 만들기",
+            "author": "nageom",
+            "category": "",
+            "content": " 블록체인 카테고리     블록체인의 시작(1)_개념      블록체인의 시작(2)_스마트컨트랙트      블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp      블록체인의 시작(4)_디파이      블록체인의 시작(5)_블록체인 이해하기       블록체인의 시작(6)_스마트컨트랙트 작성(1)       블록체인의 시작(7)_스마트컨트랙트 작성(2)       블록체인의 시작(8)_ERC20토큰 만들기   오늘은 ERC20토큰을 만들어보기~! 전 포스팅을 하나식 보셨다면 이더리움 관련 개발은 Remix IDE가 필요하다~ 를 아실거에요 오늘은 ERC20토큰을 만드는데 필요한 개발도구는Remix IDE , 메타마스크(암포화폐 지갑), 토큰 올릴 가스비 (이더) , 제공된 ERC20 소스코드 가 있습니다.ERC20 토큰 만들기의 큰 흐름은일단 Remix IDE에서 ERC20 소스코드를 가지고 토큰을 만들거구요.토큰을 만들어서 배포할때 필요한 가스비(이더)는 Ropsten 테스트넷에서 받아올겁니다.1. 테스트용 Ether 받아오기이제 스마트컨트랙트를 배보할 때 Gas가 필요하다는 것을 아실텐데,기존에는 가나슈에서 가상계정과 이더를 제공해줬기 때문에배포시 필요한 가스를 지불 할 수 있었지만 현재는 실제 우리의 메타마스크를 사용하기때문에 이번엔 가스비가 필요합니다. 어떡하지.. 했는데이럴때 사용할 수 있는 테스트용 이더가 있더라지요~ 요 사이트는 Rinkeby, Ropsten 등이 있지만저는 Rinkeby 에서 페북에 게시물 올리고 어쩌구해야하는데 하다가 실패했기 때문에Ropsten 테스트넷에서 받아올겁니다. https://faucet.dimensions.network/ 이 사이트에 본인 메타마스크 계정을 넣어주기만 하면 바로 받으실 수 있습니다. (간단해서 첨부안함)받고나면 내 지갑의 Ropsten 테스트 네트워크 항목에서 이더를 확인하실 수 있습니다. (네트워크 항목 선택하셔야해요!)2. ERC20 소스코드 받아오기디어리움에서 제공하는 ERC20 소스코드를https://etherscan.io/address/0x6D0F5149c502faf215C89ab306ec3E50b15e2892#code복사하시면 돼요.Copy source code to clipboard 클릭3. Remix IDE 로 ERC20토큰 만들기https://remix.ethereum.org/workspace에 Ballot.sol 파일 내용을 지우고 ERC20 소스코드를 붙여줍니다. 38번 줄의 컨트랙트를 수정해주세요. 만들 토큰의 관한 정보입니다.컨트랙트 이름은 내 토큰이름으로. (띄어쓰기 없이)그 아래 생성자 constructor의 name, symbol 항목도 고쳐준다. name은 토큰이름,symbol은 내 토큰별칭 이라 생각하면 됨. ««««««이제 배포준비 ENVIRONMENT : Injected Web3 선택,ACCOUT: 리믹스와 메타마스크 연결되어 내 지갑계정을 확인할수있음내 지갑에 연결됨(초록) 이 뜨는것도 확인됨☆중요중요☆ CONTRACT: 컨트랙트는 내가 아까 수정한 컨트랙트 선택deploy: 코드를 이더리움에 배포 클릭!올릴때 가스비가 소비하나요? 라는 안내문이 뜹니다. 확인 클릭잠깐 시간이 지나면 터미널에 블록이 생성되었다고 뜹니다. 4.테스트넷에서 트랜잭션 확인, 메타마스크에 잔고확인 우리가 테스트넷 이더를 받은 곳 ropsten의 이더스캔을 이용해 방금 우리가 일으킨 트랜잭션을 자세히 볼 수 있다. ropsten.etherscan이곳에 transaction hash를 검색   (transaction hash는 뒤에 Remix에서 배포 후 터미널에 블록생성이 됐다는 알림에서 얻을 수 있습니다.)검색 후 컨트랙트 배포에 대한 정보를 확인 할 수 있다.Interatcted With(To) 클릭 -&gt; 만든 토큰의 정보확인 Tracker 클릭 / 이때 나온 Contract: 주소를 복사한다. 이유는 메타마스크는 이더 코인 전용이라 그 외의 코인,토큰들은 따로 추가해줘야하기 때문import tokens 클릭내가 만든 토큰이 추가됨을 확인할 수 있습니다.야호",
+        "url": "/blockchain-start(8)"
+    }
+    ,
+    
+    "error-typescript": {
+        "title": "자바스크립트 backtick(`)과 single quoto(') 나만 주의..",
+            "author": "nageom",
+            "category": "",
+            "content": "오늘 겪은 오류는 응? 뭐라는거야..쟤는 서있고 쟤는 좀 누워있네..하고 찾아보니까 backtick (`) 이라고하는 새로운 문자연결 표기방식으로 키보드 (Shift + ~)를 치면 나온다자바스크립트는 처음이라 진짜 몰랐다.. 어디에 쓰이는고.. 하니처음에 내가 겪은 오류 아니 다들 홀따옴표 썼는데 ${}(place holder) 안에 변수 읽히던데 왜!! 나만 안돼!!!라고 했는데 사실 홀따옴표가 아니역따 ㅎbacktick (`)얘의 명칭은 grave accent backtick, backquoto 라고도 불리며‘억음부호’라는 한국이름도 있다.자바스크립트 ES6 부터 백틱 기호를 사용한 문자열을 템플릿 리터널이라고 부른다.새로운 문자연결 표기방식인데,기존에 console.log(“내 이름은” + name + “나이는”+ age); 식의 문자열 출력이 따옴표(““)와 더하기 기호(+) 없이 백틱 기호 하나로  console.log(`내 이름은 ${name} 나이는 ${age}) 가 한줄에 출력 가능해진다.나처럼 이걸로 헤매는 사람은 없겠ㅣ..",
+        "url": "/error-typescript"
+    }
+    ,
+    
+    "blockchain-start-7": {
+        "title": "블록체인의 시작(7)_스마트컨트랙트 작성(2)",
+            "author": "nageom",
+            "category": "",
+            "content": " 블록체인 카테고리     블록체인의 시작(1)_개념      블록체인의 시작(2)_스마트컨트랙트      블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp      블록체인의 시작(4)_디파이      블록체인의 시작(5)_블록체인 이해하기       블록체인의 시작(6)_스마트컨트랙트 작성(1)       블록체인의 시작(7)_스마트컨트랙트 작성(2)       블록체인의 시작(8)_ERC20토큰 만들기   지난 포스팅에서는 IDE를 IntelliJ를 사용했습니다. 이번 포스팅은 이더리움에서 제공하는 IDE Remix를 사용하는 포스팅입니다.시작전에 간단하게 스마트컨트랙트 배포의 큰 줄기는 코드작성 -&gt; 컴파일 -&gt; 가상 블록체인 네트워크 연결 -&gt; 배포(로 생각하고 가시면 좋을것같습니다. )암튼 스타또 가나슈를 켜두시고 Remix 접속 -&gt; https://remix.ethereum.org 일단 제일 왼쪽에첫번째 아이콘은 File explorers두번째 아이콘은 Solidity Compiler세번째 아이콘은 Deploy &amp; run transactions차례대로 작성, 설정해보자.1. File explorersWorkspace 이다. 프로젝트 구성도 전 포스팅과 유사하다 스마트컨트랙트를 작성하는 constracts, 테스트 컴파일된 파일은 constracts/artifacts/ 하위로 들어간다. 전과 같이 constracts/HelloWorld.sol 작성,(이번엔 simple_storage.sol 하나를 더 만들었다)2. Solidity Compiler말그대로 컴파일러 관련 설정파트이다. COMPILER는 버전 설정 -&gt; 안정적인 버전으로 추천. 나는 0.8.4버전 사용LANGUAGE는 솔리디티 선택자동 컴파일 체크TMI! 컴파일할 파일을 클릭하고 돌아와야 파란색 Compile 버튼이 클릭 가능하다.그리고 Compilation Details를 클릭하면 컴파일된 bytecode와 abi 확인이 가능하다. 컴파일된 json 파일은 constracts/artifacts 하위로 들어간다. 3. Deploy &amp; run transactions배포파트! 그리고 트랜잭션 설정이다. 가나슈의 네트워크와 연결하기위해 ENVIRONMENT 로 Web3 Provider 클릭연결완료!가나슈의 가상 계정들이 ACCOUNT 항목에서도 나타나는걸 볼 수 있다. 이제 배포!!Deploy 클릭 저는 배포를 세번 했고 블럭이 생성되었다고 띠롱띠롱뜹니다. 가나슈에서도 블록이 생성된것을 확인 할 수 있습니다. Transaction 을 누르면 방금 배포를 하면서 발생시킨 transaction이 들어있습니다.이렇게 Remix 에서 스마트 컨트랙트 작성과 배포를 마쳤습니다.",
+        "url": "/blockchain-start(7)"
+    }
+    ,
+    
+    "blockchain-start-6": {
+        "title": "블록체인의 시작(6)_스마트컨트랙트 작성(1)",
+            "author": "nageom",
+            "category": "",
+            "content": " 블록체인 카테고리     블록체인의 시작(1)_개념      블록체인의 시작(2)_스마트컨트랙트      블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp      블록체인의 시작(4)_디파이      블록체인의 시작(5)_블록체인 이해하기       블록체인의 시작(6)_스마트컨트랙트 작성(1)       블록체인의 시작(7)_스마트컨트랙트 작성(2)       블록체인의 시작(8)_ERC20토큰 만들기   오늘은 스마트컨트랙트 개발을 해볼겁니다.1. 개발도구 먼저 개발환경 조성부터 샤샥 나열해보겠습니다.Solidity(솔리디티) : 이더리움의 스마트컨트랙트 프로그래밍 언어입니다. Truffle(트러플): 컴파일, 배포, 디버깅을 지원하는 개발 도구입니다. Ganache(가나슈) : 가상의 이더리움 네트워크를 생성해줘서 스마트 컨트랙트를 실행할 수 있게해주는 모듈입니다.-&gt; https://www.trufflesuite.com/ganache 에서 다운로드 IDE는 인텔리제이를 사용했습니다. 설치하지 않은 경우에는 Remix를 이용하세요 -&gt; https://remix.ethereum.org/2. 트러플 설치cmd 오픈-&gt; npm install -g truffle  (npm으로 트러플 설치 )-&gt; truffle version (버전 확인)Truffle v5.4.16 (core: 5.4.16)Solidity v0.5.16 (solc-js)     Node v11.15.0Web3.js v1.5.33. 프로젝트 생성-&gt; mkdir smartsample (트러플 프로젝트 만들기 위한 폴더 생성 )-&gt; cd smartsample-&gt; truffle init (트러플로 프로젝트 초기화)-&gt; dir 폴더 안 확인2021-10-30  오전 01:16 contracts ( 스마트컨트랙트 작성 )2021-10-30  오전 01:16 migrations (배포 디렉터리)2021-10-30  오전 01:16 test (단위 테스트 공간)1985-10-26  오후 05:15  4,900 truffle-config.js ( 트러플 관련 설정 파일) 4. 인텔리제이 오픈이제 contracts 디렉터리 안에 스마트컨트랙트를 작성한다. -&gt; contracts/HelloWorld.sol 생성 pragma solidity ^0.8.4;   //컨트랙트 이름 HelloWorld가 됨contract HelloWorld {    //상태변수    string public str;    //세터    function setStr(string memory astr) public {        str = astr;    }    //출력메서드    function print() public view returns (string memory) {        return str;    }}1) solidity 버전 변경-&gt; truffle-config.js 내에 compilders 키 안에 version부분을 최신으로 수정, 솔리디티파일의 pragma solidity 도 수정 5. 컴파일솔리디티 파일 HelloWorld를 컴파일한다.PS C:\\smartsample&gt; truffle compilebuild/contracts/컴파일된 json 파일들 생성됨강제 컴파일시 (수정이 없을시)PS C:\\smartsample&gt; truffle compile –all ***컴파일된 HelloWorld.json 파일에서 bytecode는 실제로 이더리움 메인넷상에 블록안에 심어지게되서 실제 evm 상에서 동작하는 바이트코드가 된다.  abi (Application binary Interface)는  배포후 어플리케이션에서 바이트코드와 통신할때 사용되는 인터페이스를 정의해놓은 하나의 데이터이다. TMI! 혹시 컴파일된 json 파일의 생성위치를 바꾸고싶다면6. 가나슈 (가상의 이더리움 네트워크을 이용해보자) , 이더리움 네트워크 접속 가나슈 다운로드 -&gt; https://www.trufflesuite.com/ganache 실행 - Quick Start 클릭 (트랜잭션을 저장하지 않음)10개의 가상 계정에 각 100이더의 잔액있음 truffle-config.js에 가상의 이더리움 네트워크 접속 정보 입력 7. 배포migrations 디렉토리에 1_initial_migration.js 처럼 배포할 js 파일을 생성한다.생성시 이름은 1 다음 숫자 2로 지어준다. 2_deploy_helloworld.js이유는 이 숫자를 보고 순서대로 배포되기 때문임!2_deploy_helloworld.jsconst HelloWorld = artifacts.require(\"HelloWorld\");/*네이밍 중요* 순번 중요* 순번 기준으로 배포함/*module.exports = function (deployer) {  deployer.deploy(HelloWorld, \"HelloWorld\");                // 생성자 아규먼트 (생성할때 파라미터 필요 )};*/module.exports = function (deployer) {  deployer.deploy(HelloWorld);};배포 명령어PS C:\\smartsample&gt; truffle migrate –network development트러플아 network키에서 develpoment 파라미터를 갖고 migrate해라! 기본 명령어는 PS C:\\smartsample&gt; truffle migrate강제 배포PS C:\\smartsample&gt; truffle migrate –reset ** 확인**1_initial_migration.js와 2_deploy_helloworld.js 둘 다 실행됐다. 가스비가 빠져나간것도 확인 할 수 있다.가나슈에서도 확인 0.01이더가 빠져나갔다. 구우웃",
+        "url": "/blockchain-start(6)"
+    }
+    ,
+    
+    "blockchain-start-5": {
+        "title": "블록체인의 시작(5)_블록체인 이해하기",
+            "author": "nageom",
+            "category": "",
+            "content": " 블록체인 카테고리     블록체인의 시작(1)_개념      블록체인의 시작(2)_스마트컨트랙트      블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp      블록체인의 시작(4)_디파이      블록체인의 시작(5)_블록체인 이해하기       블록체인의 시작(6)_스마트컨트랙트 작성(1)       블록체인의 시작(7)_스마트컨트랙트 작성(2)       블록체인의 시작(8)_ERC20토큰 만들기   블록체인은 대충 알겠고 그래서 코드는 어떻게 쓰는데? 해서 냅다 니콜라스의 도움으로 typescript로 간단 블록체인 구조를 생성해보았다.일단 왜 타입스크립트를 사용? 자바스크립트가 갖고있지 않는 규칙을 가지고 있다. -&gt; 대형 프로젝트, 팀으로 일할 경우 버그를 최소화하기 좋다-&gt; 언어가 예측 가능하고 읽기 쉬운 코드로 자바스크립트를 더 잘 사용할 수 있게 해준다.먼저, 기본 설정 Yarn 은 프로젝트의 의존성을 관리하는 JavaScript의 패키지 매니저= Java의 gradlenpm 보다 빠르고 안전하며 npm과 같이 자바스크립트 패키지의 저장소를 제공할 뿐만 아니라시스템에서 의존 패키지 설치하거나 업데이트하는 등의 다양한 명령을 제공, package.json을 통해 의존 패키지를 구분한다.하지만 나는 yarn 이 돌아가지 않아서 npm을 사용했다.       1.yarn initialize (&gt; yarn init) 또는 (&gt;npm init )         2.타임스크립트 설치  (&gt; yarn global add typescript) 또는(&gt; npm install typescript)        3.tsconfig.json 파일 생성 타임스크립트가 어떻게 자바스크립트로 컴파일 할지 명시해둘 파일        4.index.ts 파일 생성블록체인 만들 ts 파일 -&gt; 컴파일하면 index.js가 생성됨        5.컴파일은 tsc 또는 npx tsc 여기까지하고 컴파일 실행해보자        6.tsc-watch 패키지 설치원래는 ts코드가 바뀔때마다 js로 컴파일 하고 node로 실행-&gt; ts코드가 수정 될때마다 자동으로 컴파일하고 js를 실행해줌 (쉽게 말해 tsc의 watch모드 )(&gt; yarn add tsc-watch –dev 또는 npm add tsc-watch –dev)그니까 tsc, yarn start, yarn start를 계속 안쳐도 수정될때마다 알아서 컴파일, 실행 되서 출력값 띄워줌참고로 yarn으로 init했을때와 npm 으로 init했을때의 package.json 형태가 다르다. yarn의 경우 “script”가 없으니 추가해주면 되고npm의 경우 “test”까지 만들어져있으니 “start”만 추가해준다.     블록체인 생성1.이제 index.ts에 냅다 블록 구조 만들기class Block {  public index:number;  public hash: string;  public previouHash: string;  public data: string;  public timestamp: number;constructor(  index: number,  hash string,  previousHash: string,  data: string,  timestamp: number) {   this.index = index;  this.hash = hash;  this.previousHash = previousHash;  this.data = data;  this.timestamp = timestamp; }}2.블록 생성과 블록체인배열 생성 시험//블록 생성const genesisBlock:Block = new Block(0, \"202020202020\", \"\", \"Hello\", 123456);// 블록 배열 생성 let blockchain: Block[] = [genesisBlock];지난번 블록 설명 포스팅에서 블록의 이름 블록해시는 블록이 가진 여러요소들의 합을 SHA256으로 변환한 값이라고 했다.3.그럼 해시값을 만들어볼까나! crypto-js 설치부터!(&gt; yarn add crypto-js 또는 npm install crypto-js)//import 추가import * as CryptoJS from \"crypto-js\";//블록 클래스 안에 블록해시를 만드는 static calculateBlockHash 함수 추가  static calculateBlockHash = (index:number, previousHash:string, timestamp:number, data: string ) : string =&gt;   CryptoJS.SHA256(index +previousHash + timestamp + data).toString();//블록생성하는 함수 생성 const createNewBlock = (data:string) : Block =&gt; {   const previousBlock : Block = getLatesBlock();   const newIndex : number = previousBlock.index + 1;   const newTimestamp : number = getNewTimeStamp();   const newHash : string = Block.calculateBlock(       newIndex,       previousBlock.hash,        newTimestamp,        data   );   const newBlock : Block = new Block(     newIndex,      newHash,       previous.hash,     data,     newTimestamp    );   addBlock(newBlock); //블록체인에 블록 추가 --아래에 추가되있음      return newBlock; };이제 블록을 검증하는 절차를 거쳐야지.4.구조와 해시값을 검증한다.//블록의 구조 검증 메서드 (블록 클래스 내에 추가) static validateStructure = (aBlock : Block) : boolean =&gt; typeof aBlock.index === \"number\" &amp;&amp; typeoff aBlock.hash ===\"string\" &amp;&amp; typeof aBlock.previousHash === \"string\" &amp;&amp;typeof aBlock.timestamp === \"number\" &amp;&amp;typeof aBlock.data === \"string\";//블록해시 값이 맞는지 확인하는 메서드 const getHashforBlock = (aBlock: Block) : string =&gt;   Block.calculateBlockHash(aBlock.index, aBlock.previousHash, aBlock.timestamp, aBlock.data);//블록의 해쉬가 유효한가 , 따로 해쉬를 계산해서, 들어온 블록의 해쉬가 실제로 있는지 체크5.위 두 검증을 거치는 isBlockValid 메서드 생성//candidate 블럭과 previous 블럭을 비교 const isBlockValid = (candidateBlock : Block, previousBlock: Block) :boolean =&gt; {    if(Block.validateStructure(candidateBlock)) { //구조 검증      return false; } else if (previousBlock.index +1 !== candidateBlock.index ) {//인덱스 검증     return false; }  else if (previousBlock.hash !== candidateBlock.previousHash) { // preHash 검증   return false; } else if (getHahforBlock(candidateBlock) !== candidateBlock.hash) { // 현 블록해시 검증   return false; //블록의 해쉬가 유효한가 , 따로 해쉬를 계산해서, 들어온 블록의 해쉬가 실제로 있는지 체크 }  else {  return true; }};6.createNewBlock 에서 사용할 블록체인에 블록 추가하기 메서드const addBlock = (condidateBlock: Block) : void =&gt; {  if(isBlockValid(candidateBlock, getLastBlock())) {     blockchain.push(candidateBlock);  }};실행createNewBlock(\"첫 블록\");createNewBlock(\"아더 블록\");",
+        "url": "/blockchain-start(5)"
+    }
+    ,
+    
+    "blockchain-start-4": {
+        "title": "블록체인의 시작(4)_디파이",
+            "author": "nageom",
+            "category": "",
+            "content": " 블록체인 카테고리     블록체인의 시작(1)_개념      블록체인의 시작(2)_스마트컨트랙트      블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp      블록체인의 시작(4)_디파이      블록체인의 시작(5)_블록체인 이해하기       블록체인의 시작(6)_스마트컨트랙트 작성(1)       블록체인의 시작(7)_스마트컨트랙트 작성(2)       블록체인의 시작(8)_ERC20토큰 만들기     디파이와 서비스1. 디파이(De-fi)란?탈중앙화 금융(Decentralized Finance)의 약자로서, 탈중앙화된 분산금융 또는 분산재정을 의미한다. 탈중앙화는 저번 포스팅에서 설명했고, 은행처럼 예치, 대출이 가능하지만 실제화폐가 아닌암호화폐로 거래된다는 점이 다르다. 2.디파이 서비스탈중앙화 금융서비스는 무엇을 제공할까?       암호화폐 예치와 대출테더를 예치한 A와, 이더리움을 담보로 테더 대출하려는 B가 있다. (이때 대출받는 측(B)의 이자와 수수료가 투자자(A)에게 수익으로 작용된다.)가치 변동성이 적은 코인을 팔지않고 예치함으로써 B의 대출이자와 수수료로 수익을 보는 A 변동성이 큰 코인(이더)를 팔고싶지않을때 이더를 담보로 테더를 대출 받을 수 있는 B모두에게 이득이다.    자산토큰화개인투자자들도 고가의 부동산이나 예슬품에 쉽게 투자할 수 있도록 자산 소유권을 소액으로 나누는 것을 말한다. 여러 개로 나눠진 소유권을 블록체인 기술로 암호화하여 저장하는 것을 토큰화, 이를 자산토큰화라고 한다. 예시로 100억원 상당의 빌딩을 5000원의 부동산 디지털 수익증권으로 200만여개로 나누어 공모를 진행한다. 개인 투자자는 원하는 만큼의 디지털 수익증권을 살 수 있다. 이걸 삼으로써 임대료를 받거나 매각할 때 시세차익을 벌 수 있고또는 차익이 벌어질때 보유한 수익증권을 마켓플레이스에서 매매할 수 있다.   스테이킹스테이킹(staking)은 암호화폐의 일정량을 지분으로 고정시키는 행위이다. 스테이킹 서비스란 저축과 유사한 개념으로 사용자가 가진 암호화폐를 블록체인 네트워크 운영에 활용할 수 있도록 맡기고, 그 대가로 수익 보상을 받는 서비스다.일반 예치와 다른점이 바로예치만 하는 것이 아니라 데이터 검증에 참여하여 암호화폐를 보상받는 점이다. 이 절차를 복잡하게 느끼는 일반투자자들을 위해 전문적으로 스테이킹과 데이터 검증을 하는 서비스를 제공하는 업체도 등장했다. (대표적으로 스테이크드, 스테이크피쉬, 업비트 등이 있다)  덱스 거래덱스 = (Decentralized Exchange) 탈중앙화 거래소덱스 거래 = 탈중앙화 환전, 스왑원화와 달러를 환전함을 생각하면되는데 사실 덱스 거래는 많이 다르다. 기존에 은행이 달러나 원화를 어느정도 보유하고 있는 방식이 아니라 투자자가 예치한 암호화폐들로 환전이 이루어지는 방식이다. 물론 투자자들의 모든 예치금을 말하는것은 아니고 사용자에게 여러 암호화폐로 환전할 수 있도록 만들어진 유동성 풀을 제공하고암호화폐 투자자들이 서로 다른 암호화폐 둘을 1대1비율로 예치합니다. 이 유동성풀에 있는 암호화폐로 사용자에게 환전서비스를 제공합니다. 이때 환전 서비스를 스왑이라하고스왑시 발생하는 수수료를 위의 암호화폐 투자자들에게 배분합니다.",
+        "url": "/blockchain-start(4)"
+    }
+    ,
+    
+    "blockchain-start-3": {
+        "title": "블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp",
+            "author": "nageom",
+            "category": "",
+            "content": " 블록체인 카테고리     블록체인의 시작(1)_개념      블록체인의 시작(2)_스마트컨트랙트      블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp      블록체인의 시작(4)_디파이      블록체인의 시작(5)_블록체인 이해하기       블록체인의 시작(6)_스마트컨트랙트 작성(1)       블록체인의 시작(7)_스마트컨트랙트 작성(2)       블록체인의 시작(8)_ERC20토큰 만들기     코인과 토큰의 차이.  ERC20?  Dapp(디앱)??1. 코인과 토큰의 차이.코인은 자체적인 블록체인 네트워크를 가지고 웅용되어 지는 것토큰은 코인의 기존 블록체인 네트워크를 차용해서 운용되어 지는 것이다. 대표적인 비트코인, 이더리움 등을 제외한 대부분은 토큰이다. (이더리움의 코인 이름은 이더..!) 그렇다고 영원히 토큰이냐? 그것도 아닙니다. 메인넷이라고 기존에 존재하는 플랫폼에 종속 되어있지 않고독립적으로 생태계를 구성하는 것이 있습니다.토큰에서 코인이 되는 과정 기존 블록체인 네트워크를 기반으로 토큰을 제작하고, ICO(initial coin offering) 들을 통해 대중에게 알립니다.(ICO: 백서를 공개한 후 신규 암호화폐를 발행해 투자자들로부터 사업 자금을 모집하는 방식)이후 테스트넷으로 실제 실행이 잘되는지 확인하는 과정을 거쳐 이가 성공하면 메인넷이 릴리즈 된다.독립적인 플랫폼으로 거래하고 생태계 구성이 된다는 것이다. 이거시! 토큰에서 코인으로 업그레이드가 되는 과정이다.예) 이오스토큰 -&gt; 이오스 코인2.이제 ERC20이 무엇인가이더리움의 자체 블록체인 네트워크 상에서 발행되는 토큰의 호환성을 보장하기 위한 표준 사양을 말합니다. 위의 정의처럼 토큰은 블록체인 네트워크를 사용하여 만들어진 것이잖아요? 만들때 최소한의 조건이 ERC20인거죠.그래서 ERC20의 표준 사양을 맞춘 토큰을 ERC20토큰이라 부릅니다.3. Dapp(디앱)??디앱이란 블록체인을 기반으로 돌아가는 애플리케이션을 말한다.모바일의 OS 안드로이드와 iOS 처럼 블록체인계의 OS에서 돌아가는 애플리케이션.디앱은 블록체인에서 스마트 계약이 도입되면서 생겨났다(이더리움이 처음 도입). 스마트 계약이 없는 비트코인에는 디앱이 존재하지 않는다.스마트컨트랙트가 포함된 블록체인 네트워크 위에서 돌아가는 어플리케이션이라 정리할 수 있다. 예를 들자면 배달의 민족 어플에 만약 30분 안에 배달이 완료되면 자동 결제가 되는 스마트컨트랙트를 추가한다면 Dapp이라 할 수 있다.이처럼 디앱의 종류는 코인관련 뿐만 아니라 안드로이드의 앱처럼 모든 앱이 될 수 있다. 현재 여러 블록체인 플랫폼들이 있는데 대표주자가 이더리움이다. 처음 블록체인에 스마트 계약을 도입하며디앱을 탄생시킨게 이더리움이기도하고 디앱 수로 봤을때도 1위가 이더리움, 2위는 이오스. 그 수가 이더리움이 2,341개이상, 이오스는 235개로 차이가 엄청나다.본래 각각의 앱을 사용하면서 발생되는 일정부분의 포인트를 통합하여 사용하는 것은 같은 회사계열의 앱이 아닌 이상 거의 불가능하지만이더리움 플랫폼에서는 각각의 디앱이 발행한 토큰들을 통합하여 현금화하는 것이 가능하다.즉, 대표적인 이더리움 블록체인에서는 이더(ETH)가 사용되고, 이더리움 블록체인 상의 디앱은 또 다른 다양한 분야에 적용될 수 있는 각각의 솔루션으로 그에 맞는 토큰을 발행하는 것이다. 이때 호환성을 위해 정한 표준 토큰 스펙이 ERC-20이라는 것! _ 한 줄 정리내용 계속 추가 할 예정",
+        "url": "/blockchain-start(3)"
+    }
+    ,
+    
+    "blockchain-start-2": {
+        "title": "블록체인의 시작(2)_스마트컨트랙트",
+            "author": "nageom",
+            "category": "",
+            "content": " 블록체인 카테고리     블록체인의 시작(1)_개념      블록체인의 시작(2)_스마트컨트랙트      블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp      블록체인의 시작(4)_디파이      블록체인의 시작(5)_블록체인 이해하기       블록체인의 시작(6)_스마트컨트랙트 작성(1)       블록체인의 시작(7)_스마트컨트랙트 작성(2)       블록체인의 시작(8)_ERC20토큰 만들기   스마트컨트랙트는 블록체인 위에 올리는 코드이다. 본래는 코드대로 실행되는 계약 시스템이였지만 블록체인에 도입됨으로써 취약했던 보안과 신뢰를 보완하여 세상에 나왔다.스마트컨트랙트의 사전의미는 계약 당사자가 사전에 협의한 내용을 미리 프로그래밍하여 전자계약서 문서 안에 넣어두고,이 계약 조건이 모두 충족되면 자동으로 계약 내용이 실행되도록 하는 시스템이다. 라고한다.단순단순히 ~할 경우 ~한다. 라는 코드로 볼 수 있다.내가 봤을때 코드, 계약대로 실행되는 자동화 시스템을 말하는 것 같다. 계약이니 양방향의 동의를 얻은!한 예시로, 사업을 시작하기위해 투자를 받고 있는 예비 사업자가 있다고 하면 목표 금액을 채우지 못했을시에 사업자는 사업을 시작하지 못하고투자자들은 돈을 돌려받지 못하는 경우의 부담감으로 투자를 주저한다.이때 목표액 이더리움 천 개를 채우지 못하면 투자 금액을 모두 돌려준다는 계약조건을 건다.계약대로 투자금을 모으는 기간 동안은 지갑이 락이 걸려 출금이 금지되고 기간이 끝나고 개수를 채우지 못했을 때자동적으로 투자자들의 투자금이 그대로 돌려받게 되는 계약을 이행하는 것이 스마트 컨트랙트이다.지금의 은행자동이체 또한 스마트컨트랙트와 같다. 지금의 자동이체는 은행이 주체이지만 블록체인 위의 스마트컨트랙트는 주체가 모두가 됨으로써 이의 보안이 더욱 올라간다는 장점이 있다.이제 스마트컨트랙트? 조건을 붙여 자동실행 되도록 하는 계약이고 코드! Um~ 느낌이 왔다면그럼 다음은 ERC20에 대해 알아보자.",
+        "url": "/blockchain-start(2)"
+    }
+    ,
+    
+    "blockchain-start-1": {
+        "title": "블록체인의 시작(1)_개념",
+            "author": "nageom",
+            "category": "",
+            "content": " 블록체인 카테고리     블록체인의 시작(1)_개념      블록체인의 시작(2)_스마트컨트랙트      블록체인의 시작(3)_ERC20토큰과 스마트컨트랙트, Dapp      블록체인의 시작(4)_디파이      블록체인의 시작(5)_블록체인 이해하기       블록체인의 시작(6)_스마트컨트랙트 작성(1)       블록체인의 시작(7)_스마트컨트랙트 작성(2)       블록체인의 시작(8)_ERC20토큰 만들기   블록체인을 좀 쉽고 빠르게 습득하기 위한 포스팅. 내가 블록체인을 공부할 때에는 읽어도 정말 읽어도 몰랐다 순서대로 했다면 이해가 더 쉬웠겠다라고 느꼈던 그대로 기초부터 정리해봤다.   블록체인이란?  블록은?  블록체인 : 말그대로 블록이 체인 형태로 이어져있는 형태. 개발자에게겐 노드가 체인처럼 쭉 연결되어 있는셈. 왜 여기저기에서 블록체인 이야기가 들릴까?그건 블록체인이 디지털 데이터를 신뢰할 수 있게 만들어준 기술이기 때문이다. 블록체인은 탈중앙화(decentralization)기술이다.  우리는 입출금을 하기 위해서 은행을 이용한다. 나의 계좌내역은 당연히 은행이 관리한다.내가 친구에게 돈을 송금한 것은 은행이 증언해준다. 이렇게 어떠한 정보나 권한이 한 곳에 집중되어있는 기존방식의보안은 은행에 집중되어있고 그만큼 해킹의 주 타겟이 된다.반대로 블록체인은 정보나 권한이 분배되어 분산되어있는 방식을 갖는다. 내 거래내역이 은행창고에만 있는 것이 아니라 모두가 소유함으로써, 내 거래내역을 가진 모두가 증인이며 증거가 된다.더 쉽게 생각하면, 사탕을 은행에 숨기던 방식  - 은행이 강도당하면 내 사탕도 사라짐사탕을 내 이름을 적어서 사거리 신호등에 둔다 - 모두가 감시자이자 목격자. 안정성이 보장된다. 은행의 데이터를 조작해서 송금 내역에 변화를 줄 수 있다면블록체인에 올라와있는 블록은 수정,삭제가 불가능한 형태이다. (아래 설명)그럼 블록을 알아보자.   블록은 ? 개발자는 노드를 상상하면 이해가 쉽다. 블록의 구조부터 보자. 블록은 데이터를 저장하는 단위로 블록헤더와 블록바디로 나누어져서 블록헤더에는 버전, 이전 블록해시, 머클루트, 타임, 난이도 목표, 논스(nounce, 암호화와 관련되는 임의의 수) 블록바디에는 트랜잭션들(거래내용)이 담아져있다.  트랜잭션에 많은 거래내역이 담겨있다. 일정한 시간동안의 거래내역이 한 블록에 담긴다.(약 10분이며, 코인마다 다름 )주목해야하는 부분은 블록해시이다. 이는 블록의 주소이자 이름이라 할 수 있다. 블록은 이전 블록해시를 갖음으로써 서로 연결된 형태의 블록체인이 완성된다.이제 위에서 말한 블록체인의 블록은 수정, 삭제가 불가능한 형태라 한 이유가 이제 나온다.블록해시란블록헤더의 정보들(버전, 이전 블록해시, 머클루트, 타임, 난이도 목표, 논스)을 모두 합산한 후 SHA256으로 변환하여 만드는 해시 값이다.즉, A-B-C-D-E 로 이루어진 블록체인의 B.블록의 데이터를 수정하면 그 뒤의 C의 이전 해시값이 바뀌고 C의 해시값 또한 변경되고 D, E 의 해시값 또한 변화가 있게된다.블록체인은 서로가 감시자인 형태로 블록의 정보를 모두 공유한다. 여기에 해당되는 ‘모두’의 과반수가 갖는 정보를 신뢰하는 형태를 띄기 때문에수정을 위해서는 이 과반수가 가진 C,D,E 블록의 해시값을 손봐야한다. 이는 천문학적인 시간과 머니가 들어 불가능에 가깝다!이로써 블록체인은 보안을 유지할 수 있다. 블록체인은 새로운 신뢰/보안의 형태이다. 이제 시작이고 가야할 길이 멀고도 험하다  ERC20? 토큰이랑 코인? 스마트컨트랙트? 블록체인을 공부하면서 어려웠던 이것들 모두 짚고 넘어가보자.다음은 스마트컨트랙트에 대해 알아볼거다.",
+        "url": "/blockchain-start(1)"
+    }
+    ,
+    
+    "java-thread-5": {
+        "title": "쓰레드-동기화(Synchronization) (4)",
+            "author": "nageom",
+            "category": "",
+            "content": "오늘은 '사용해본적은 있지만 자세히는 모른다 시리즈'의 synchronized에 대해 포스팅해보려한다. 가보자한 쓰레드가 진행 중인 작업을 다른 쓰레드가 간섭하지 못하도록 막는 것을 ‘쓰레드의 동기화 (synchronization)’라고 한다.알다시피 싱글 쓰레드와 다르게 멀티 쓰레드는 여러 쓰레드들이 같은 프로세스 내의 자원을 공유해 작업하기 때문에서로의 작업에 영향이 갈 수 밖에 없다. A 쓰레드가 작업 중 B쓰레드가 공유자원을 임의로 변경한다면,A 쓰레드가 작업을 마쳤을 때 원래 의도했던 것과는 다른 결과를 얻을 수 있다. 이러한 일의 방지를 위해 도입된 개념이 ‘임계 영역(CRITICAL SECTION)’과 ‘잠금(LOCK)’이다. ‘임계 영역(CRITICAL SECTION)’과 ‘잠금(LOCK)’공유 데이터를 사용하는 코드 영역을 임계 영역으로 지정하고, 공유 데이터(객체)가 가지고 있는 lock을 획득한 단 하나의 쓰레드만 이 영역 내의 코드를 수행할 수 있게 한다 .그리고 해당 쓰레드가 임계 영역 내의 모든 코드를 수행하고 벗어나서 lock을 반납해야만다른 쓰레드가 반납된 lock을 획득하여 임계 영역의 코드를 수행할 수 있게 된다. (JDK1.5 이후java.util.concurrent.locks / java.util.concurrent.atomic 패키지 지원 )임계 영역을 지정하는데는 두 가지 방법이 있다.//1. 메서드 전체를 지정public synchronized void aa(){    //..}/* 쓰레드는 synchronized메서드가 호출된 시점부터 해당 메서드가 포함된 객체의 lock을 얻어 작업을 수행하며메서드가 종료되면 lock을 반환한다. *///2. 특정한 영역을 지정synchronized ( 객체의 참조변수) {}/*메서드 내의 코드 일부를 블럭{}으로 감싸고 블럽 앞에 synchronized(참조변수)를 붙이는 것으로 이때의 참조변수는 락을 걸고자하는 객체를 참조하는 것이어야 한다 */이 두 방법 모두 lock의 획득과 반납이 모두 자동적으로 이루어진다. 참고로 synchronized블럭으로 임계 영역을 최소화해서 보다 효율적인 프로그램이 되도록 노력하는 것이 좋다.출금하려는 금액이 잔고보다 작을 경우에만 출금할 수 있는 은행시스템에서 필요한 쓰레드 동기화24 줄의 메서드를 동기화하지 않으면 한 쓰레드가 출금 중, 다른 쓰레드가 balance에 영향을 줘서balance가 음수가 되어버린다.   알게된것위의 예제에서 쓰레드들이 구현될때 account 객체를 따로 생성해 가지고 있을거라 생각하고동기화 없이도 balance가 음수가 되지않을거라고 예상했고 이는 틀렸다.내가 만든 RunnableEx 안의 멤버 또는 메서드들은 모두메인에서 구현된 쓰레드들이 같이 공유한다. 라는걸 기억해두자.참고문서 - 자바의 정석",
+        "url": "/java-thread(5)"
+    }
+    ,
+    
+    "java-thread-4": {
+        "title": "쓰레드-실행제어편 (4)",
+            "author": "nageom",
+            "category": "",
+            "content": "쓰레드의 스케줄링을 위해 기초지식 다지기쓰레드 프로그래밍이 어려운 이유가 동기화(synchronization)과 스케줄링(scheduling) 때문이다. 이를 잘하기 위해서는 쓰레드의 상태와 관련 메서드의 공부가 필요하다. 그래서 공부할 것들을 적어봤다.  쓰레드의 상태NEW - 쓰레드가 생성되고 아직 START()가 호출되진 않은 상태RUNNABLE - 실행 중 OR 실행 가능 상태BLOCKED - 동기화블럭에 의해 일시정지된 상태WAITING - 실행가능하지 않은(unrrunnable) 일시정지 상태TIMED_WAITING - 일시정지시간이 지정된 경우의 상태TERMINATED - 작업이 종료, 소멸쓰레드의 상태는  Thread의 getState()를 호출해서 확인할 수 있다. (JDK1.5 이상 부터)쓰레드의 스케줄링과 관련된 메서드와 쓰레드의 움직임을 나타낸 그림이다. 이걸보면 쓰레드를 머릿속에 그리기 더 쉬울 것이다.1) 쓰레드 생성 후, start()를 호출하면 일단 실행대기열에 저장된다. 실행대기열은 큐와 같은 구조로 가장 앞 쓰레드가 먼저 실행된다. 2) 실행대기상태에서 차례로 실행한다. 3) 주어진 실행시간이 다되거나 yield()룰 만나면 다시 실행대기열에 들어간다 (제일 뒷자리)4) 실행 중에 suspend(), sleep(), wait(), join(), I/O block에 의해 일시정지상태가 될 수 있다.I/O block은 입출력작업에서 발생하는 지연상태를 말한다. 사용자가 입력을 마치면 다시 실행대기 상태가 된다.5) 지정된 일시정지시간이 다되거나(time-out), notify(), resume(), interrupt()가 호출되면일시정지상태를 벗어나 다시 실행대기열에 저장되어 자신의 자례를 기다리게 된다. 6) 실행을 모두 마치거나 stop()이 호출되면 쓰레드는 소멸된다.위에 적은 메서드들의 실습을 모두 적으면 좋겠지만 너무 길고 많아서 간단히 보고 떠올릴 수 있을정도만 적으려한다. (자바 750pg참조)sleep(long millis) - 일정시간동안 쓰레드를 멈추게 한다.   try - catch문으로 예외처리 필수 (일시정지 상태에서 실행대기 상태가 되기 때문)    sleep(long millis) - 일정시간동안 쓰레드를 멈추게 한다. ThreadEx th1 = new ThreadEx(); //쓰레드 생성th1.start();try {  th1.sleep(2000);   //이런 참조변수를 이용해서 호출할 수 있다. }catch(InterruptedException e) {};        th1.sleep(2000); 이 메서드는 특정 쓰레드의 참조변수를 사용해서 그 특정 쓰레드를 멈추는 메서드가 아니다. th1.sleep을 호출했어도 실제로 영향을 받는 것은 main메서드를 실행하는 main쓰레드이다. sleep()메서드는 static으로 선언되어 있어 참조변수를 이용해서 호출하기 보다는“Thread.sleep(2000);”과 같이 해야 한다.  메서드 하나하나 올리기엔 좀 귀..ㅊ…ㅣㅏㄴㅎ아서 틈틈ㅎ ㅣ올리는걸로! (2021-08-04 업데이트) interrupt() - 쓰레드의 작업을 취소시킨다. 멈추는게 아니고 취소시킨다! 너무 오래걸리는 다운로드를 취소시킬때 사용한다.Thread th = new Thread();th.start(0;th.interrupt(); //쓰레드에 interrupt() 호출class MyThread extends Thread() {    public void run() {        while (!interrupted()) {        }    }}))보면 알 수 있듯이 interrupted()는 interrupted상태를 반환한다. void interrupt() - 쓰레드의 interrupted상태를 false -&gt; true로 전환 boolean isInterrupted () -쓰레드의 interrupted상태를 그냥 반환. static boolean interrupted() - 쓰레드의 interrupted상태를 반환하고, false로 변경 더 자세한 예시는 책에서 확인 ( 753pg ) - (2021-08-08 업데이트)suspend() - sleep()처럼 쓰레드를 멈추기함. resume()을 호출해서 다시 실행대기 상태가 되고stop() 호출 시 즉시 종료 일반적인 쓰레드 사용 메서드들이지만 교착상태(deadlock)을 일으키기 쉬워 사용이 권장되지 않는다. (‘deprecated’되어있음)(고로 예시는 안적음)yield() -  다른 쓰레드에게 양보한다. interrupt()를 적절히 사용하여 효율적인 실행을 가능케한다.class yiledTest {    public static void main(String args[])  {        ThreadEx th1 = new ThreadEx(\"*\");        ThreadEx th1 = new ThreadEx(\"**\");        ThreadEx th1 = new ThreadEx(\"***\");        th1.start();        th2.start();        th3.start();                try {            Thread.sleep(2000);            th1.suspend();            Thread.sleep(2000);            th2.suspend();            Thread.sleep(2000);            th1.resume();            Thread.sleep(2000);            th1.stop();            th2.stop();            Thread.sleep(2000);            th3.stop();        }catch (InterruptedExveption e){}    }        }class ThreadEx implements Runnable {    boolean suspended = false;    boolean stopped = false;        Thread th;        ThreadEx (String name) {        th = new Thread(this, name); //쓰레드 생성    }    //뤈뤈     public void run()  {}                }참고문서 - 자바의 정석",
+        "url": "/java-thread(4)"
+    }
+    ,
+    
+    "java-thread-3": {
+        "title": "쓰레드 정리 (3)",
+            "author": "nageom",
+            "category": "",
+            "content": " 첫번째 알아볼 쓰레드 정의는 쓰레드는 우선순위(priority)이다.  쓰레드의 우선순위쓰레드는 우선순위(priority)라는 멤버변수를 가지고 있어 ,이 우선순위의 값에 따라쓰레드가 얻는 실행시간이 달라진다. 어떨 때 쓰느냐하면 카톡을 사용할때 파일 다운로드를 처리하는 쓰레드보다 채팅내용을 전송하는 쓰레드의 우선순위가 더 높아야 사용자가 채팅하는데 불편함이 없을 것이다. 대신 파일다운로드 작업에 걸리는 시간은 더 길어질테지만,이러한 작업의 중요도에 따라 쓰레드의 우선순위를 서로 다르게 지정하여 특정 쓰레드가 더 많은 작업시간을 갖도록 하는 것이 우선순위의 용도이다. 쓰레드의 우선순위 지정하기 void setPriority(int newPriority) //쓰레드의 우선순위를 지정한 값으로 변경한다.int getPriority() //쓰레드의 우선순위를 반환한다.  우선순위의 범위는 1~10이며 숫자가 높을수록 우선순위가 높다.   쓰레드의 우선순위는 쓰레드를 생성한 쓰레드로부터 상속받는다. main메서드를 수행하는 쓰레드는 우선순위가 5이므로 main메서드내에서 생성하는 쓰레드의 우선순위는 자동적으로 5가 된다. 예제결과 main쓰레드의 우선순위 5를 상속받은 th1과 th2 중,th2만 우선순위를 7로 변경한 다음 start()를 호출해서 쓰레드를 실행시켰다. 결과를 보면 우선순위가 높은 th2의 실행시간이 th1에 비해 늘고 더 우선시 되었다는것을 알 수 있다.빨간 t1,t2은 실행이 끝난 시점을 나타냄위의 발로 그린 그림은 싱글 코어로 두 개의 쓰레드로 두개의 작업을 실행했을 때의 결과를 그림으로 나타낸 것인데,우선순위가 같은 경우 각 쓰레드에게 거의 같은 양의 실행시간이 주어지지만, 우선순위가 다르다면 우선순위가 높은 th2에게 상대적으로 th1보다 더 많은 양의 실행시간이 주어지고결과적으로 작업 A가 B보다 더 빨리 완료될 수 있다. 싱글코어에서는 이렇다. 그러나 멀티코어에서는 쓰레드의 우선순위에 따른 차이가전혀 없었다. 완전 한번씩 돌아가며 실행됐다. 결국 멀티코어에서는 쓰레드에 높은 우선순위로 실행시간과 실행기회를 줄 수 없다는 것이다. 멀티코어라 해도 OS마다 다른 방식으로 스케쥴링하기 때문에, 어떤 OS에서 실행하느냐에 따라다른 결과를 얻을 수 있어 굳이 우선순위에 차등을 두어 쓰레드를 실행하려면 특정 OS의 스케쥴링 정책과JVM의 구현을 직접 확인해봐야 한다. 만일 확인한다 하더라도 어느 정도 예측만 가능하지 정확히 알 수는 없어,차라리 쓰레드에 우선순위를 부여하는 대신 작업에 우선순위를 두어 PriorityQueue에 저장해두고,우선순위가 높은 작업에 먼저 처리되도록 하는 것이 나을것이라 한다.두번째는 쓰레드의 또 다른 유형인   데몬 쓰레드(daemon thread)데몬 쓰레드는 다른 일반 쓰레드의 작업을 돕는 보조적인 역할을 수행하는 쓰레드이다 일반 쓰레드가 모두 종료되면 데몬 쓰레드는 강제적으로 자동 종료되는데, 그 이유는 앞서 말했듯이일반 쓰레드의 보조역할을 수행하기 때문이다.데몬 쓰레드의 예로는 가비지 컬렉터, 워드프로세서의 자동저장, 화면자동갱신 등이 있다.데몬 쓰레드는 무한루프와 조건문을 이용해서 실행 후 대기하고 있다가 특정 조건이 만족되면 작업을 수행하고 다시 대기하도록 작성한다.데몬 쓰레드를 만들어볼건데, 일단 일반 쓰레드 생성와 동일하게 생성하고 실행전에 setDaemon(true)를 호출한다.boolean isDaemon() //데몬 쓰레드인지 확인 void setDaemon(boolean on) //쓰레드를 데몬쓰레드로 변경 //on의 값을 true로 지정해야함. 3초마다 변수 autoSave의 값을 확인해서 그 값이 true이면 autoSave()를 호출하는 일을 무한히반복하도록 쓰레드를 작성했다.무한 반복임에도 프로그램은 종료되었다.만일 setDaemon메서드를 호출하지 않은 일반 쓰레드라면 강제종료를 하지 않는 이상 종료되지 않을 것이다.신기신기세번째는   쓰레드 그룹(thread group)쓰레드 그룹은 서로 관련된 쓰레드를 그룹으로 다루기 위한 것으로,폴더를 생성해서 관련된 파일들을 함께 넣어서 관리하는 것처럼 그룹을 생성해서 쓰레드를 구룹으로 묶어서 관리할 수 있다. 또한 폴더 안에 폴더생성이 가능하듯이 쓰레드 그룹에 다른 쓰레드 그룹을 포함 시킬 수 있다.쓰레드 그룹은 보안상의 이유로 도입되어 자신이 속한 쓰레드 그룹이나 하위 쓰레드 그룹은 변경 가능하지만다른 쓰레드 그룹의 쓰레드는 변경 불가능.쓰레드 그룹에서 알아둘 점  모든 쓰레드는 반드시 그룹에 포함되어 있어야한다.  자바 어플리케이션이 실행되면, JVM은 main과 system이라는 쓰레드 그룹을 만들고JVM운영에 필요한 쓰레드들을 생성해서 이 쓰레드 그룹에 포함시킨다.  우리가 생성한 모든 쓰레드 그룹은 MAIN쓰레드 그룹의 하위 쓰레드 그룹이 되며,그룹을 지정하지 않은 쓰레드는 자동으로 main쓰레드 그룹에 속하게 된다.쓰레드를 쓰레드 그룹에 포함시키려면 Thread의 생성자를 이용한다.Thread(ThreadGroup group, Runnable target, String name)기본 쓰레드 그룹 생성, 지정 예시//main 안에서ThreadGroup grp1 = new ThreadGroup(\"Group1\");//쓰레드 그룹 생성Runnable r = new Runnable() {    public void run() {        try {            Thread.sleep(1000);           }catch(InterruptedException e) {}        }    }};//Thread(ThreadGourp tg, Runnable r, String name)new Thread(grp1, r, \"th1\").start(); //쓰레드 그룹 포함 &amp; 실행main.list();// 이 메서드로 main쓰레드 그룹의 정보를 출력한다. 참고문서 - 자바의 정석",
+        "url": "/java-thread(3)"
+    }
+    ,
+    
+    "java-thread-22": {
+        "title": "쓰레드- start()와 run() (2)",
+            "author": "nageom",
+            "category": "",
+            "content": "쓰레드를 구현하고 나면서 드는 생각이 있었다. 쓰레드를 실행시킬 때 run()과 start()를 구분해서 사용할까?자세히 알아보자//구현class MyThread01 extends Thread {\t@Override\tpublic void run() {\t\tSystem.out.print(getName()); \t}}//실행public class Ex01 {\tpublic static void main(String[] args) {\t\tMyThread01 mt01 = new MyThread01();\t\t// run을 호출(XXX) start사용\t\t\tmt01.start();       간단히 말해서run() - main메서드에서 run()만을 호출하는 것은 생성된 쓰레드를 실행시키는 것이 아니라 단순히 클래스에 선언된 메서드를 호출하는 것일 뿐이다.반면에 start() - 새로운 쓰레드가 작업을 실행하는데 필요한 호출스택(call stack)을 생성한 다음에 run()을 호출해서생성된 호출스택에 run()이 첫 번째로 올라가게 한다.        main 또한 쓰레드이다.프로그램의 시작과 함께 생성되는 하나의 쓰레드가 main메서드를 호출하여 작업이 수행되도록 하는데 1) 그렇다면 호출스택에 main이 가장 아래 깔리게 된다. 2) 이후 start()가 호출되어 main 위로 올라가고 새로운 쓰레드를 생성하고, 쓰레드가 작업하는데 사용될 호출스택을 새로 생성한다. 3) 그리하여 그 호출스택에 run()이 호출되어, 쓰레드가 독립된 공간에서 작업을 수행한다. start는 할일을 다해서 종료됨. 4) 이렇게 생긴 main의 호출스택과 새로 생성된 run의 호출스택 두개가 남게된다. 물론,  main쓰레드 호출스택은 run쓰레드의 종료와 상관없이 임무를 마치면 혼자 사라진다.        일부러 새로 생성한 쓰레드에서 예외를 발생시키고 예외가 발생한 당시의 호출스택을 출력하는 예제로쓰레드 간의 영향을 확인해보자.  결과호출스택|throwException|run호출스택의 첫 번째 메서드가 main메서드가 아닌 run메서드인 것을 확인할 수 있다.즉, 한 쓰레드가 예외를 발생해서 종료되어도 다른 쓰레드의 실행에는 영향을 미치지 않는다.start()로 쓰레드를 생성함과 동시에 호출스택을 생성해 내는것을 한번 더 기억하자. 4. 그렇다면 호출스택을 생성하지 않는 run()으로 쓰레드를 바로 실행하면 어떻게 될까? 호출스택|throwException|run|main앞선 그림과 다르게 main쓰레드가 함께 출력됐다. 즉, main쓰레드의 호출스택에서 run()이 실행됐음을 알 수 있다.",
+        "url": "/java-thread(22)"
+    }
+    ,
+    
+    "algorithm-heap-sort": {
+        "title": "&lt;정렬&gt; 힙 정렬(Heap Sort)",
+            "author": "nageom",
+            "category": "",
+            "content": "힙이란??최댓값이나 최솟값을 찾아내는 연산을 빠르게 하기위해 고안된 완전 이진트리를 기본으로 한 자료구조입니다. 최소힙, 최대힙이 있는데 트리 루트가 최솟값인지, 최댓값인지에 따라 구분된다.트리란 ??부모와 자식 노드로 구성된 형태의 그래프이다. 이진트리는 한 부모노드가 자식을 두개만 갖는 경우를 말한다. 완전 이진트리는 모든 부모노드가 자식을 두개씩 다 가지고 있고왼쪽부터 노드가 채워져있어야한다.완전 이진트리가 아닌 경우 [실제 코드를 짤때 알고있어야할 힙 구조의 배열저장 형식  ]힙의 높이 (h) = logN 이다. (간선의 수)루트노드에서 한 칸씩 내려올때마다 N의 크기가 두배씩 늘어나는데 몇 번 늘어나면 N개가 되느냐를 생각해보면 이해하기 쉽다.최대힙 (Max-Heapify)이진트리 하나씩 부모노드와 자식노드들을 비교해서 가장 큰 값이 부모노드의 값이 되도록 하여최상위 루트 노트의 값이 가장 크고 내려갈수록 작아지는 구조의 힙최대힙의 수행시간n을 하위 트리의 노드의 개수라고 할 때,노드의 값을 바꿀 때 수행시간 : O(1)    //단순히 값을 이동시키기 때문에 상수시간이 가능하다. 힙의 높이 O(h) = O(logN) 따라서 전체 수행시간은 O(logN)이다.참고강의 https://www.youtube.com/watch?v=ehNVf2Bcm2Q",
+        "url": "/algorithm-heap-sort"
+    }
+    ,
+    
+    "coding-greedy-4": {
+        "title": "&lt;프로그래머스&gt; 탐욕법 구명보트",
+            "author": "nageom",
+            "category": "",
+            "content": "프로그래머스 &gt; 탐욕법 &gt; 구명보트문제 설명무인도에 갇힌 사람들을 구명보트를 이용하여 구출하려고 합니다. 구명보트는 작아서 한 번에 최대 2명씩 밖에 탈 수 없고, 무게 제한도 있습니다.예를 들어, 사람들의 몸무게가 [70kg, 50kg, 80kg, 50kg]이고 구명보트의 무게 제한이 100kg이라면 2번째 사람과 4번째 사람은 같이 탈 수 있지만 1번째 사람과 3번째 사람의 무게의 합은 150kg이므로 구명보트의 무게 제한을 초과하여 같이 탈 수 없습니다.구명보트를 최대한 적게 사용하여 모든 사람을 구출하려고 합니다.사람들의 몸무게를 담은 배열 people과 구명보트의 무게 제한 limit가 매개변수로 주어질 때, 모든 사람을 구출하기 위해 필요한 구명보트 개수의 최솟값을 return 하도록 solution 함수를 작성해주세요.제한사항무인도에 갇힌 사람은 1명 이상 50,000명 이하입니다.각 사람의 몸무게는 40kg 이상 240kg 이하입니다.구명보트의 무게 제한은 40kg 이상 240kg 이하입니다.구명보트의 무게 제한은 항상 사람들의 몸무게 중 최댓값보다 크게 주어지므로 사람들을 구출할 수 없는 경우는 없습니다.풀이과정해도해도 안풀려서 질문하기를 봤는데, 문제 설명에 ‘구명보트는 작아서 한 번에 최대 2명씩 밖에 탈 수 없고’를 무시한 사람들이 있었다.그리고 그게 나였다. 이 조건을 무시하니 테스트케이스에서 막혔다.이후에 다시 코드를 짜는데 배열을 둘 씩 묶어서 연산을 해볼까 했는데, 그렇게되면 제약이 너무너무 많아서 패스하고정렬된 배열의 가장 작은 값과 큰값으로 연산을 사용하니 쉽게 풀 수 있었다. 어렵지 않아서 코드를 보면 이해가 될거다.package greedy;import java.util.*;public class LifeBoat {\t public static int solution(int[] people, int limit) {\t        int answer = 0;\t        \t        Arrays.sort(people);//50 50 70 80\t       \t        int start = 0;\t        for (int end = people.length-1 ; end&gt;=start; end--) {\t        \tif(people[start]+ people[end] &gt; limit) {\t        \t\tanswer++;\t        \t}\t        \telse {\t        \t\tstart++;\t        \t\tanswer++;\t        \t}\t        \t\t        }\t       \t        \t        return answer;\t    }\t\t\tpublic static void main(String[] args) {\t\tint[] people = {70, 80, 50};\t\tint[] people2 = {70, 50, 80, 50};\t\tint[] people3 = {40,40,80};\t\tint limit = 100;\t\t\tSystem.out.println(solution(people3, limit));\t\t\t}\t\t\t}커버사진 출처 프로그래머스",
+        "url": "/coding-greedy(4)"
+    }
+    ,
+    
+    "coding-greedy-3": {
+        "title": "&lt;프로그래머스&gt; 탐욕법 큰 수 만들기",
+            "author": "nageom",
+            "category": "",
+            "content": "프로그래머스 &gt; 탐욕법 &gt; 큰 수 만들기문제 설명어떤 숫자에서 k개의 수를 제거했을 때 얻을 수 있는 가장 큰 숫자를 구하려 합니다.예를 들어, 숫자 1924에서 수 두 개를 제거하면 [19, 12, 14, 92, 94, 24] 를 만들 수 있습니다. 이 중 가장 큰 숫자는 94 입니다.문자열 형식으로 숫자 number와 제거할 수의 개수 k가 solution 함수의 매개변수로 주어집니다. number에서 k 개의 수를 제거했을 때 만들 수 있는 수 중 가장 큰 숫자를 문자열 형태로 return 하도록 solution 함수를 완성하세요.제한 조건number는 1자리 이상, 1,000,000자리 이하인 숫자입니다.k는 1 이상 number의 자릿수 미만인 자연수입니다.풀이과정모랄까.. 느낌은 알겠는데 도저히 코드가 안나와서 다른 분의 코드를 해석했다. 참고 코드 https://velog.io/@hyeon930/알게된것int num = number.charAt(j) - ‘0’;문자열-‘0’을 하면 문자열를 정수로 바꿔 받을 수 있다.커버사진 출처 프로그래머스",
+        "url": "/coding-greedy(3)"
+    }
+    ,
+    
+    "java-thread-basic": {
+        "title": "프로세스와 쓰레드",
+            "author": "nageom",
+            "category": "",
+            "content": "[프로세스와 쓰레드의 개념]프로세스(process)란 간단히 말해서 ‘실행 중인 프로그램(program)’이다.지금 당장 작업 관리자를 열어 확인 할 수 있는 실행 중인 프로그램을 말한다. (멜론, 이클립스.. )프로그램을 실행하면 OS로부터 실행에 필요한 자원(메모리)을 할당받아 프로세스가 된다. 정확히는 프로세스는 프로그램을 수행하는 데 필요한 데이터와 메모리 등의 자원 그리고 쓰레드로 구성되어 있으며, 이 때 쓰레드는 실제로 작업을 수행하는 친구이다.이제보니 프로세스와 쓰레드의 차이를 알기가 참 쉽다. 프로세스는 프로그램(멜론), 쓰레드는 그 안에서 열심히 실행하는 것아무튼 모든 프로세스에는 최소 하나 이상의 쓰레드가 존재하며, 둘 이상의 쓰레드를 가진 프로세스를 '멀티쓰레드 프로세스' 라고 한다.하나의 프로세스가 가질 수 있는 쓰레드의 개수는 제한되어 있지 않으나 쓰레드가 작업을수행하는데 개별적인 메모리 공간(호출스택)을 필요로 하기 때문에 프로세스의 메모리 한계에 따라 생성할 수 있는 쓰레드의 숫자가 결정된다.멀티태스킹과 멀티쓰레딩은? 대부분의 OS는 멀티태스킹(다중작업)을 지원해서 여러 개의 프로세스가 동시에 실행될 수 있다. 이와 마찬가지로 멀티쓰레딩은 하나의 프로세스 내에서 여러 쓰레드가 동시에 작업을 수행하는 것이다. CPU의 코어가 한 번에 단 하나의 작업만 수행할 수 있어, 실제 동시 처리 가능한 작업의 개수는 코어의 개수와 일치해야한다.하지만 현재 작업관리자를 열어보면 현재 플레이 되고 있는 멜론, 유투브, 이클립스 등 참으로 많다.그 이유는 뭘까? 바로 각 코어가 아주 짧은 시간 동안 여러 작업을 번갈아 가며 수행함으로써 여러 작업들이 모두 동시에 수행되는 것처럼 보이는 것이다.즉, 멀티태스킹은 동시에 여러 개의 프로세스를 동시에 실행시킬 수 있는 시스템(실제 번갈아가며 수행)멀티 쓰레드는 하나의 프로그램을 여러개의 기능(쓰레드)으로 나누어 동시에 실행 멀티 쓰레드를 이해하기 아주 좋은 예가 있다.MP3 음악플레이어MP3 파일은 기본적으로 압축된 음성 데이터 파일이라 압축 해제가 필요한데,MP3 파일의 데이터 압축을 해제하면서동시에 사운드카드를 통해 스피커로 음악을 올려보내주는 일을 하는 것이 멀티 쓰레드의 형태이다. 이해끝!멀티쓰레드의 장담점장점  CPU의 사용률을 향상  자원을 보다 효율적으로 사용  사용자에 대한 응답성이 향상  작업이 분리되어 코드가 간결해짐 싱글쓰레드와 멀티쓰레드카톡에서 채팅과 다운로드가 동시에 이루어 질 수 있는 이유는 바로 멀티쓰레드로 작성되어 있기 때문이다. 만일 싱글쓰레드로 작성되어 있다면 다운로드가 끝나기 전까지 채팅은 할 수 없을것이다.그래서 사용자가 여럿인 서버 프로그램의 경우 멀티쓰레드로 작성하는 것이 필수적이어서 하나의 서버 프로세스가 여러 개의 쓰레드를 생성해서 쓰레드와 사용자의 요청이 일대일로 처리되도록 프로그래밍해야 한다. 만일 싱글쓰레드로 서버 프로그램을 작성한다면 사용자의 요청마다 매번 새로운 프로세스를 생성해야하는데이것은 쓰레드를 생성하는 것보다 더 많은 시간과 메모리 공간을 소비하게된다. 그래서 쓰레드를 가벼운 프로세스, 경량 프로세스라고 부르기도 한다.앞선 글만 읽는다면 무조건 멀티쓰레드만 사용하면 되겠네! 싶을거다. 근데 무엇이든 때와 장소를 봐야한다는 것을 알고있을거다. 작업 수행 시간으로 차이를 더 살펴보자 싱글, 하나의 쓰레드로 두개의 작업을 수행하는 경우 걸리는 시간과 멀티, 두 개의 쓰레드로 두 개의 작업을 수행하는 경우의 시간은 큰 차이가 없지만 엄밀히 따지면 두개의 쓰레드로 작업한 경우가 시간이 더 걸리게 된다.그 이유는 쓰레드간의 작업전환(context switching)에 시간이 걸리기 때문이다. 작업 전환을 할 때는 현재 진행 중인 작업의 상태, 예를 들면 다음에 실행해야할 위치(PC, 프로그램 카운터) 등의 정보를 저장하고 읽어 오는 시간이 소요된다.그래서 싱글 코어에서 단순히 CPU만을 사용하는 계산작업이라면 오히려 멀티쓰레드보다 싱글쓰레드로 프로그래밍하는 것이 더 효율적이다. 또한 멀티쓰레드 프로세스는 여러 쓰레드가 같은 프로세스 내에서 자원을 공유하며 작업하기 때문에 발생할 수 있는 동기화, 교착상태와 같은 문제들을 고려해서 신중히 프로그래밍해야한다.참고문서-자바의 정석",
+        "url": "/java-thread-basic"
+    }
+    ,
+    
+    "java-annotation": {
+        "title": "자바의 애너테이션(annotation)",
+            "author": "nageom",
+            "category": "",
+            "content": "간단히 프로그램의 소스코드 안에 다른 프로그램을 위한 정보를 미리 약속된 형식으로 포함시킨 것이 바로 애너테이션이다. 애너테이션은 주석처럼 프로그래밍 언어에 영향을 미치지 않으면서도 다른 프로그램에게 유용한 정보를 제공할 수 있다는 장점을 갖는다. 예로, 특정 메서드만 테스트하기 원한다면 ‘@Test’ 애너테이션을 메서드에 붙임으로 테스트 프로그램에게테스트 할 것을 알리는 역할을 하며, 메서드가 포함된 프로그램 자체에 아무런 영향을 미치지 않는다.또한 애너테이션은 JDK에서 제공하는 표준 애너테이션, 새로운 애너테이션을 정의할 때 사용하는 메타 애너테이션이 있다. 1. 표준 애너테이션 자바에서 기본적으로 제공하는 애너테이션은 많이 없다. 이 마저도 일단 나는 개발경험이 많지 않아서 @override 외에는 사용한 경험이 없다.그래서 간단한 설명만 덧붙이려한다. @Override컴파일러에게 오버라이딩하는 메서드라는 것을 알린다. @Deprecated앞으로 사용하지 않을 것을 권장하는 대상에 붙인다. JDK 버전 상승에 따른 기존의 기능을 개선시키고 기능이 추가되는데,이 과정에서 기존의 기능을 대체할 것들이 추가되어도, 이미 여러 곳에서 사용되고 있을지 모르는 기존의 것들을 함부로 삭제할 수 없어 나온 애너테이션이다. 예를 들어, java.util.Date클래스의 대부분의 메서드는 @Deprecated가 붙어있는데, 이 메서드 대신에 jdk1.1부터 추가된 Calendar클래스의 get()을 사용하라는 얘기이다. 기존의 것 대신 새로 추가된 개선된 기능을 사용도록 유도한다. @SuppressWarnings컴파일러의 특정 경고메시지가 나타나지 않게 해준다. @SafeVarargs지네릭스 타입의 가변인자에 사용한다.(JDK1.7)@FunctionalInterface함수형 인터페이스라는 것을 알린다.(JDK1.8)@Nativenative메서드에서 참조되는 상수 앞에 붙인다. 2. 메타 애너테이션 메타 애너테이션은 ‘애너테이션을 위한 애너테이션’, 즉 애너테이션에 붙이는애너테이션으로 애너테이션을 저의할 때 애너테이션의 적용대상(target)이나 유지시간(retention)등을 지정하는데 사용한다.메타 애너테이션은 ‘java.lang.annotation’패키지에 포함되어 있음@Target - 애너테이션이 적용가능한 대상을 지정하는데 사용한다.@Retention - 애너테이션이 유지되는 기간을 지정하는데 사용한다.그래서 애너테이션 SuppressWarnings를 정의할때,@Target({TYPE, FIELD, METHOD, PARAMETER, CONSTRUCTOR, LOCAL_VARIABLE})@Retention(RetentionPolicy.SOURCE)public @interface SuppressWarnings {    String[] value();}이렇게 사용. 그 외에@Documented 애너테이션에 대한 정보가 javadoc으로 작성한 문서에 포함되도록 한다.@Inherited애너테이션이 자손 클래스에 상속되도록 한다.@Repeatable@Native..등등..애너테이션은 커스터마이징해서 내가 선언할 수도 있지만 그런경우는 극히 드물다. 그래서 따로 설명안함..Annotation은 애너테이션이 아니라 일반적인 인터페이스로 정의되어 있다.java.lang.annotation.Annotation모든 애너테이션의 조상은 Annotation이다.그러나 애너테이션은 상속이 허용되지 않으므로 명시적으로 Annotation을 조상으로 지정할 수 없다.@interface TestInfo extends Annotation { //에러    int count;    String testedBy();}package java.lang.annotation;public interface Annotation { //Annotation 자신은 인터페이스이다.     boolean equals(Object obj);    int hasCode();    String toString();        Class&lt;? extends Annotation&gt; annotationType(); //애너테이션의 타입을 반환한다.}모든 애너테이션의 조상인 Annotation  인터페이스가 위와 같이 정이되어 있기 때문에, 모든 애너테이션 객체에 대해 equals(), hashCode() , toString()과 같은 메서드를 bundle호출하는 것이 가능하다.Class&lt;AnnotationTest&gt; cls = AnnotationTest.class;Annotation[] annoArr = AnnotationTest.class.getAnnotations();for (Annotation a : annoArr) {    System.out.println(\"toString():\" + a.toString());    System.out.println(\"hashCode():\" + a.hashCode());    System.out.println(\"equals():\"+a.equals(a));    System.out.println(\"annotationType():\"+a.annotationType());}   위의 코드는 AnnotatinTest클래스에 적용된 모든 애너테이션에 대해 toStirng(), hashCode(), equlas()를 호출한다.참고문서-자바의 정석",
+        "url": "/java-annotation"
+    }
+    ,
+    
+    "coding-greedy-1": {
+        "title": "&lt;프로그래머스&gt; 탐욕법 체육복",
+            "author": "nageom",
+            "category": "",
+            "content": "프로그래머스 &gt; 탐욕법 &gt; 체육법문제 설명점심시간에 도둑이 들어, 일부 학생이 체육복을 도난당했습니다. 다행히 여벌 체육복이 있는 학생이 이들에게 체육복을 빌려주려 합니다. 학생들의 번호는 체격 순으로 매겨져 있어, 바로 앞번호의 학생이나 바로 뒷번호의 학생에게만 체육복을 빌려줄 수 있습니다. 예를 들어, 4번 학생은 3번 학생이나 5번 학생에게만 체육복을 빌려줄 수 있습니다. 체육복이 없으면 수업을 들을 수 없기 때문에 체육복을 적절히 빌려 최대한 많은 학생이 체육수업을 들어야 합니다.전체 학생의 수 n, 체육복을 도난당한 학생들의 번호가 담긴 배열 lost, 여벌의 체육복을 가져온 학생들의 번호가 담긴 배열 reserve가 매개변수로 주어질 때, 체육수업을 들을 수 있는 학생의 최댓값을 return 하도록 solution 함수를 작성해주세요.제한사항전체 학생의 수는 2명 이상 30명 이하입니다.체육복을 도난당한 학생의 수는 1명 이상 n명 이하이고 중복되는 번호는 없습니다.여벌의 체육복을 가져온 학생의 수는 1명 이상 n명 이하이고 중복되는 번호는 없습니다.여벌 체육복이 있는 학생만 다른 학생에게 체육복을 빌려줄 수 있습니다.여벌 체육복을 가져온 학생이 체육복을 도난당했을 수 있습니다. 이때 이 학생은 체육복을 하나만 도난당했다고 가정하며, 남은 체육복이 하나이기에 다른 학생에게는 체육복을 빌려줄 수 없습니다.입출력 예 설명예제 #11번 학생이 2번 학생에게 체육복을 빌려주고, 3번 학생이나 5번 학생이 4번 학생에게 체육복을 빌려주면 학생 5명이 체육수업을 들을 수 있습니다.예제 #23번 학생이 2번 학생이나 4번 학생에게 체육복을 빌려주면 학생 4명이 체육수업을 들을 수 있습니다.[풀이과정]n 크기의 boolean[] flag를 만들어  lost는 false 나머지는 true  reserve 데이터의 앞, 뒤를 확인하며 false를 true로 바꿔줌.나는 막히는 테스트케이스가 딱 두가지 있었는데n=5; lost = {3,5}; reserve={2,4};의 경우답 5s또는 n=5; lost={2,3,4}; reserve= {1,2,3}; 답 4이때는 도둑맞은 학생이 여벌을 갖을 경우에는 남을 빌려주지않고 본인이 입는다는 조건을 충족시켜야한다. 이 경우에는 나는 겹치는 수를 reserve에서 0으로 만들고 코드에 0인 경우에 대한 조건문을 추가했다. 배열 안에 특정 원소를 가지고 있는지 확인 할 수 있는 메서드 Arrays.stream(reserve).anyMatch(i-&gt;i==a)를 사용했다.이외의 같은 기능을 하는 메서드는 https://www.delftstack.com/ko/howto/java/java-array-contains-int  이 분이 잘 정리 하셨다. 하지만 다른 분들의 코드에 비해 아주 길었고.. 보기 편한 코드는 아니기 때문에 한번 더 재코딩해서 올릴 예정이다. [코드를 살펴보자]package greedy;import java.util.*;public class Gym {\tpublic static int solution(int n, int[] lost, int[] reserve) {        int answer = -1;                boolean[] flag = new boolean[n+1];         Arrays.fill(flag,true);    // [true, true, true, true, true]                Arrays.sort(lost);        Arrays.sort(reserve);        for (int i=0; i&lt;lost.length; i++) {        \tflag[lost[i]]= false;           }        System.out.println(\"lost는 false----------\");        for (boolean a : flag) {        \tSystem.out.println(\" \"+ a);        }                System.out.println(\"도둑맞았지만 여벌이 남아있는 학생 true-----------\");        for(int a : lost) {        \tif (Arrays.stream(reserve).anyMatch(i-&gt;i==a)) {       \t\t        \t\tflag[a] = true;\t         \t\tfor (int t =0; t&lt;reserve.length; t++) {        \t\t\tif (reserve[t]==a) {        \t\t\t\treserve[t]=0;\t        \t\t\t}        \t\t\t        \t\t}        \t\t        \t}        }        for (boolean a : flag) {        \tSystem.out.println(\" \"+ a);        }              // System.out.println(\"start\");                for (int i=0; i&lt;reserve.length; i++) {        \tint prev = reserve[i]-1;        \tint post= reserve[i]+1;        \t        \t//도둑맞았지만 여벌이 남아있는 학생        \tif (reserve[i] == 0) {        \t\tcontinue;        \t}        \t//reserve[0]이 1일경우 뒤에 갚만 비교        \tif (i==0 &amp;&amp; reserve[0]==1) {        \t\tif (flag[post]==false) {        \t\t\tflag[post]=true;        \t\t}     \t\t        \t\t        \t\tcontinue;        \t}        \t        \t//reserve의 마지막배열이 flag의 마지막일때         \t// 자신의 앞만 비교        \tif(i == reserve.length-1) {        \t\tif (reserve[i] == flag.length-1) {        \t\t\tif(flag[prev] == false) {            \t\t\tflag[prev]=true;        \t\t\t}        \t\t\tbreak;    \t\t        \t\t}        \t\t        \t}   \t        \tif(flag[prev]==false) {        \t\tflag[prev]=true;   \t\t        \t}else if (flag[post]==false) {\t        \t\tflag[post]=true;        \t\t        \t}        }        System.out.println(\"결과 ==============\");        for (boolean a : flag) {        \tSystem.out.println(\" \"+ a);        }            //int count=-1;        for (int i =0; i&lt;flag.length; i++) {        \tif(flag[i]==true) {        \t\tanswer++;        \t}        }        return answer;    }\tpublic static void main(String[] args) {\t\t\t\tint n= 5;\t\tint[] lost= {2,4};\t\tint[] reserve = {1,3,5};\t\t//5나와야함 \t\tint result = solution(n, lost, reserve);\t\t\t\tSystem.out.println(\"Result : \"+ result );\t}}결과[새로운 풀이]다른 분들의 풀이를 살펴보았다. 나는 true와 false만 담을 수 있는 boolean배열을 사용해서 손봐야 하는 부분들이 번거롭게 생겼었고, 이 분은 int[] 배열에 0,-1,1 로 구분해주어서 더 깔끔한 코드를 완성했다.  package greedy;public class Gym2 {\tpublic static int solution(int n, int[] lost, int[] reserve) {\t\tint[] people = new int[n];        int answer = n;        for (int l : lost)             people[l-1]--;        for (int r : reserve)             people[r-1]++;        for (int i = 0; i &lt; people.length; i++) {            if(people[i] == -1) {                if(i-1&gt;=0 &amp;&amp; people[i-1] == 1) {                    people[i]++;                    people[i-1]--;                }else if(i+1&lt; people.length &amp;&amp; people[i+1] == 1) {                    people[i]++;                    people[i+1]--;                }else                     answer--;            }        }        return answer;    }\tpublic static void main(String[] args) {\t\t\t\tint n= 5;\t\tint[] lost= {3,5};\t\tint[] reserve = {2,4};\t\t//5나와야함 \t\tint result = solution(n, lost, reserve);\t\t\t\tSystem.out.println(\"Result : \"+ result );\t}}이해하려 적어본 메모커버사진 출처 프로그래머스",
+        "url": "/coding-greedy(1)"
+    }
+    ,
+    
+    "coding-exhaustive-search-3": {
+        "title": "&lt;프로그래머스&gt; 완전탐색 카펫(3)",
+            "author": "nageom",
+            "category": "",
+            "content": "프로그래머스 &gt; 완전탐색 &gt; 카펫Leo는 카펫을 사러 갔다가 아래 그림과 같이 중앙에는 노란색으로 칠해져 있고 테두리 1줄은 갈색으로 칠해져 있는 격자 모양 카펫을 봤습니다.Leo는 집으로 돌아와서 아까 본 카펫의 노란색과 갈색으로 색칠된 격자의 개수는 기억했지만, 전체 카펫의 크기는 기억하지 못했습니다.Leo가 본 카펫에서 갈색 격자의 수 brown, 노란색 격자의 수 yellow가 매개변수로 주어질 때 카펫의 가로, 세로 크기를 순서대로 배열에 담아 return 하도록 solution 함수를 작성해주세요.제한사항갈색 격자의 수 brown은 8 이상 5,000 이하인 자연수입니다.노란색 격자의 수 yellow는 1 이상 2,000,000 이하인 자연수입니다.카펫의 가로 길이는 세로 길이와 같거나, 세로 길이보다 깁니다.[풀이과정]yellow의 가로세로 모양에 따라 brown 의 개수가 달라진다. yellow의 모양을 가늠할 수는 없지만 결국 네모를 만들것이라는 것은 항상 동일하다. 네모의 가로 세로는 yellow의 약수일 수밖에 없다. 그래서 yellow의 약수를 구하고 그때마다 구해지는 brown 값을 주어진 brown 값과 비교하여 결과를 도출했다.전 테스트에서 알게된 Math.sqrt() 함수가 도움이 됐다.[코드를 살펴보자]import java.util.*;class Solution {    public int[] solution(int brown, int yellow) {        int[] answer = new int[2];                int tmp =0;        boolean flag=false;        for (int i=1; i&lt;=Math.sqrt(yellow);i++ ) {            if (yellow % i == 0) {                tmp = yellow/i;                flag = checkTrue(tmp, i, brown);                if (flag == true){                    answer[0]=tmp+2;                    answer[1]=i+2;                    break;                }            }                         }                    return answer;    }        public boolean checkTrue(int width,int height, int brown) {        int make=( width*2 )+(height*2)+4;        if(make == brown) {            return true;        }        return false;            }    }커버사진 출처 프로그래머스",
+        "url": "/coding-exhaustive-search(3)"
+    }
+    ,
+    
+    "coding-exhaustive-search-2": {
+        "title": "&lt;프로그래머스&gt; 완전탐색  Level 2 소수찾기(2)",
+            "author": "nageom",
+            "category": "",
+            "content": "*프로그래머스 &gt; 완전탐색 &gt; 소수찾기문제 설명한자리 숫자가 적힌 종이 조각이 흩어져있습니다. 흩어진 종이 조각을 붙여 소수를 몇 개 만들 수 있는지 알아내려 합니다.각 종이 조각에 적힌 숫자가 적힌 문자열 numbers가 주어졌을 때, 종이 조각으로 만들 수 있는 소수가 몇 개인지 return 하도록 solution 함수를 완성해주세요.제한사항numbers는 길이 1 이상 7 이하인 문자열입니다.numbers는 0~9까지 숫자만으로 이루어져 있습니다.“013”은 0, 1, 3 숫자가 적힌 종이 조각이 흩어져있다는 의미입니다.입출력 예numbers\treturn“17”            \t3“011”        \t2입출력 예 설명예제 #1[1, 7]으로는 소수 [7, 17, 71]를 만들 수 있습니다.예제 #2[0, 1, 1]으로는 소수 [11, 101]를 만들 수 있습니다.11과 011은 같은 숫자로 취급합니다.[풀이과정]순열 알고리즘과 제곱근을 이용한 소수판별법을 사용해 코드를 작성했다. 정말 내 머리로는 힘들어서  https://hidelookit.tistory.com/67 이 분의 힘을 빌렸다.. 파워풀..[코드를 살펴보자]package exhaustiveSearch;import java.util.*;public class PrimeNum {\tprivate static int cnt = 0;    private static String[] map;    private static String[] result;    private static boolean[] visit;    private static HashSet&lt;Integer&gt; list;\tpublic static int solution(String numbers) {\t\tint answer = 0;        visit = new boolean[numbers.length()];        map = new String[numbers.length()];        map = numbers.split(\"\");        list = new HashSet();        for (int i=1; i&lt;=numbers.length(); i++) {            result = new String[i];            cycle(0, i, numbers.length());        }        return list.size();\t    \t    \t}\t\t\t public static void cycle(int start, int end, int length) {\t        if (start == end) {\t            findPrime();\t        } else {\t            for (int i=0; i&lt;length; i++) {\t                if (!visit[i]) { //true로 바꿔서 배열 2번째, 3번째 값들을 하나씩 배열에 넣어주는 역할\t                    visit[i] = true;\t                    result[start] = map[i]; // result[0]=[1], result[1]=[7] \t                    cycle(start+1, end, length); //findPrime에 도달하기위해 start++\t                    visit[i] = false;\t                }\t            }\t        }\t    }\tpublic static void findPrime() {\t        // 숫자로 변환\t        String str = \"\";\t        for(int i=0; i&lt;result.length; i++)\t            str += result[i];\t        int num = Integer.parseInt(str);\t        // 예외 처리\t        if(num == 1 || num == 0)\t            return;\t        // 소수 인지 검사\t        boolean flag = false;\t        for(int i=2; i&lt;=Math.sqrt(num); i++){  //Math.sqrt()는 num의 제곱근을 구해주는 메서드이다. \t            if(num % i == 0)\t            \t\t                flag = true;\t        }\t        if(!flag)\t            list.add(num);\t    }\t\tpublic static void main(String[] args) {\t\tString numbers = \"17\";\t\tString numbers2 = \"011\";\t\t\t\tint result = solution(numbers);\t\t\t\tSystem.out.println(\"result : \"+ result);\t}}배운것Math.sqrt()는 num의 제곱근을 구해주는 메서드를 처음 알았다. 또 private static boolean[] visit 배열의 활용을 공부하니앞으로의 코딩에도 유용하게 사용될 것 같다.커버사진 출처 프로그래머스",
+        "url": "/coding-exhaustive-search(2)"
+    }
+    ,
+    
+    "coding-sort-3": {
+        "title": "&lt;프로그래머스&gt; 정렬  Level 2 H-Index(3)",
+            "author": "nageom",
+            "category": "",
+            "content": "프로그래머스 &gt; 정렬 &gt; H-Index문제 설명H-Index는 과학자의 생산성과 영향력을 나타내는 지표입니다. 어느 과학자의 H-Index를 나타내는 값인 h를 구하려고 합니다. 위키백과1에 따르면, H-Index는 다음과 같이 구합니다.어떤 과학자가 발표한 논문 n편 중, h번 이상 인용된 논문이 h편 이상이고 나머지 논문이 h번 이하 인용되었다면 h의 최댓값이 이 과학자의 H-Index입니다.어떤 과학자가 발표한 논문의 인용 횟수를 담은 배열 citations가 매개변수로 주어질 때, 이 과학자의 H-Index를 return 하도록 solution 함수를 작성해주세요.제한사항과학자가 발표한 논문의 수는 1편 이상 1,000편 이하입니다.논문별 인용 횟수는 0회 이상 10,000회 이하입니다.입출력 예citations\treturn[3, 0, 6, 1, 5]\t3입출력 예 설명이 과학자가 발표한 논문의 수는 5편이고, 그중 3편의 논문은 3회 이상 인용되었습니다. 그리고 나머지 2편의 논문은 3회 이하 인용되었기 때문에 이 과학자의 H-Index는 3입니다.입출력 예citations      return[3,0,6,1,5] 3입출력 예 설명이 과학자가 발표한 논문의 수는 5편이고, 그중 3편의 논문은 3회 이상 인용되었습니다. 그리고 나머지 2편의 논문은 3회 이하 인용되었기 때문에 이 과학자의 H-Index는 3입니다.이해하고나면 쉽지만 처음 문제를 읽으면 물음표를 찍을 문제였다. 논문 n편 중, h번 이상 인용된 논문이 h편 이상이고 나머지 논문이 h번 이하 인용되었다면 h의 최댓값이 이 과학자의 H-Index이다.일단 나는 h가 citations의 길이를 넘기지 않으면서최댓값으로 측정되어야한다 그리고 값 h 이상의 h 개수이다라는 조건을 갖고 문제를 풀었다.그래서 h를 먼저 citations 길이에 맞추고 하나씩 줄여나가며 값을 비교했고반복을 줄이기위해 Arrays.sort()를 이용해 오름차순된 정렬을 사용했다.아, 그리고 나중에 안 사실인데 문제 조건에는 값 h이상의 h이상의 개수라고 되어있지만밑에 내 코드를 보면 알겠지만if(tmp &gt;= k) 대신 if(tmp == k) 를 처음에 적었을때도 테스트를 모두 통과했던것으로 보아 h이상의 h 개수가 조건인가보다.[코드를 살펴보자]import java.util.*;class Solution {    public int solution(int[] citations) {        int answer = 0;\t\t//k는 0 이상, length이하\t\tint k = citations.length;\t\t\t\tArrays.sort(citations);\t\t//0 1 3 5 6\t\t//87 56\t\tint tmp = 0;\t\tfor (int i=0; i&lt;citations.length; i++) {\t\t\tif (citations[i]&gt;= k )  {\t\t\t\t//k이상이면 그 이후 데이터도 모두 k 이상\t\t\t\ttmp = citations.length-i;\t\t\t\tif(tmp &gt;= k) {//tmp == k 의 조건에도 코드가 성공함\t\t\t\t\tbreak;\t\t\t\t}\t\t\t}\t\t\tk--;\t\t\t\t\t}\t\t\t\tanswer = tmp;\t\treturn answer;\t\t    }}커버사진 출처 프로그래머스",
+        "url": "/coding-sort(3)"
+    }
+    ,
+    
+    "coding-exhaustive-search-1": {
+        "title": "&lt;프로그래머스&gt; 완전탐색  Level 1 모의고사(1)",
+            "author": "nageom",
+            "category": "",
+            "content": "프로그래머스 &gt; 완전탐색 &gt; 모의고사문제 설명수포자는 수학을 포기한 사람의 준말입니다. 수포자 삼인방은 모의고사에 수학 문제를 전부 찍으려 합니다. 수포자는 1번 문제부터 마지막 문제까지 다음과 같이 찍습니다.1번 수포자가 찍는 방식: 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, …2번 수포자가 찍는 방식: 2, 1, 2, 3, 2, 4, 2, 5, 2, 1, 2, 3, 2, 4, 2, 5, …3번 수포자가 찍는 방식: 3, 3, 1, 1, 2, 2, 4, 4, 5, 5, 3, 3, 1, 1, 2, 2, 4, 4, 5, 5, …1번 문제부터 마지막 문제까지의 정답이 순서대로 들은 배열 answers가 주어졌을 때, 가장 많은 문제를 맞힌 사람이 누구인지 배열에 담아 return 하도록 solution 함수를 작성해주세요.제한 조건시험은 최대 10,000 문제로 구성되어있습니다.문제의 정답은 1, 2, 3, 4, 5중 하나입니다.가장 높은 점수를 받은 사람이 여럿일 경우, return하는 값을 오름차순 정렬해주세요.입출력 예입출력 예 설명입출력 예 #1수포자 1은 모든 문제를 맞혔습니다.수포자 2는 모든 문제를 틀렸습니다.수포자 3은 모든 문제를 틀렸습니다.따라서 가장 문제를 많이 맞힌 사람은 수포자 1입니다.입출력 예 #2모든 사람이 2문제씩을 맞췄습니다.[풀이과정]우선 수포자들이 갖는 배열이 제시되는 수학문제답 배열의 크기와 같지 않음으로수학문제답 배열 크기만큼 계속 반복되도록 i % (수포자답 배열 길이) 를 사용했다.1번 수포자 = {1,2,3,4,5} 를 예로 들면 0%5 = 01%5 = 12%5 = 2..5%5 = 06%5 = 1나머지 값은 길이를 5로 갖는 배열의 인덱스 값이 나온다. 다음으로 return 되는 값은 가장 많이 문제를 맞힌 사람이 들어간다. 동점이 있을경우 같이 return 된다.나는 순서를 매겨서 return 해줘야 하는줄 알고 새로 객체를 생성할까 라는 생각까지했다.다른 사람들은 이런 실수 안하겠지![코드를 살펴보자]public int[] solution(int[] answers) {        int[] p1 = {1,2,3,4,5};\t\tint[] p2 = {2,1,2,3,2,4,2,5};\t\tint[] p3 = {3,3,1,1,2,2,4,4,5,5};                Queue&lt;Integer&gt; que = new LinkedList&lt;Integer&gt;();                int res1=0;        int res2=0;        int res3=0;                for(int i=0; i&lt;answers.length; i++) {            if(p1[i%p1.length]==answers[i]) {res1++;}            if(p2[i%p2.length]==answers[i]) {res2++;}            if(p3[i%p3.length]==answers[i]) {res3++;}             }        int max = Math.max(Math.max(res1, res2), res3);        if(max == res1) {que.add(1);}        if(max == res2) {que.add(2);}        if(max == res3) {que.add(3);}                        int[] answer = new int[que.size()];                        for(int i=0; i&lt; answer.length; i++) {            answer[i] = que.poll();        }                    return answer;    }코드 설명Math.max(a,b)는 두개의 인자값을 비교하여 더 큰 값을 return 한다. 반대로 Math.min도 존재한다. answer 배열의 크기를 모르는 상태에서 값을 넣어줘야함으로 queue를 사용했다.커버사진 출처 프로그래머스",
+        "url": "/coding-exhaustive-search(1)"
+    }
+    ,
+    
+    "java-comparator-comparable": {
+        "title": "Comparator와 Comparable",
+            "author": "nageom",
+            "category": "",
+            "content": "  자주 쓰이는 Arrays.sort() 를 이용해 배열을 정렬할 때, 사실 내림&amp;오름차순 말고도 원하는 대로정렬이 가능한데 이를 가능하게 해주는 인터페이스 두가지를 소개하고자한다.  Comparator와 Comparable 자주 쓰이는 Arrays.sort()를 호출만 하면 컴퓨터가 알아서 배열을 정렬하는 것처럼 보이지만, 사실은 Character클래스의 Comparable의 구현에 의해 정렬되었던 것이다. Comparator와 Comparable은 모두 인터페이스로 컬렉션을 정렬하는데 필요한 메서드를 정의하고 있으며Comparable을 구현하고 있는 클래스들은 같은 타입의 인스턴스끼리 서로 비교할 수 있는 클래스들, 주로 Integer 와 같은wrapper클래스와 String, Date, File과 같은 것들이며 기본적으로 오름차순으로 구현되어 있다. 그래서 Comparable을 구현한 클래스는 정렬이 가능하다는 것을 의미한다. Comparator와 Comparable의 실제 소스public interface Comparator{    int compare(Object o1, Object o2) {        boolean equals(Object obj);    }}public interface Comparable {    public int compareTo(Object o);}참고 : Comparable은 java.lang패키지에 있고, Comparator는 java.util패키지에 있다.compare()와 compareTo()는 선언형태와 이름이 약간 다를 뿐 두 객체를 비교한다는 같은 기능을 목적으로한다. compareTo()의 반환값은 int로 비교하는 두 객체가 같으면 0, 비교하는 값보다 작으면 음수, 크면 양수를 반환하도록 구현해야한다. compare()도 이와 동일.Integer클래스의 compareTo메서드public final class Integer extends Number implements Comparable {    public int compareTo(Integer anotherInteger) {        int thisVal = this.value;        int anotherVal = anotherInteger.value;        //비교하는 값이 크면 -1, 같으면 0, 작으면 1을 반환한다.         return (thisVal&lt;anotherVal ? -1  : (thisVal == anotherVal ? 0 : 1 ));    }}그냥 보자면 목적도 같고 생김새도 같은 둘이라서 공통점만 알겠는데? 싶지만 자세히 보면 둘의 차이는 매개변수, 비교 대상에 있다. Comparable은 자기 자식과 매개변수 객체를 비교하는 인터페이스이고, Comparator는 두 매개변수 객체를 비교하는 인터페이스이다. 즉, 본질적으로 비교한다는 것 자체는 같지만, 비교 대상이 다르다는 것이다.또한, 위와 같이 익명 객체(클래스)를 이용해서 comparator의 기능만을 사용할 수 있다.public static void main(String[] args) {    // 문자 길이로 sorting (오름차순)    Arrays.sort(arr, new Comparator&lt;String&gt;() {    @Override        public int compare(String s1, String s2) {            return s1.length() - s2.length();        }    });\t}\t그래서 Arrays의 메서드 sort를 이용한 정렬을 사용시 원하는 정렬이 있다면 익명 클래스를 이용한 Comparator를 구현하는 경우가 많다.static void sort(Object[] a) //는 객체 배열에 저장된 객체가 구현한 Comparable에 의한 정렬static void sort(Object[] a , Comparator c) //지정한 Comparator에 의한 정렬이라 보면 된다. 다만 compare()의 매개변수가 Object 타입이기 때문에 compareTo()를 바로 호출할 수 없으므로 먼저 Comparable로 형변환해야 한다는 것을 명심하자.매개변수를 Integer, String 등으로 받는 경우에 형변환 필요없이 바로 compareTo()를 호출이 가능하다.참고문서 - 자바의 정석",
+        "url": "/java-comparator-comparable"
+    }
+    ,
+    
+    "coding-sort-2": {
+        "title": "&lt;프로그래머스&gt; 정렬  Level 2 가장 큰 수(2)",
+            "author": "nageom",
+            "category": "",
+            "content": "프로그래머스 &gt; 정렬 &gt; K번째 수문제 설명0 또는 양의 정수가 주어졌을 때, 정수를 이어 붙여 만들 수 있는 가장 큰 수를 알아내 주세요.예를 들어, 주어진 정수가 [6, 10, 2]라면 [6102, 6210, 1062, 1026, 2610, 2106]를 만들 수 있고, 이중 가장 큰 수는 6210입니다.0 또는 양의 정수가 담긴 배열 numbers가 매개변수로 주어질 때, 순서를 재배치하여 만들 수 있는 가장 큰 수를 문자열로 바꾸어 return 하도록 solution 함수를 작성해주세요.제한 사항numbers의 길이는 1 이상 100,000 이하입니다.numbers의 원소는 0 이상 1,000 이하입니다.정답이 너무 클 수 있으니 문자열로 바꾸어 return 합니다.입출력 예Comparator를 사용해본 적이 없어서 한참 헤맨 문제였다. 그걸 모르니 자릿수들을 따로 객체에 담아 비교할까, 모든 경우의 수를 구할까 고민했다.https://programmers.co.kr/learn/courses/30/lessons/42746/solution_groups?language=java 다른 분들의 코드를 보며 계속 출현하는compare메서드에 Comparator,Comparable의 공부 필요성을 느끼고일단 Comparator와 Comparable 공부 + 블로그 포스팅을 마치고 돌아왔다.이 후 비교적 쉽게 코드를 새로 짤 수 있었고 기분이 매우 좋다.공부하고 싶으시다면 제 블로그 https://nageom.github.io/java-comparator-comparable 을 참고하세요.[코드를 살펴보자]import java.util.*;class Solution {    public String solution(int[] numbers) {        String answer = \"\";        String[] strArr = new String[numbers.length];        for (int i=0; i&lt; numbers.length; i++) {            strArr[i]= String.valueOf(numbers[i]);                    }                Arrays.sort(strArr, new Comparator&lt;String&gt;() {            @Override            public int compare(String o1, String o2) {                return (o2+o1).compareTo(o1+o2);            }        });                for(String str: strArr) {            answer+= str;        }                if (strArr[0].equals(\"0\")) {answer = \"0\";}                return answer;            }}커버사진 출처 프로그래머스",
+        "url": "/coding-sort(2)"
+    }
+    ,
+    
+    "coding-sort-1": {
+        "title": "&lt;프로그래머스&gt; 정렬  Level 1 K번째 수(1)",
+            "author": "nageom",
+            "category": "",
+            "content": "프로그래머스 &gt; 정렬 &gt; K번째 수문제 설명배열 array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때, k번째에 있는 수를 구하려 합니다.예를 들어 array가 [1, 5, 2, 6, 3, 7, 4], i = 2, j = 5, k = 3이라면array의 2번째부터 5번째까지 자르면 [5, 2, 6, 3]입니다.1에서 나온 배열을 정렬하면 [2, 3, 5, 6]입니다.2에서 나온 배열의 3번째 숫자는 5입니다.배열 array, [i, j, k]를 원소로 가진 2차원 배열 commands가 매개변수로 주어질 때, commands의 모든 원소에 대해 앞서 설명한 연산을 적용했을 때 나온 결과를 배열에 담아 return 하도록 solution 함수를 작성해주세요.제한사항array의 길이는 1 이상 100 이하입니다.array의 각 원소는 1 이상 100 이하입니다.commands의 길이는 1 이상 50 이하입니다.commands의 각 원소는 길이가 3입니다.입출력 예 설명[1, 5, 2, 6, 3, 7, 4]를 2번째부터 5번째까지 자른 후 정렬합니다. [2, 3, 5, 6]의 세 번째 숫자는 5입니다.[1, 5, 2, 6, 3, 7, 4]를 4번째부터 4번째까지 자른 후 정렬합니다. [6]의 첫 번째 숫자는 6입니다.[1, 5, 2, 6, 3, 7, 4]를 1번째부터 7번째까지 자릅니다. [1, 2, 3, 4, 5, 6, 7]의 세 번째 숫자는 3입니다.[지저분하게 완성된 첫 풀이]테스트에 통화는 했지만 풀면서 이게 아님을 느꼈지만 일단 진행했고 더 간략하게 짤 수 있었을텐데 하는 아쉬움이 많이 남았다.이런 코딩을 한 이유1) 주어진 배열 array의 i와 j 범위를 다른 배열안에 넣어 정렬을 해야하는데 일반 배열은 크기를 정해줘야함으로i와 j의 범위가 다 다르기 때문에 크기를 정할 필요없는 ArrayList를 골랐다.   2) 바보같이 answer의 배열 크기를 모를거라 생각하고 k값을 넣어줄 배열 또한 ArrayList를 골랐다.그리하여 첫 제출한 코드package sort;import java.util.*;public class K {\tpublic static int[] solution(int[] array, int[][] commands) {        int[] answer = null;        List&lt;Integer&gt; answerTmp = new ArrayList&lt;Integer&gt;();        List&lt;Integer&gt; arr = null;        int i=0;        for (; i&lt; commands.length; i ++) {        \tarr = new ArrayList&lt;Integer&gt;();        \t            int start =commands[i][0];            int end = commands[i][1];            int k = commands[i][2];                   for (int t=start-1; t&lt;end; t++) {                arr.add(array[t]);                          }               Collections.sort(arr);            //정렬                   answerTmp.add(arr.get(k-1));           }         i =0;        answer = new int[answerTmp.size()];        for (int a : answerTmp) {        \tanswer[i++] = a;        }                return answer;    }\t\tpublic static void main(String[] args) {\t\tint[] array = {1,5,2,6,3,7,4};\t\tint[][] commands= [[2,5,3], [4,4,1], [1, 7, 3]]; // 블로그 업로드 과정에서 에러가 나서 중괄호를 대괄호로 수정한것이니 참고하세요.\t\tint[] answer = solution(array, commands);\t\tfor (int a : answer ) {\t\t\tSystem.out.println(a+ \" \");\t\t}\t}}[이 후 두번째 풀이]1) 주어진 i~k 의 범위가 commands배열의 크기를 넘지 않을 것을 깨닫고 그 범위를 담을 tmp배열의 크기를 정해주고2) Arrays.copyOfRange()를 이용하여 배열안에 i ~ k 범위를 담아주었다.그로인해 쓸데없는 for문 하나를 없앨 수 있었다.물 흐르듯 코드가 간략해졌다. import java.util.*;class Solution {    public int[] solution(int[] array, int[][] commands) {        int[] answer = new int[commands.length];        int[] tmp = new int[commands.length];        int index =0;                for (int i=0; i&lt; commands.length; i ++) {            int start =commands[i][0];            int end = commands[i][1];            int k = commands[i][2];                   tmp = Arrays.copyOfRange(array, start-1, end);                        Arrays.sort(tmp);            answer[i] = tmp[k-1];            //정렬                 }                                return answer;            }}커버사진 출처 프로그래머스",
+        "url": "/coding-sort(1)"
+    }
+    ,
+    
+    "algorithm-merge-sort": {
+        "title": "&lt;정렬&gt; 병합 정렬(Merge Sort)",
+            "author": "nageom",
+            "category": "",
+            "content": "[ 일단 반으로 나누고 나중에 합쳐서 정렬해보자 ]퀵 정렬과 다르게 피벗 값이 없고 무조건 반으로 모두 나누고 합하면서 정렬한다는 방법이다.실제로 각 다른 배열을 갖는것이아니라 논리적으로 그렇다고 생각하고 그림처럼 정렬시킨다.각 하나로 만들고 분할 병합하며 정렬하는 방식이다.더 자세히 코드느낌으로 보자면나누어진 두 배열을 비교하며 작은 값을 k인덱스에 하나씩 집어넣는다. 이 때 실제로 k은 새로운 배열이 아니라 i와 같은 배열이다.[병합 정렬의 시간 복잡도 O(N* log2N) ]배열의 (너비) N *  (높이) log2 N = O(N*log2 N) 시간복잡도가 나온다. 어째서 정렬에 높이 log2 N 밖에 안나오냐라는 질문에는 이미 정렬된 두 배열을 정렬하기 때문이라고 답할 수 있다. 실제로 나누어진 두 배열을 하나로 합하며 정렬해 나갈때 N번의 반복만 수행이 된다. 내가 이해한 루트로 설명해보자면 1번째 줄에서 2번째 줄로 분할병합 할 때, 먼저 {6,5}  {5,8} 1회전-&gt;  i(0)과 j(0)비교 2회전-&gt; i(0)과 j(1)비교3회전-&gt; i(1)과 j(0)비교4회전-&gt; i(1)과 j(1)비교총 4회 -&gt; 배열의 총 크기만큼만 수행된다. 그렇다면 그 옆 배열 {3,5}, {1,9}의 분할병합에서도 4회의 반복이 될것이고즉, 그림에 한 줄 N번의 수행을 한다라는것을 알 수 있다. 시간 복잡도가 퀵 정렬과 같은데 다른 점이라 하면퀵 정렬은 정렬 알고리즘 중 가장 빠른 속도를 자랑하지만 최악의 경우에는 O(N^2)가 될 수 있는 정렬이고,병합 정렬은 최악의 상황에서도 평균 O(N*logN)을 보장할 수 있다는 것이 큰 장점으로 쓰인다. [코드를 살펴보자]#include &lt;stdio.h&gt;int number =8; int sorted[8]; // 정렬 배열은 반드시 전역 변수로 선언 //정렬된 배열을 담을 뱅// 논리적으로 둘로 나누어진 i, j 배열을 정렬하며 합치는 메서드 merge \t\t\t\t\t\t\t\t\t\t//n은 j의 끝 인덱스 void merge(int a[], int m, int middle, int n ) {\t\tint i=m; // 왼쪽배열 시작점 \tint j = middle+1; // 한칸 띄움 \tint k=m; //정렬된 배열 \t//k는 사실상 i와 동일한 위치를 가진다. \t// 그림은 정렬 전 배열과 정렬 후의 배열을 따로 두었지만\t// 실제로는 하나의 배열을 사용중  \t\t//작은 순서대로 배열에 삽입 \twhile (i &lt;=middle &amp;&amp; j &lt;= n ) {\t\tif (a[i] &lt;= a[j]) {\t\t\tsorted[k]= a[i];\t\t\ti++;\t\t}else {\t\t\tsorted[k]= a[j];\t\t\tj++;\t\t}\t\tk++;\t\t}\t\t//남은 데이터도 삽입 \tif (i&gt;middle) {\t\tfor (int t=j; t&lt;=n; t++) {\t\t\tsorted[k]= a[t];\t\t\tk++;\t\t}\t\t\t} else {\t\tfor (int t=i; t&lt;=middle; t++) {\t\t\tsorted[k] = a[t];\t\t\tk++;\t\t\t\t\t}\t}\t// 정렬된 배열을 삽입\tfor(int t=m; t&lt;=n; t++) {\t\ta[t] = sorted[t];\t} \t\t} void mergeSort(int a[], int m, int n) {\t//크기가 1보다 큰 경우\tif(m &lt;n) {\t\tint middle = (m+n) /2;\t\tmergeSort(a,m,middle);\t\tmergeSort(a, middle+1, n );\t\tmerge(a, m, middle, n);\t}}int main(void) {\tint array[number] = {7,6,5,8,3,5,9,2} ;\tmergeSort(array, 0, number-1);\tfor (int i=0; i&lt;number; i++ ) {\t\tprintf(\"%d \", array[i]);\t}}References 강의영상https://www.youtube.com/watch?v=ctkuGoJPmAE&amp;list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&amp;index=8사진첨부https://blog.naver.com/ndb796/221227934987",
+        "url": "/algorithm-merge-sort"
+    }
+    ,
+    
+    "coding-heap-3": {
+        "title": "&lt;프로그래머스&gt; 힙(Heap)  Level 3  디스크 컨트롤러 (3)",
+            "author": "nageom",
+            "category": "",
+            "content": "  프로그래머스 &gt; 힙(Heap) &gt;디스크 컨트롤러 [나의 해결] 문제 해결에 필요한 조건은      작업시간이 짦은 순이 맞지만 무조건은 아닌것.무슨 뜻인가하면, 하나의 작업이 수행중일때 들어온 요청들만 작업시간이 짧은 순으로 정렬해야한다는 뜻이다.         주어진 jobs 배열이 요청순이라는 이야기가 없다. 즉, jobs[i][0]인 요청 데이터 순으로 정렬할 필요가 있다.   커버사진 출처 프로그래머스",
+        "url": "/coding-heap(3)"
+    }
+    ,
+    
+    "coding-heap-2": {
+        "title": "&lt;프로그래머스&gt; 힙(Heap)  Level 3 이중우선순위큐 (2)",
+            "author": "nageom",
+            "category": "",
+            "content": " 프로그래머스 &gt; 힙(Heap) 문제 설명 어렵지 않게 풀 수 있는 문제였다. 다만 priority queue 에게 지정 원소를 지울 수 있는 remove를 알고 있었다면 더 빨리 풀었을 것이다.최댓값, 최솟값을 큐에서 빼내기위해 오름차순, 내림차순의 우선순위 큐를 두 개 생성하고삽입 명령어 시에는 두 큐에 삽입해 주었고최솟값 삭제 명령 시에는 내림차순큐.remove(오름차순큐.poll());최댓값 삭제 명령 시에는 오림차순큐.remove(내림차순큐.poll()); 로 함께 삭제했다.operations.length만큼 for문을 돌렸기때문에for문 마지막에 큐가 비었는지 확인하기 어렵지않았다.import java.util.*;class Solution {    public int[] solution(String[] operations) {            int[] answer = {0,0};\t        PriorityQueue&lt;Integer&gt; ascPq = new PriorityQueue&lt;Integer&gt;(); //오름차순\t        PriorityQueue&lt;Integer&gt; desPq = new PriorityQueue&lt;Integer&gt;(Collections.reverseOrder()); //내림차순 \t        \t        \t        for (int i=0; i&lt; operations.length; i++) {\t        \tString[] order = operations[i].split(\" \");\t        \tint order1 = Integer.parseInt(order[1]);\t        \t\t        \tswitch (order[0]) {\t        \t\tcase \"I\" : \t        \t\t\tascPq.offer(order1);//16\t        \t\t\tdesPq.offer(order1);//16\t        \t\t\tbreak;\t        \t\tcase \"D\": \t        \t\t\tif (ascPq.size()==0) {break;}\t        \t\t\t\t        \t\t\tif (order1 == 1) {//최댓값 삭제\t        \t\t\t\tascPq.remove(desPq.poll());\t        \t\t\t\tbreak;\t        \t\t\t        \t\t\t}else {// -1  최솟값 삭제시 \t        \t\t\t\tdesPq.remove(ascPq.poll());\t        \t\t\t\tbreak;\t        \t\t\t}\t\t        \t}\t        \t\t        \t\t        \tif (i == operations.length-1) {  \t\t\t        \t\tif (!ascPq.isEmpty() ) {\t        \t\t\tanswer[0]= desPq.poll();\t        \t\t\tanswer[1]= ascPq.poll();\t        \t\t}\t        \t}\t        }\t        return answer;    }}커버사진 출처 프로그래머스",
+        "url": "/coding-heap(2)"
+    }
+    ,
+    
+    "coding-heap-1": {
+        "title": "&lt;프로그래머스&gt; 힙(Heap)  Level 2 더 맵게 (1)",
+            "author": "nageom",
+            "category": "",
+            "content": " 프로그래머스 &gt; 힙(Heap) 문제 설명 매운 것을 좋아하는 Leo는 모든 음식의 스코빌 지수를 K 이상으로 만들고 싶습니다. 모든 음식의 스코빌 지수를 K 이상으로 만들기 위해 Leo는 스코빌 지수가 가장 낮은 두 개의 음식을 아래와 같이 특별한 방법으로 섞어 새로운 음식을 만듭니다.섞은 음식의 스코빌 지수 = 가장 맵지 않은 음식의 스코빌 지수 + (두 번째로 맵지 않은 음식의 스코빌 지수 * 2)Leo는 모든 음식의 스코빌 지수가 K 이상이 될 때까지 반복하여 섞습니다.Leo가 가진 음식의 스코빌 지수를 담은 배열 scoville과 원하는 스코빌 지수 K가 주어질 때, 모든 음식의 스코빌 지수를 K 이상으로 만들기 위해 섞어야 하는 최소 횟수를 return 하도록 solution 함수를 작성해주세요.제한 사항scoville의 길이는 2 이상 1,000,000 이하입니다.K는 0 이상 1,000,000,000 이하입니다.scoville의 원소는 각각 0 이상 1,000,000 이하입니다.모든 음식의 스코빌 지수를 K 이상으로 만들 수 없는 경우에는 -1을 return 합니다.입출력 예입출력 예 설명      스코빌 지수가 1인 음식과 2인 음식을 섞으면 음식의 스코빌 지수가 아래와 같이 됩니다.새로운 음식의 스코빌 지수 = 1 + (2 * 2) = 5가진 음식의 스코빌 지수 = [5, 3, 9, 10, 12]        스코빌 지수가 3인 음식과 5인 음식을 섞으면 음식의 스코빌 지수가 아래와 같이 됩니다.새로운 음식의 스코빌 지수 = 3 + (5 * 2) = 13가진 음식의 스코빌 지수 = [13, 9, 10, 12]  모든 음식의 스코빌 지수가 7 이상이 되었고 이때 섞은 횟수는 2회입니다.[LinkedList로 풀어봤습니다...] 코드만 보면 될 것 같은데 효율성이 엉망진창이였다.import java.util.*;class Solution {    public int solution(int[] scoville, int K) {        int answer = 0;\t\tLinkedList&lt;Integer&gt; list = new LinkedList&lt;Integer&gt;();\t    \t    for (int i=0; i&lt; scoville.length; i++) {\t        list.add(scoville[i]);\t\t    }            Collections.sort(list);                int sum = 0;\t        \t    while (list.get(0)&lt;K) {\t        Collections.sort(list);\t        sum = list.get(0) + list.get(1)*2;           \t\t    list.remove(0);\t\t    list.remove(0);\t\t    list.add(sum);\t\t\t        \t\t\t\t    Collections.sort(list);    \t\t    answer++;\t    }      \t    if (answer==0) {\t        answer =-1;\t    }\t    return answer;    }}Collections.sort가 효율성을 많이 떨어트린것같아 좀 더 공부해봤다. Arrays.sort와 Collections.sort의 시간복잡도에 관한 궁금증간단히 요약하자면 Arrays.sort()는 듀얼피봇 퀵정렬로 랜덤 데이터에 대해서 평균적으로 퀵소트 보다 좋은 성능을 낸다. Collections.sort() Tim 정렬이라는 삽입(Insertion) 정렬과 합병(Merge) 정렬을 결합하여 만든 정렬을 사용한다.https://sabarada.tistory.com/138왜 둘의 정렬 알고리즘이 다른지는 블로그를 위의 블로그를 참조하는 것이 더 좋을 것이다.어찌됐든 while 반복시마다 C * O(Nlog(N)) + a 이라는 시간복잡도에 의해 holy..테스트를 실패했고 시간복잡도가 O(NlogN) 인 우선순위 큐를 사용했고 결과는 성공적이였다. 언제나 어디서나 효율성을 생각하자[Priority Queue로 다시 풀었다.]import java.util.*;class Solution {    public int solution(int[] scoville, int K) {            PriorityQueue&lt;Integer&gt; que = new PriorityQueue&lt;&gt;();\t\t    int answer = 0;\t\t\tfor (int i = 0; i &lt; scoville.length; i++) {\t\t\t\tque.offer(scoville[i]);\t\t\t}\t\t\t\t\t\t//int count=0;\t\t\t\t\t\twhile(!que.isEmpty()) {\t\t\t\t\t\t\t\tif(que.peek() &gt; K) {\t\t\t\t\tbreak;\t\t\t\t}\t\t\t\tif(que.size() == 1) {\t\t\t\t\tif(que.peek()&lt;K) {\t\t\t\t\t\tanswer=-1;\t\t\t\t\t\t\t\tbreak;\t\t\t\t\t}\t\t\t\t\t}\t\t\t\t\t\t\t\t//이미 첫번째 수가 K보다 작은 경우이니까\t\t\t\tint tmp = que.poll()+ que.poll()*2;\t\t\t\tque.offer(tmp);\t\t\t\tanswer++;\t\t\t\t\t\t\t\t\t\t\t}\t\t\treturn answer;    }\t         }커버사진 출처 프로그래머스",
+        "url": "/coding-heap(1)"
+    }
+    ,
+    
+    "coding-stack-queue-3": {
+        "title": "&lt;프로그래머스&gt; 스택/큐  Level 2 주식가격 (3)",
+            "author": "nageom",
+            "category": "",
+            "content": " 프로그래머스 &gt; 스택/큐 문제 설명초 단위로 기록된 주식가격이 담긴 배열 prices가 매개변수로 주어질 때, 가격이 떨어지지 않은 기간은 몇 초인지를 return 하도록 solution 함수를 완성하세요.제한사항prices의 각 가격은 1 이상 10,000 이하인 자연수입니다.prices의 길이는 2 이상 100,000 이하입니다.입출력 예prices             \treturn[1, 2, 3, 2, 3]\t[4, 3, 1, 1, 0]입출력 예 설명1초 시점의 ₩1은 끝까지 가격이 떨어지지 않았습니다.2초 시점의 ₩2은 끝까지 가격이 떨어지지 않았습니다.3초 시점의 ₩3은 1초뒤에 가격이 떨어집니다. 따라서 1초간 가격이 떨어지지 않은 것으로 봅니다.4초 시점의 ₩2은 1초간 가격이 떨어지지 않았습니다.5초 시점의 ₩3은 0초간 가격이 떨어지지 않았습니다. 느낀점 쉬운 문제였다. 큐를 사용했고 친구는 사용하지 않고도 풀 수 있다고 했다.[코드를 살펴보자]    import java.util.*;    class Solution {    public int[] solution(int[] prices) {        Queue&lt;Integer&gt; que = new LinkedList&lt;Integer&gt; ();        Queue&lt;Integer&gt; que2 = new LinkedList&lt;Integer&gt; ();                for(int i=0; i&lt; prices.length; i++) {            que.offer(prices[i]);                }        int size = que.size();         for (int i=0; i&lt; size; i++)  {        \tint count = 0;         \t        \tint first = que.poll();        \t        \tfor (int tmp : que) {  \t\t        \t\t//작거나 같으면 떨어지지않음        \t\t// 3 &lt;= 2         \t\tif (first &lt;= tmp) {        \t\t\tcount++;        \t\t\t        \t\t}else {        \t\t\tcount++;        \t\t\tbreak;        \t\t}  \t        \t}        \tque2.offer(count);   \t        }                int[] answer = new int[que2.size()];               for (int i=0; i&lt;answer.length; i++) {        \t        \tanswer[i]= que2.poll();        \t        }                        return answer;    }}커버사진 출처 프로그래머스",
+        "url": "/coding-stack&amp;queue(3)"
+    }
+    ,
+    
+    "coding-stack-queue-2": {
+        "title": "&lt;프로그래머스&gt; 스택/큐 Level 2 프린터 (2)",
+            "author": "nageom",
+            "category": "",
+            "content": " 프로그래머스 &gt; 스택/큐 중요도에 관한 배열이 주어지고 프린트 요청이 들어온 문서들을 이 배열에 맞춰 재배열하고 지정한 문서가 몇번째로 프린트되는지 리턴해줘야하는 QUEUE를 이용한 ‘프린터’문제이다.[무슨 생각으로 두시간을 보냈는가]일단 두시간 넘게 못풀었다. 처음 해결방법으로는 location의 인덱스를 같이 저장할 방법으로큐 안에 map을 넣을 수는 없을까는데 당연히 안됐고두번째로 큐의 정렬에 따라서 배열을 재정렬 시켜주는 방법이였는데 ㅎ 그것도 못했다.도저히 안되서 풀이를 보고나니 허탈해졌다. 맵 대신 객체를 넣으면 되는것을.. 후..문제풀이 경험이 많이 부족하다는 것을 한번 더 깨달았다.거두절미하고 코드를 살펴보자import java.util.*;class Solution {    public int solution(int[] priorities, int location) {            //queue를 사용하는데, que안에 기본자료형이 아닌 객체를 생성해서 담아줌으로써 location위치도 같이 움직이도록한다. \t\tint answer = 0;\t        class Prior {\t            int index;\t            int value; \t            \t            Prior (int i, int v) {\t                index = i;\t                value = v;\t                \t            }\t        }\t        \t        Queue&lt;Prior&gt; que = new LinkedList&lt;Prior&gt; ();      \t        for (int i=0; i&lt; priorities.length; i++) {\t        \tque.offer(new Prior(i, priorities[i]));\t\t        }\t        \t        \t       // int count =0; \t        while (!que.isEmpty()) {\t            boolean check = false;\t            \t            int first = que.peek().value;\t            \t            for (Prior tmp : que) {                \t                if (first &lt; tmp.value ) {\t                    check = true;\t                    break;\t                }\t                \t                \t            }\t            \t            if(check) {\t            \tque.offer(que.poll());\t                              \t            }else {\t                if (que.poll().index == location ) {\t                \t//6 - 4 \t                    answer = priorities.length - que.size();              \t                }\t                \t            }\t        }//while 끝\t\t\treturn answer;\t   \t    }}Referenceshttps://velog.io/@qweadzs/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%94%84%EB%A6%B0%ED%84%B0-java커버사진 출처 프로그래머스",
+        "url": "/coding-stack&amp;queue(2)"
+    }
+    ,
+    
+    "coding-stack-queue-1": {
+        "title": "&lt;프로그래머스&gt; 스택/큐 Level 2 기능개발 (1)",
+            "author": "nageom",
+            "category": "",
+            "content": " 프로그래머스 &gt; 스택/큐 큐를 사용해서 100을 넘은 데이터들은 순서대로 빼내는 문제였다.나는 코드를 굉장히 직관적으로 짰다. que에 progresses를 담고que.peek()를 이용해 값을 하나씩 꺼내어 que.peek() + day x speed 이 100을 넘기는지,넘을때마다 변수 k 에 +1 해주어 반환할 k를 변경시켜주는식 and 중간중간 맞는 조건문을 넣어주었다 [코딩에 잠깐 난관이 있었다면]이 문제는 날짜에 따라 100을 넘은 기능들이 연속으로 있다면 k를 계속 올려주면 그만이지만 연속적일지 아닐지는 100이 넘었다는 조건문 안에서 알 수 없기 때문에 que2.offer(k)를 다른 곳에 넣을 수 밖에 없었다. 반대의 100을 넘지 않는다는 조건에서day를 올려주거나 k=0 으로 맞춰주는데 이 조건에 대해 바로 전에 100을 넘다가 온 경우에만 k값을 저장해주는 설계를 했기 때문에 40에서 41로 온것인지를 어떻게 구분해줄것인가를 한참 생각했다. 쉬웠지만 너무 어렵게 생각한것 같다. boolean check=false를 두고 100이 넘은 경우에는 check=true, 넘기지 못한 경우에는 check=true의 조건문을 주고해당 될때만 k값을 반환할 que2.offer(k)해주고 k=0으로 다시 시작해준다. 코드를 살펴보자 import java.util.LinkedList;import java.util.LinkedList;import java.util.Queue;class Solution {    public static int[] solution(int[] progresses, int[] speeds) {\t\t \t\t  // progresses\t      Queue&lt;Integer&gt; que = new LinkedList&lt;&gt;(); \t      // return 값이 들어갈 que2 \t      Queue&lt;Integer&gt; que2 = new LinkedList&lt;&gt;(); \t      \t      int i = 0;\t      int day = 1; \t      int k = 0; //k는 배포 횟수 \t      for(i = 0; i&lt;progresses.length; i++) {\t         que.offer(progresses[i]);\t      }\t      int count=0;\t      i=0;\t      boolean check = false; // 100이 안됐다. \t       \t      while(i&lt;progresses.length) {\t                                                //            1일 ,  2일     7일\t         int total = que.peek()+(speeds[i]*day); // total = 93+1*1, 93+1*2  93+1*7 // 30 + 30*7 //55 + 5*7\t          \t         if(total&gt;=100) {   //total 93  //94 //95 //100 //240  //\t        \t k++;   //k=1; k=2; // 배포 값 \t        \t i++;   //i=1 i=2;  // 다음 숫자로 넘김 \t        \t que.poll(); //[30,55] //[55]\t        \t check = true; \t        \t \t        \t if ( i == speeds.length ) {\t        \t\t que2.offer(k);\t \t        \t\t count++;\t        \t }\t            \t         }else {    // total=90\t             \t            if(k!=0 &amp;&amp; check == true ) { //배포한 후 더이상 배포할 애가 없을때 \t               que2.offer(k); // [2][0][0] \t               k=0;\t               count++;\t            }\t            check = false;\t            day++;        // j =1 j =2; 7 \t         }\t     \t      }\t  \t      int[] answer = new int[count];\t    \t       \t      int t=0;\t    \t      while(!que2.isEmpty()) {\t    \t  answer[t]= que2.poll();\t    \t  t++;\t       }\t       \t      \t      return answer;\t   }}커버사진 출처 프로그래머스",
+        "url": "/coding-stack&amp;queue(1)"
+    }
+    ,
+    
+    "coding-hash-1": {
+        "title": "&lt;프로그래머스&gt; 해시(Hash)  Level 2 위장문제 (1)",
+            "author": "nageom",
+            "category": "",
+            "content": " 프로그래머스 &gt; 해시 &gt; 위장문제경우의 수를 구하는 문제인데 나는 경우의 수를 구하는게 너무 약해서 도와줘요 구글! 을 했다 옷 경우의 수 구하기..    상의 = 파란티, 빨강티 하의 = 바지, 치마, 레깅스  같은 타입은 겹쳐입지 않으며, 뭐라도 최소 한장 걸치는 것이 목적인 경우들을 구해봤다  파란티 + 바지                  + 치마                  + 레깅스 빨강티 + 바지                  + 치마                  + 레깅스 상의 안입기 + 바지                  + 치마                  + 레깅스 이렇게 총 9개가 나온다. 그럼 (상의 2개 + 안입는 경우) * (하의 3개 + 안입는 경우)  … 의 공식을 뽑아낼 수 있다. 그리하여 {/{“옷 “, “옷 타입”}/} 의 형태인 2차 배열에서 각 옷 타입의 수를 구해 경우의 수를 반환하는 식의 코드를 짰다.import java.util.*;class Solution {    public int solution(String[][] clothes) {        int answer = 1;        HashMap&lt;String, Integer&gt; map= new HashMap&lt;String, Integer&gt;();              //map에 &lt;\"face\", 0&gt; 이렇게 중복값 없이 넣어준다.         for (int i=0; i&lt; clothes.length; i++) {            map.put(clothes[i][1], 0 );               }        // 배열과 직접 비교하며 +1로 옷 타입마다 몇개인지 세어 map에 다시 넣어준다.          for(String key: map.keySet()) {            for (int i=0; i&lt;clothes.length; i++) {                if ( key.equals(clothes[i][1]) ) {                    int tmp = map.get(key);                    tmp +=1;                    map.put(key, tmp);                }                        }        }        //경우의 수 구하기 :  (상의 + 안 입는 경우 ) * (하의 + 안 입는 경우 )        for (int value : map.values()) {            answer *= value+1;                }                       return answer-1;    }}커버사진 출처 프로그래머스",
+        "url": "/coding-hash(1)"
+    }
+    ,
+    
+    "algorithm-quick-sort": {
+        "title": "&lt;정렬&gt; 퀵 정렬 (Quick Sort)",
+            "author": "nageom",
+            "category": "",
+            "content": "퀵 정렬 알고리즘시간 복잡도 O(N^2)를 갖는 알고리즘은 10만 개가 넘어가면 일반적인 상황에서 사용하기가 매우 어렵다. 정말 오래걸린다는 말이다. 그리하여 나온 빠른 정렬 알고리즘이 퀵 정렬 알고리즘이다. ‘분할 정복’ 알고리즘으로 평균 속도가 O(N* log2N) 이다. 이름 그대로 정말 빠른 정렬 log2N이라면 얼마인가보면 2 ^ 10 = 1,000 이고 2 ^ 20 = 1,000,000 인데 log2N -&gt; N이 1,000,000일 때는 ? 20이다. 고로 엄청 빠르다. [특정한 값을 기준으로 큰 숫자와 작은 숫자를 나누자]읽기 전에 머리 터짐을 방지하기 위해 간단히 생각 적어둘 규칙1) 왼쪽끝에서 나보다 큰 값 찾으러 오른쪽으로 이동2) 오른쪽끝에서 나보다 작은 값 찾으러 왼쪽으로 이동3) 엇갈리면 내 위치 바꿈4) 바뀐 자리 중심으로 분할int[] arr = {3 7 8 1 5 9 6 10 2 4};3 7 8 1 5 9 6 10 2 4 (3 밑줄)피봇 값을 기준으로 왼쪽끝에서 오른쪽으로 피봇값보다 큰 값을 찾고,                                   오른끝에서 왼쪽으로 피봇값보다 작은 값을 찾아                                  서로 바꿔준다. 3 2 8 1 5 9 6 10 7 4  (2와 7 위치 바꿈) (3 밑줄)3 2 1 8 5 9 6 10 7 4  (3 밑줄)계속 나아가다가 결국 값들끼리 위치가 엇갈리게 됐을 때즉, 작은값의 인덱스가 큰 값의 인덱스보다 더 작을 때왼쪽에 있는 값 (작은값)과 피봇 값을 바꿔준다. 1 2 3 8 5 9 6 10 7 4 피봇 값의 위치가 바뀐 뒤에는 바뀐 위치를 기준으로 왼쪽의 값들은 피봇값보다 작고오른쪽의 값들은 피봇값보다 크다는 특징을 갖는다. (두 집합으로 분할됨)피봇값의 위치가 바뀐 뒤 바뀐 위치를 기준으로 왼쪽 데이터들, 오른쪽 데이터들 두 집합으로 분할되었다. 두 개의 배열이 되었다고 생각하면 더 편하다나누었으니 이제 피봇값은 두개가 되고, 각각 처음처럼 비교를 시작한다.1 2 3 8 5 9 6 10 7 4 ‘1’ 피봇값을 기준으로 비교를 해봤지만 결국 ‘1’에서 다시 만났다.이런 경우도 엇갈렸다고 인식하고 1과 ‘1’ 자기자신을 바꾼다. 그래서 다시 정렬이 된다.1 2 3 8 5 9 6 10 7 4 위에서도 말했다시피 엇갈리면 어쩐다? 위치 바꾸고 바뀐 위치를 기준으로 왼쪽 데이터들, 오른쪽 데이터들 두 집합으로 분할하여또 비교연산한다.이번엔 2가 피봇값인데 위와같이 그자리를 지키게 된다.1 2 3 8 5 9 6 10 7 4 1 2 3 8 5 4 6 10 7 9 1 2 3 8 5 4 6 7 10 9엇갈림. 피봇보다 작은 값과 피봇값 위치 바꿔줌. 새로 분할1 2 3 7 5 4 6 8 10 9 이렇게 반복 1 2 3 4 5 6 7 8 9 10 완성 [코드를 살펴보자]#include &lt;stdio.h&gt;int number = 10;int data[10] = {1,10,5,8,7,6,4,3,2,9};//start 정렬을 수행하는 부분집합의 첫 원소 //end 정렬을 수행하는 부분집합의 마지막 원 void quickSort(int *data, int start, int end) {\t\tif (start &gt;= end) { // 원소가 1개인 경우\t\treturn ;  \t}\tint key = start; //키는 첫번째 원소\t// 피봇 값과 비교할 바로 오른쪽 값들 \t// 즉, 왼쪽 -&gt; 오른쪽 비교의 출발지점  \tint i =  start + 1;\t\t// 피봇 값과 비교할 오른쪽 끝의 값들 \t//즉, 오른쪽 -&gt; 왼쪽 비교의 출발지점 \tint j = end; \tint temp; // 값 이동을 위한 변수 \t\twhile ( i &lt;= j ) {// 엇갈리지 않을때 까지만  반복 (엇갈리면 i&gt; j) \t\twhile(data[i] &lt;= data[key]) { //피봇값보다 큰 값을 찾으러 간다.  \t\t \ti++;\t\t \t\t\t}\t\t while(data[j] &gt;= data[key] &amp;&amp; j &gt; start)  { //피봇값보다 작은 값이 나올때까지 반복\t\t \t\t\t\t\t\t\t\t\t\t    // &amp;&amp; 값이 넘어가지않게 결어줌  \t\t \tj--;\t\t \t\t\t}\t\tif(i &gt; j) {\t//현재 엇갈린 상태면 키 값과 교체 \t\t\ttemp = data[j];\t\t\tdata[j] = data[key];\t\t\tdata[key]= temp;\t\t\t\t}else {\t\t\ttemp = data[j];\t\t\tdata[j] = data[i];\t\t\tdata[i] = temp;\t\t}\t\t} \t//엇갈려서 피봇값의 위치가 바뀌고 \t//분열이 된 후 \t//start, end를 새로 지정해 퀵정렬해간다.  \tquickSort(data, start , j-1);\tquickSort(data, j+1, end); \t }int main(void) {\tquickSort(data, 0, number-1);\tfor (int i=0; i&lt; number; i++) {\t\tprintf(\"%d \", data[i]);\t\t\t\t\t}\t\t}[퀵 정렬의 시간 복잡도 O(N* log2N) ]삽입,버블,선택 정렬의 시간 복잡도로는1 2 3 4 5 6 7 8 9 10 에 대해N^2 = 10 * 10 = 100퀵 정렬의 시간 복잡도로는 1 2 3 4 5 =&gt; 5 * 5 = 256 7 8 9 10 =&gt; 5 * 5 = 25이것이 ‘분할 정복’ 이 멋진 이유!  [최악의 경우에는 시간 복잡도 O(N^2)이 된다] 1 2 3 4 5 6 7 8 9 101 2 3 4 5 6 7 8 9 101 2 3 4 5 6 7 8 9 10분할정복의 이점을 사용하지 못하고 반복적으로 10 + 9 ..+1 로 시간 복잡도 O(N^2)가 될 수 있다는것을 알아두어야한다.이미 정렬이 되어있는 경우에는 삽입 정렬이 매우 빠르다.그래서 문제의 특성에 따라 정렬을 잘 이용 할 줄 알아야한다~References https://www.youtube.com/watch?v=gBcUO_6JXIA&amp;list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&amp;index=6",
+        "url": "/algorithm-quick-sort"
+    }
+    ,
+    
+    "algorithm-insertion-sort": {
+        "title": "&lt;정렬&gt; 삽입 정렬(Insertion Sort)",
+            "author": "nageom",
+            "category": "",
+            "content": "   삽입 정렬(Insertion Sort) [각 숫자를 적절한 위치에 삽입하는 방법 ]필요할 때만 위치를 바꾸기 떄문에 버블 정렬, 선택정렬보다 더 빠르다. (O(N^2) 중에서)그렇지만 정렬이 되어있지 않은 경우는 다름없는 O(N^2) 이기때문에 항상 비효율적이지 않다고는 말할 수 없다. int arr[10]= {1,10,5,8,7,6,4,3,2,9}처음부터 하나씩 앞의 배열값들과 비교하며 선택값을 본인보다 작은값을 만났을때 작은값 바로 뒤에 삽입해준다.버블 정렬과 뭐가 다른가 할 수 있는데, 삽입 정렬은 앞의 원소들이 이미 정렬이 되어있다 가정하기 때문에 작은값을 만났을때에만 조심스럽게 비교연산을 시작해서 속도가 줄어들 수 밖에 없다. 1 5 10 8 7 6 4 3 2 91 5 8 10 7 6 4 3 2 91 5 7 8 10 6 4 3 2 공부하다 드는 생각그럼 말 그대로 삽입정렬이라 삽입을 하게 되면 그 자리에있던 데이터들이 한 칸씩 자리 이동을 해주어야한다.그럼 삽입이 아니고 변경인가라고 생각했는데  코드를 보니 느낌은 삽입이고 자리의 변경이 맞았다. if (array[i] &gt; array[i+1]) 이 경우에만 자리를 바꿔준다.  무조건 비교하는 정렬법이 아니라 이미 앞 원소들은 정렬이 된 상태이기 때문에 비교할 필요가 없는것이 장점이다.  이러한 특징으로 특정한 상황에서 속도가 굉장히 빠를 수 있다. 코드를 살펴보자# include &lt;stdio.h&gt;int main(void) {\t\t//삽입 정렬을 만들어 보자\tint arr[10]= {1,10,5,8,7,6,4,3,2,9};\tint arrSize = sizeof(arr)/sizeof(int);\tint tmp, j=0;\t\t\tfor (int i=1; i&lt;arrSize; i++) {\t\t\tj = i; \t\twhile (arr[j]&lt;arr[j-1]) {// 앞의 값이 나보다 클때에만 while문 \t\t\ttmp = arr[j];\t\t\tarr[j]= arr[j-1];\t\t\tarr[j-1]= tmp;\t\t\tj--;\t\t\t }\t}\tfor (int i=0; i&lt;arrSize; i++) {\t\tprintf(\"%d \", arr[i]);\t\t}}[버블 정렬의 시간 복잡도 O(N^2) ]정렬이 거의 되어있지 않은 상황에는 10+8+7+…+1 으로 O(N*N) 의 시간복잡도에 충실하게 되지만 '거의 정렬된 상태'라면 정렬이 거의 되어있는 arr={2,3,4,5,6,7,8,9,10,1}‘1’을 빼고는 거의 한번씩의 연산만 지나치게되어 아주 빠른 정렬 속도 즉, 퀵 정렬 보다 더 빠르거나 동등한 속도를 낼 수 있다. References https://www.youtube.com/watch?v=16I9Z7bS1iM&amp;list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&amp;index=5",
+        "url": "/algorithm-insertion-sort"
+    }
+    ,
+    
+    "algorithm-select-sort": {
+        "title": "&lt;정렬&gt; 정렬 알고리즘의 개요와 선택정렬(Select Sort)",
+            "author": "nageom",
+            "category": "",
+            "content": "  알고리즘의 시작, 정렬 왜 알고리즘 공부는 정렬부터할까?정력만큼 알고리즘의 효율성 차이를 극명하게 보여주는 것이 없기 때문이다.비효율 정렬 -&gt; 효율 정렬 순으로 공부! [가장 작은 거을 선택해서 제일 앞으로 보내면 어떨까?](구현하긴 쉽지만 효율적이진 않다)1 10 5 8 7 6 4 3 2 91 2 5 8 7 6 4 3 10 9 구현해보자 //선택정렬  int main(void) {\tint i, j, min, index, temp;\tint array[10]= {1,10,5,8,7,6,4,3,2,9};\tint arraySize = sizeof(array)/sizeof(int);\t\tfor (i=0; i&lt;10; i++) {\t\tmin = 9999; //모든 원소들보다 큰 숫자\t\tfor (j=i; j&lt; arraySize; j++) {\t\t\tif (min &gt; array[j] ) {\t\t\t\tmin = array[j];\t\t\t\tindex = j;\t\t\t}\t\t\t\t\t} \t\ttemp = array[i];\t\tarray[i] = array[index];\t\tarray[index] = temp;\t\t\t\t\t}\tfor (i=0; i&lt;10; i++) {\t\tprintf(\"%d \", array[i]);\t}\treturn 0;}[선택 정렬의 시간 복잡도 O(N^2) ]int arr[] = {1 10 5 8 7 6 4 3 2 9} 를 정렬하기위해 비교하는 횟수10 + 9 + 8 + 7 + .. + 1=&gt; 등차수열 공식으로 봤을 때10* (10+1)/2 = 55 번의 비교연산을 하게 된다.=&gt; N * (N+1)/2일반적으로 컴퓨터에서는 N이 굉장히 큰 수라는 가정하에2로 나눈값이 별다른 큰 의미가 없다고 보고 간단하게 나누고 더하는 연산을 무시한다=&gt; NN 으로 표기=&gt; O(NN)  이 때 사용하는 것이 ‘빅오 표기법(big-O notation)’ 특정한 알고리즘의 수행시간을 가장 간략하게 표기하는것 그리하여 선택 정렬의 시간 복잡도가 O(N^2)라 말한다.x값 처리할 데이터가 많을수록 연산 횟수가 엄청나게 증가한다. x제곱 그래프 References https://www.youtube.com/watch?v=8ZiSzteFRYc&amp;list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&amp;index=2 강의 최고시다..사진https://ko.depositphotos.com/10608715/stock-illustration-drawing-of-graph-on-squared.html",
+        "url": "/algorithm-select-sort"
+    }
+    ,
+    
+    "algorithm-bubble-sort": {
+        "title": "&lt;정렬&gt;버블정렬(Bubble Sort)",
+            "author": "nageom",
+            "category": "",
+            "content": "버블정렬 [옆에 있는 값과 비교해서 더 작은 값을 앞으로 보내는 방법]직관적이고 쉽게 구현할 수 있지만 정렬 알고리즘 중에서 가장 비효율적인 알고리즘이다!1 10 5 8 7 6 4 3 2 9    &lt;- 두개를 한 묶음으로 비교1 10 5 8 7 6 4 3 2 9 1 10 5 8  7 6 4 3 2 9 (1회전)1 5 8 7 6 4 3 2 9 10 &lt;- 가장 큰 값이 맨 뒤로 간다                              그래서 1회전 반복때마다 반복 횟수를 줄여준다.(2회전)1 5 7 6 4 3 2 8 9 10  결과1 2 3 4 5 6 7 8 9 10 구현해보자 #include &lt;stdio.h&gt;int main(void) {    int i, j, tmp;    int arrSize = 10;    int arr[arrSize] = {1,10,5,8,7,6,4,3,2,9};    for (i=0; i&lt;arrSize; i++) {        for (j=0; j&lt;arrSize-i; j++) {            if (arr[j]&gt; arr[j+1]) {                tmp = arr[j];                arr[j] = arr[j+1];                arr[j+1]= tmp;            }        }    }    for (i =0; i&lt;arrSize; i++) {        printf(\"%d \", arr[i]);    }    return 0;}[버블 정렬의 시간 복잡도 O(N^2) ]1 10 5 8 7 6 4 3 2 9=&gt; 10 + 9 + … + 1=&gt; 10 + 9 + … + 1=&gt; 등차수열=&gt; N* (N+1)/2=&gt; O(N^2)선택정렬과 동일한 시간 복잡도이지만 왜 가장 비효율적인 정렬이라 하지?선택정렬은 가장 작은 데이터를 골라 마지막에 자리 이동을 한다. 즉, 1회전에 자리이동 1회 버블정렬은 매번 교체를 해줘야하기 때문에 더 오랜 시간이 걸린다.  즉, 1회전에 자리이동 여러번  그래서 정렬중 가장 비효율적 정렬이라 함! References https://www.youtube.com/watch?v=EZN0Irp2aPs&amp;list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&amp;index=3",
+        "url": "/algorithm-bubble-sort"
+    }
+    ,
+    
+    "algorithm-start": {
+        "title": "알고리즘의 시작",
+            "author": "nageom",
+            "category": "",
+            "content": "  본격적으로 알고리즘 공부를 시작해보려한다. 좋은 강의영상을 찾아서 기분이 조크등요!항상 공부하기 전 왜 이걸 공부해야하는가에 대한 답변알고리즘은 ‘개발’의 전체 과정에 사용이 되기때문.실제 프로그램을 개발할 때 효율적인 알고리즘을 적용함으로써 원하는 결과를 도출해내기 위함. 이라고 하는데 예시를 보면 더 이해가 쉬울 것이다.ex1) 스케줄 관리 프로그램 : 예전에 구현해보려 애썼던 달력에서 특정한 달에 해당하는 일 수 구하기ex2) 내비게이션 프로그램 : 여러 개의 중간 지점을 거쳐서 특정 지저으로 갈 때 가장 빠른 경로찾기-&gt; 다익스트라 알고리즘, 플로이드 와샬 알고리즘ex3) 게시판 프로그램 : 한 페이지당 게시글을 10개씩 출력해야 하는데 어떻게 출력할까-&gt; 페이징 처리 왜 공부해야할까?프로그래머의 숙명.. 사실 자바를 이용해 웹을 만들다보면 그렇게 복잡한 알고리즘을 사용할 일이 없는데 취업시에 개발자의 역량을 확인할 수 있는 수단으로 사용되기도하고( 복잡한 알고리즘이 가능하면 어떤 일도 수월히 풀 수 있을것이라는 판단하에 )알고리즘 구현이 가능하다면 어떤 개발에서도 라이브러리를 쓸게 아니라 만들어서 마음대로 커스터마이징이 가능하다는점이큰 이유인것같다.개발환경? C언어로 공부할거다 신난다 오랜만에 C언어C언어 개발환경은 코드 블럭쓰 또는 비주얼스튜디오를 사용하는데알고리즘 공부만 할 경우에는 비주얼스튜디오 보다 더 가벼운 코드 블럭쓰를 사용하는것이 좋다.https://sourceforge.net/projects/orwelldevcpp/References 우연히 알고리즘 강의를 찾아 알게 되었는데 가려웠던곳 다 긁어주시는 선생님.. 재밌게 공부할 수 있을것같다.https://www.youtube.com/watch?v=qQ5iLNjpxSk&amp;list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz",
+        "url": "/algorithm-start"
+    }
+    ,
+    
+    "java-version": {
+        "title": "자바 1.8버전 차이를 알아보자",
+            "author": "nageom",
+            "category": "",
+            "content": "  요즘은 자바의 정석이라는 책으로 공부중인데 읽다보면 중간중간 JDK 버전 상승에 따라 바뀐 기능에 대해서도조금씩 나온다. 사실 면접질문에서도 나왔는데 대답을 하지 못한게 한이 맺혀서.. 책에 나올때마다 포스팅 하려합니다.1) 멀티 catch블럭JDK1.7부터 여러 catch블럭을 ‘|’ 기호를 이용해서, 하나의 catch블럭로 합칠 수 있게 되었고, 이를 ‘멀티 catch블럭’이라한다. //본래 사용법try {    ...}catch (ExceptionA e) {    e.printStackTrace();}catch (ExceptionB e2){    e2.printStackTrace();}//변경후 멀티 catch블럭try {    ...}catch (ExceptionA | ExceptionB e) {    e.printStackTrace();}중복된 코드를 줄일 수 있는 큰 장점이 있는데멀티 catch블럭을 사용할 때 지켜줘야하는 것이 있다.바로 ‘|’ 기호로 연결된 예외 클래스가 조상과 자손의 관계에 있다면 컴파일 에러가 발생한다는것, 왜냐하면, 두 예외 클래스가 조상과 자손의 관계에 있다면, 그것은 조상 클래스만 써주는 것과 똑같기 때문이다. 불필요한 코드는 제거하라는 의미에서 에러가 발생한다. try {    ...}catch (ParentException | ChildException e){    e.printStackTrace();//에러가 난다. }그리고 멀티 catch는 하나의 catch블럭으로 여러 예외를 처리하는 것이기 때문에,멀티 catch 블럭 내에서는 실제로 어떤 예외가 발생한 것인지 알 수 없다. 그래서 연결된 예외 클래스들의 공통 분모인 조상 예외 클래스에 선언된 멤버만을 사용할 수 있다. 필요하다면 이러한 코드로 어떤 에러가 발생한 것인지 확인 할 수 있다. try {...}catch (ExceptionA | ExceptionB e) {    e.methodA(); //에러 -&gt; Exception A에서 선언된 methodA() 는 호출불가         if (e instanceof ExceptionA) {        ExceptionA e1 = (ExceptionA) e;        e1.methodA(); // 호출 가능    } else {    ..    }    e.printStackTrace();}2. 상수와 리터럴 (constant &amp; literal)본래 상수     final int MAX_SPEED = 10;    은 반드시 선언과 동시에 초기화해야 하며, 그 후 부터는 상수의 값을 변경하는 것이 허용되지 않는다.    final int MAX_SPEED ; //에러   final int MAX_VALUE = 100; // OK   현재는 JDK1.6부터 상수를 선언과 동시에 초기화 하지 않아도 되며, 사용하기 전에만 초기화하면 되도록 바뀌었다. 하지만 상수는 성언과 동시에 초기화하는 습관을 들이는 것이 좋다고 한다. _2021-06-21",
+        "url": "/java-version"
+    }
+    ,
+    
+    "java-thread-1": {
+        "title": "쓰레드 구현 (1)",
+            "author": "nageom",
+            "category": "",
+            "content": "아래의 코드를 보면,Runnable인터페이스는 오로지 run()만 정의되어 있는 간단한 인터페이스이다.Runnable인터페이스를 구현하기 위해서 할 일은 추상메서드인 run() 의 몸통{}을만들어 주는 것뿐이다.package thread;//Thread /* *  * 자바에서 Thread를 만드는 방법 2가지 * 1. Thread를 상속 받아 정의 *  * 2. Runnable 인터페이스 구현하여 Thread를 생성하는 방법 * * Runnable 은 쓰레드의 인터페이스화 된 형태 * 자바에서 다중상속이 불가능 함으로 다른 클래스를 상속 받은 클래스의 경우 * implements 로 Runnable을 상속받아 쓰레드를 구현 할 수 있습니다.  *  *  * *///1번 방법class MyThread01 extends Thread {\t\t@Override\tpublic void run() {//새로운 스레드의 main함수와 같은 역할을 하는 메서드\t\tfor (char i ='A'; i&lt;='N'; i++) {\t\t\tSystem.out.print(i);\t\t}\t\t\t\t\t}\t}//2번 방법 //내가 이미 하나의 다른 클래스를 상속받고있다면 쓰레드를 동시에 상속받을 수 없으니// 인터페이스 Runnable를 상속받아 쓰레드구현 하는 방법이 있다.  class A{}class MyThread02 extends A implements Runnable {\t@Override\tpublic void run() {\t\tfor (char i ='O'; i&lt;='Z'; i++) {\t\t\tSystem.out.print(i);\t\t\t\t\t}\t\t\t} }이 둘은 인스턴스 생성 방법의 차이를 아래 코드로 확인해보자.Runnable 인터페이스를 구현한 경우, Runnable인터페이스를 구현한 클래스의 인스턴스를생성한 다음, 이 인스턴스를 Thread클래스의 생성자의 매개변수로 제공해야 한다.public class Ex01 {\tpublic static void main(String[] args) {\t\tMyThread01 mt01 = new MyThread01();\t\t\t\t// run을 호출(XXX) start사용\t\t\t\t//1번 방법. Thread 상속받아 사용\t\tmt01.start(); //위의 override한 run이 자동 실행 \t\t// A~N 출력\t\t\t\t\t\t//2번 방법. Runnable 인터페이스를 사용해서 스레드 생성        MyThread02 r = new MyThread02();\t\tThread th = new Thread(r);\t\tth.start();\t\t// N ~ Z 출력\t\t\t\tfor (int i=1; i&lt;=100; i++) {\t\t\tSystem.out.printf(\"%3d\", i);\t\t\tif (i!=0 &amp;&amp; i%10 ==0) {\t\t\t\tSystem.out.println();\t\t\t\t\t\t\t}\t\t\t\t\t}\t\t\t}}결과A~~Z 1~ 100 까지 순서대로 출력되지 않고 번갈아가며 쓰레드가 실행되는것을 볼 수 있다.조금 더 Runnable에 대해 알아보자.아래의 코드는 실제 Thread클래스의 소스코드(Thread.java)를 수정해 놓은 것인데public class Thread {    private Runnable r;        public Thread(Runnable r) {        this.r=r;    }    public void run() {        if (r!=null) {            r.run(); //Runnable인터페잇를 구현한 인스턴스의 run()을 호출        }    }}run()을 호출하면 참조변수 r을 통해서 RUnnable인터페이스를 구현한 인스턴스의 run()이 호출된다. 이렇게 함으로써 상속을 통해 run()을 오버라이딩하지 않고도외부로부터 run()을 제공받을 수 있게 된다.또한, Thread클래스를 상속받으면, 자손 클래스에서 조상인 Thread클래스의 메서드를 직접 호출할 수 있지만, Runnable을 구현하면 Thread클래스의 static메서드인 current Thread()를 호출하여 쓰레드에 대한 참조를 얻어 와야만 호출이 가능하다.  static Thread currentThread() /현재 실행중인 쓰레드의 참조를 반환한다.String getName() //쓰레드의 이름을 반환한다.class MyThread01 extends Thread {\t@Override\tpublic void run() {//새로운 스레드의 main함수와 같은 역할을 하는 메서드\t\tfor (int i=0; i&lt;5; i++) {\t\t\tSystem.out.print(getName()); //조상 Thread의 getName()호출\t\t}\t}}class MyThread02 implements Runnable {\t@Override\tpublic void run() {\t\tfor (int i=0; i&lt;5; i++) {\t\t    // Thread.currentThread() - 현재 실행중인 Thread를 반환한다. \t\t\tSystem.out.print(Thread.currentThread().getName());\t\t\t\t\t}\t\t\t} }[쓰레드 실행 - start()]쓰레드의 실행은 앞서 코드에서 봤듯이 start()를 호출하면 쓰레드가 실행된다. 알아둘 팁은,한 번 실행이 종료된 스레드는 다시 실행할 수 없다.즉, 하나의 쓰레드에 대해 start()가 한 번만 호출될 수 있다는 뜻이다.MyThread01 t1 = new MyThread01();t1.start();t1.start(); //예외발생 다시 사용할 시에는t1.start();t1 = new MyThread01(); //다시 생성t1.start();",
+        "url": "/java-thread(1)"
+    }
+    ,
+    
+    "java-abstract-class": {
+        "title": "추상과 인터페이스",
+            "author": "nageom",
+            "category": "",
+            "content": "면접질문 공부하는데 추상클래스와 인터페이스 차이가 헷갈려서 해보는 포스팅이다 그래서 이번에 구입한 자바의정석으로 공부하고 포스팅 도전  추상클래스 추상클래스는 미완성 설계도라고 보면됩니다. 좀 더 자세히 보자면 클래스의 미완성이 멤버의 개수에 관계된 것이 아니라, 단지 미완성 메서드(추상메서드)를 포함하고 있다는 의미입니다.특징이라하면 아무래도 미완성 설계도로는 완성된 제품을 만들 수 없듯이 추상클래스로 인스턴스를 생성할 수는 없습니다.저는 추상클래스를 볼때 추상클래스는 “도형” -&gt; 딱 정해진 형태가 없는 추상적인 형체 상속받은 클래스는 “원형”, “사각형”, “삼각형” -&gt; 구현된 형체 를 예로 듭니다. 이 셋 모두 도형이라는 큰 틀에 들어맞죠.즉, 추상클래스는 상속을 통해 오직 자손클래스에 의해서만 완성될 수 있습니다. 두번째로는 추상클래스를 상속받은 클래스가 미완성 메서드를 반드시 재정의 해줘야합니다. 추상메서드(abstract method)메서드는 선언부와 구현부(몸통)으로 구성되어 있는데추상메서드는 선언부만 작성하고 구현부는 작성하지 않은 채로 남겨둡니다사용이유?여러 객체를 부모클래스로 하나의 list에 모으기 편리함 때문 재정의를 강조하기 위해추상클래스는 키워드 ‘abstract’를 붙이기만 하면 됩니다. abstract class 추상클래스 이름 {    abstract void play(int pos);    abstract void stop();}//상속 받을때는 확장이라는 뜻의 extends 사용class 자식클래스 extends 추상클래스 {    void play(int pos) {/*생략*/}    void stop() {/*생략*/}} 인터페이스 일종의 추상클래스인터페이스는 추상클래스처럼 추상메서드를 갖지만 추상클래스보다 추상화 정도가 높아서 추상클래스와 달리 몸통을 갖춘 일반 메서드 또는 멤버변수를 구성원으로 가질 수 없다.class에서 상속시에 interface를 사용한다.인터페이스 특징 특징 1. 제약사항   모든 멤버변수는 public static final 이어야하고, 생략가능  모든 메서드는 public abstract 이어야 하며, 생략 가능단, static 메서드와 디폴트 메서드는 예외(jdk1.8부터)interface Car {    public static final int wheel=4;    final int handle=1;    static int door=4;    int window = 6;        public abstract void drive();    void stop();// public abstract void stop();}특징2. 인터페이스는 인터페이스로부터만 상속 받을 수 있으며, 클래스와는 달리 다중상속, 즉 여러 개의 인터페이스로부터 상속을 받는 것이 가능하다. interface A { void move(int x, int u);}interface B { void stop(int d);}interface D extends A, B {}public class One implements D{    @Override    public void move(int x, int u) {    // TODO Auto-generated method stub}    @Override    public void stop(int d) {        // TODO Auto-generated method stub    }}인터페이스 D에 정의된 멤버가 하나도 없지만 조상 인터페이스로부터 상속받은 두개의 추상메서드 move(int x, int y)와 attack(D d)을 멤버로 갖게 된다.특징.3 추상클래스처럼 그 자체로는 인스턴스를 생성할 수 없으며,추상클래스는 확장한다는 의미의 키워드 ‘extends’를 사용하지만 -&gt; 일반 클래스와 추상 클래스 상속엔 ‘extends’-&gt; interface가 interface 상속에도 ‘extends’인터페이스는 구현한다는 의미의 키워드 ‘implements’를 사용한다.-&gt; 일반 클래스가 interface 상속때에 ‘implements’  추상 클래스와 인터페이스 차이점추상 클래스는  -관련성이 높은 클래스들 간에 코드를 공유하고 싶은 경우 공통점을 모아 만든 클래스. -추상 클래스를 상속 받을 클래스들이 공통으로 갖는 메소드와 필드가 많은 경우인터페이스   서로 관련성이 없는 클래스들의 인터페이스를 구현하게 되는 경우   특정 기능을 넣고 싶은데 어디서 어떻게 행동이 구현되는지는 신경쓰지 않는 경우   다중상속을 허용하고 싶은 경우 ",
+        "url": "/java-abstract-class"
+    }
+    ,
+    
+    "some-image": {
+        "title": "마크업 [이미지 삽입]",
+            "author": "nageom",
+            "category": "",
+            "content": "이미지 삽입![ex_screenshot](../../assets/built/images/java/interview/1.jpg) {: width=\"200\" height=\"200}![title](../../assets/built/images/java/interview/1.jpg) &lt;img src=\"../../assets/built/images/java/interview/1.jpg\" width=\"300\" height=\"300\"&gt;",
+        "url": "/some-image"
+    }
+    ,
+    
+    "java-interview": {
+        "title": "기술면접 예상 질문",
+            "author": "nageom",
+            "category": "",
+            "content": "면접질문을 공부하면서 정리해둔 메모&lt;자바 JVM, 컴파일러, JDK와 JRE&gt;JDK - (Java Development Kit) 자바 애플리케이션을 구축하기 위한 핵심 플랫폼 구성요소          - 개발자들이 JVM과 JRE에 의해 실행되고 구동될 수 있는 자바 프로그램을           생성할 수 있게 해준다.JRE - 자바코드가 실행 될 수 있는 환경 , JVM을 생성하는 디스크 상의 부분  JVM - 자바와 OS사이에서 중개자 역할을 수행하며 자바가 OS에 구애받지 않고              재사용을 가능하게 해준다.         - JRE 내에 존재한다. JAVAC (자바 컴파일러)        JDK가 컴파일하는 기능을 가지고 있는데 그게 javac이다.     자바 컴파일러는 컴퓨터가 이해하는 기계어로 변환 해주는 컴파일을 하는 녀석인데,      정확히는 OS와 자바의 중개자인 JVM이 이해할 수 있는 형태로 컴파일된다.(바이트코드)          JRE는 단지 자바 프로그램을 구동하기 위한 독립형 구성요소로 실행만 하는경우 설치               JDK는 자바 기반 소프트웨어를 개발하기 위한 도구들로 이루어진 패키지로 개발시에 설치         JVM는 자바와 OS사이의 중개자    JAVAC는 자바 컴파일러    &lt;equals와 '=='의 차이&gt;   equals는 대상의 hashcode를 비교하고   '==' 연산자는 대상의 주소값을 비교합니다.     equals는   object클래스의 hashCode()메서드를 통해 각 객체에 대응하는 고유한 정수값인 hashCode를 통해 각 객체를 비교한다.   예외로 string은 재정의하여 문자열로 hashCode를 생성해낸다. 동기와 비동기       동기식 처리 모델 (Synchronous processing model) 은 직렬적으로 태스크(task)를 수행한다.     즉, 태스크는 순차적으로 실행되며 어떤 작업이 수행 중이면 다음 작업은 대기하게 된다.         비동기식 처리 모델(Asynchronous processing model 또는 Non-Blocking processing model)은 병렬적으로 태스크를 수행한다.       즉, 태스크가 종료되지 않은 상태라 하더라도 대기하지 않고 다음 태스크를 실행한다.        자바에서는 대표적으로 멀티스레드의 동작이 비동기식으로 작동한다.               오버라이딩, 오버로딩 오버로딩의 정의는 자바의 한 클래스 내에 이미 사용하려는 이름과 같은 이름을 가진 메소드가 있더라도 매개변수의 개수 또는 타입이 다르면, 같은 이름을 사용해서 메소드를 정의할 수 있다.     오버라이딩은 부모자식에게 상속받은 메서드를 재정의함을 뜻한다. 사용이유 오버로딩 : 같은 이름의 메서드 사용으로 개발의 편의성, 함수의 다형성을 지원하기 위함.     오버라이딩 : 상속 클래스의 재정의를 위함.    추상화란?:　여러 객체에 공통적으로 사용되는, 사용되어야 하는 내용을 뽑아 모아두는 것을 말합니다. 예를 들어 떡라면, 만두라면 등 모든 라면레시피의 공통된 조리과정을 각각 넣는 것은 비효율적임으로공통되는 조리과정을 골라 부모클래스로 만드는 작업이 추상화입니다.   추가.자바 메모리 구조static , stack, heap 영역으로 구분되고 데이터타입(자료형)에 따라서 해당 공간에 할당된다.      스태틱(static)영역 : 프로그램의 시작부터 종료가 될 때까지 메모리에 남는다.정적변수 (LIFO) 스택 (stack) 영역 : 메서드 내에서 정의하는 기본 자료형에 해됭되는 지역변수의 데이터값이 저장되는 공간     - 메서드가 호출 될 때 메모리에 할당되고 종료되면 메모리가 해제된다.        힙 영역 ( heap 메모리 영역)      - 참조형의 데이터 타입을 갖는 객체(인스턴스), 배열 등이 heap 영역에 데이터가 저장된다.            실제 데이터를 갖고 있는 heap 영역의 참조 값(주소값)을 stack 영역의 객첵 가지고 있다.       싱글톤과 스태틱  **싱글톤** 애플리케이션이 시작될 때, 어떤 클래스가 최초 한 번만 메모리를 할당(static)하고        해당 메모리에 인스턴스를 만들어 사용하고 공유하는 제한하는 패턴        즉, 싱글톤 패턴은 '하나'의 인스턴스만 생성하여 사용하고 공유하는 디자인 패턴이다.       **스태틱 변수**        모든 인스턴스에 공통적으로 사용되는 클래스 변수(정적 변수)      스태틱 변수를 사용하는 메서드는 public static로 정적 메서드를 명시하고 사용해줘야함  클래스 이름으로 참조하여 사용하는 static 변수를 위한 클래스 메서드(정적 메서드)       인스턴스를 생성하지 않고도 사용 가능하다. 클래스가 메모리에 로드될 때 생성된다. 모든 인스턴스가 공유한다.      static - 객체의 생성 시점을 제어할 수 없다.   ![ex_screenshot](../../assets/built/images/java/interview/code.png)![title](../../assets/built/images/java/interview/code.png)GC(Garbage Collection)프로그래머는 힙을 사용할 수 있는 만큼 자유롭게 사용하고,      더 이상 사용되지 않는 오브젝트들은 가비지 컬렉션을 담당하는 프로세스가 자동으로 메모리에서 제거하도록 하는 것이 가비지 컬렉션의 기본 개념이다.StringBuffer와 String Builder의 차이일단 대충 문자열에 데이터를 변경 할 때 사용한다는 것은 안다. 왜 쉬운 string + 놔두고 사용하는가 하면 먼저, String 클래스의 인스턴스는 한 번 생성되면 변경이 불가능하다. (불변 클래스)String에서 값을 붙이려면 string .concat(\"data\") 혹은 + \"data\"를 사용하는데,이때, 실제 값이 붙어 heap에 저장되는 것이 아니라 기존 값을 버리고 새로 값을 할당한다. 그래서 어느정도 횟수가 넘어가면 느려진다. 하지만, StringBuffer 클래스의 인스턴스는 그 값이 변경,추가 가능하다. (가변 클래스)StringBuffer 클래스는 내부적으로 버퍼(buffer)라고 하는 독립적인 공간을 가진다.기본적으로 StringBuffer과 StringBuilder는 거의 비슷하다.그렇다면 차이점은 무엇일까? 한가지! 바로 동기화 여부다  - StringBuffer는 각 메서드별로 Synchronized Keyword가 존재하여, 멀티스레드 환경에서도 동기화를 지원한다.- 반면, StringBuilder는 동기화를 보장하지 않음.  그렇기때문에 멀티스레드 환경이라면 값 동기화 보장을 위해 StringBuffer를 사용하고,  단일스레드 환경이라면 StringBuilder를 사용하는 것이 좋다.   단일 스레드환경에서 StringBuffer를 사용한다고 문제가 되는 것은 아니지만,    아무래도 동기화 관련 처리로 인해 StringBuilder에 비해 성능이 좋지 않다.    객체지향프로그래밍    애플리케이션을 구성하는 요소들을 객체로 바라보고,          객체들을 유기적으로 연결하여 프로그래밍 하는 것    쿠키와 세션 쿠키와 세션의 배경     HTTP(Hypertext Transfer Protocol)는 인터넷상에서 서버/클라이언트가 데이터를 주고 받기 위한 통신규약을 말합니다.   이 HTTP 프로토콜에는 비연결성(Connectionless)과 비상태성(Stateless)이라는 특징이 있습니다.          이는 서버의 자원을 절약하기 위해 모든 사용자의 요청마다 연결과 해제의 과정을 거치기 때문에 연결 상태가 유지되지 않고,          연결 해제 후에 상태 정보가 저장되지 않는다는 것입니다.          이를 보완하기 위해 나온 것이 쿠키와 세션 인데     쿠키는 웹 사이트에 접속할 때 생성되는 정보를 담은 임시 파일       쿠키는 서버가 사용자의 웹 브라우저에 저장하는 데이터를 말합니다.                 쿠키의 데이터 형태는 Key 와 Value로 구성되고 String 형태로 이루어져 있고          브라우저에 저장되어 서버에 요청을 보낼때마다 쿠키가 함께 전송되어 서버가 사용자를 식별할 수 있게 합니다.  세션은 서버쪽에서 브라우저를 식별 할 수 있도록 하는 기본 객체이며 서버에서 저장하는 데이터입니다. 브라우저의 첫 요청에서 세션아이디를 만들고 (SessionId = 1) 쿠키에 세션아이디를 담아서 응답해줍니다.이 후, 브라우저에 쿠키가 저장되고다시 서버에 요청 할 때마다 이 쿠키 정보를 같이 전달하게 되어 있어서서버는 요청안의 쿠키 정보 중 SessionId를 보고 브라우저를 식별할 수 있게 된다.서버로 첫 요청이 들어왔을 때 세션 객체를 하나 만들고 그 안에 sessionId라는 이름의 브라우저 마다 다른 값을 담습니다. 예로(sessionId=1)     요청에 응답을 할 때 쿠키에 sessionId 값을 담아 보내줍니다.     이로인해 요청마다 같이 오는 쿠키값을 확인 함으로써 브라우저를 식별할 수 있게 되는것이죠.           세션객체는 서버에 그대로 있는 상태이구요 그래서 민감한 데이터는 세션에 저장해야합니다.             세션은 서버에서 가지고 있고     쿠키는 브라우저가 가지고 있어서        쿠키에는 민감하지 않은 데이터를 저장 (장바구니 목록, 아이디 저장 체크 등)     민감한 데이터는 세션에 저장 (사용자 정보 )      OSI 7계층 정리 https://velog.io/@dyllis/OSI-7%EA%B3%84%EC%B8%B5-%EC%A0%95%EB%A6%AC참고   https://jwkim96.tistory.com/90        https://m.blog.naver.com/heartflow89/220954420688      https://12bme.tistory.com/42      https://www.donga.com/news/Economy/article/all/20170508/84256817/1 (사진)https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.htmlhttps://itmining.tistory.com/20 [IT 마이닝]https://engkimbs.tistory.com/746https://jins-dev.tistory.com/entry/Spring-PSAPortable-Service-Abstraction의-개념 [Jins' Dev Inside]https://goddaehee.tistory.com/156https://hyoje420.tistory.com/14https://jwkim96.tistory.com/90https://devuna.tistory.com/23To be continue... .  ",
+        "url": "/java-interview"
+    }
+    ,
+    
+    "algorithm-basic": {
+        "title": "hashTable과 hashMap의 차이는?",
+            "author": "nageom",
+            "category": "",
+            "content": "해시테이블과 해시맵의 차이를 알아보기 전, 어떤 것 인지부터 알아보도록 하겠습니다.  해시테이블(Hash Table)  키(key)와 값 (value)이 하나의 쌍으로 이루어진 데이터 구조입니다.  해시테이블은 내부적으로 배열(버킷)을 사용하여 키를 인덱스값으로 놓고 배열(버킷)에 값을 저장하는 형태입니다.  key와 value가 put()메서드로 저장될때,   key값에 해시함수를 적용해 배열의 index를 생성해냅니다. and 그 index스에 해당 value가 저장되는것이죠. 이 때, 실제 값이 저장되는 배열을 버킷 or 슬롯이라 합니다.  해시함수는?고유한 인덱스 값을 생성하는 메서드입니다.대표적인 해시 함수-&gt; 1. Division Method: 주소=입력값 % 테이블 크기 테이블의 크기를 소수로 정해 2의 제곱수와 먼 값을 사용하는 것이 좋다.-&gt; 2. Digit Folding : 각 Key 의 문자열을 아스키 코드로 바꾸고, 값을 합한 데이터를 데이터 내의 주소로 사용하는 방법-&gt; 3. Multiplication Method: 숫자로 된 Key값 -&gt; k , 0과 1사이의 실수 -&gt; A, 2의 제곱수 -&gt; 을 이용하여 h(k) = (kAmod1) x m 계산을 해준다. -&gt; 4. Univeral Hashing : 다수의 해시함수를 만들어 집합 H에 넣어두고, 무작위로 해시함수를 선택해 해시값을 만드는 기법  해시값이 충돌하는 경우“nageom” 을 해시 함수를 돌아나온 해시값이 “dawon”의 해시함수를 돌려 나온 값과 동일하는 경우를충돌한다 말한다.  이러한 충돌을 해결하는 방법은 크게 두 가지가 있다.&lt;분리 연결법(Separate Chaining)&gt;분리 연결법 (Separate Chaining) 위의 그림처럼 해시값이 충돌할 경우 추가 메모리를 사용하여 다음 데이터의 주소를 저장하는 것이다. 위의 그림처럼References   https://hee96-story.tistory.com/48    https://mangkyu.tistory.com/102",
+        "url": "/algorithm-basic"
+    }
+    ,
+    
+    "algorithm-hashtable": {
+        "title": "알고리즘과 자료구조는?",
+            "author": "nageom",
+            "category": "",
+            "content": "오늘의 주제는 알고리즘과 자료구조의 차이입니다. 카테고리를 정하려다보니까 궁금해지더라고요. 한번 볼까요? 자료구조와 알고리즘의 차이를 설명할때 가장 많이 나오는 예시가 도서관이더라구요.  자료구조는 ‘책장에 꽂혀있는 책들의 정리방법’ -&gt; ex) 알파벳순, 연도순 등 알고리즘은 ‘책장에서 책을 찾는 절차’ -&gt; ex) 위에서 아래, 왼쪽에서 오른쪽 또는 무작위 등  자료구조 + 알고리즘 = 프로그램자료구조는 데이터에 편하게 접근,변경하기 위한 데이터의 저장&amp;조직하는 방법을 말하는 것 입니다. 그래서 모든 목적에 맞는 자료구조는 없다 -&gt; 각 자료구조가 갖는 장점과 단점을 잘 아는 것이 중요하죠.자료구조의 간단 설명!  1.배열 (Array) 2.큐 (Queue) 참고 그림처럼 마치 다 쓴 두루마리 휴지심처럼 입구와 출구가 두 개 있는 구조. 입구의 주소를 rear로 명시, 출구의 주소를 제일 처음들어온 친구의 주고 front로 명시해두어서 데이터를 넣을때는 rear뒤로, 삭제 시에는 front에 있는 데이터를 삭제하고 front는 다음 주소로 이동합니다. –&gt; 기억을 더듬으며 적은거라 수정 요망!! :)FIFO(First In First Out)3.스택 (Stack)입/출구가 하나뿐이라 마지막에 넣은 반찬이 제일 위에 있어서 먼저 꺼내먹을 수 밖에 없는 구조.  LIFO(Last In First Out)4.연결 리스트(Linked List)한 클래스가 데이터와 링크를 멤버로 갖고있는것입니다 그래서 클1, 클2, 클3 이렇게 차례로 연결 되어있다면 클1(“데이터1”, head의 주소), 클2(“데이터2”, 클1의 주소), 클3(“데이터3”, 클2의주소)… 이렇게 자기 앞에 주소를 갖고 찾아가는식으로 연결연결 되어있는 자료구조입니다.  단일 연결 리스트, 단일 원형 연결 리스트, 이중 연결 리스트, 이중 원형 연결 리스트가 있습니다.5.트리 (Tree)6.그래프 (graph)관계를 그래프로 추상화하여 다룰 수 있다. Vertex 집합 V와 Edge집합 E에 대해 그래프 G=(V,E)여기까지 자료구조와 알고리즘의 간단! 설명 이였습니다.  다음 게시물은 알고리즘을 하나씩 다뤄 볼 것입니다. 오늘도 열공!references   https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html",
+        "url": "/algorithm-hashTable"
+    }
+    ,
+    
+    "spring-basic-copy": {
+        "title": "Spring - basic",
+            "author": "nageom",
+            "category": "",
+            "content": "vscode commit test",
+        "url": "/Spring-basic-copy"
+    }
+    ,
+    
+    "spring-git": {
+        "title": "깃 협업을 해보자",
+            "author": "nageom",
+            "category": "",
+            "content": "이제 깃허브에 소스파일을 올린적은 있지만 협업에 사용해본적은 없다. 취업기념 깃 공부 뿌웽웽(레파지토리 주인)우선적으로  알아야할 개념.깃 허브 레파지토리는 공유할 프로젝트를 올려두는 공간(프로젝트 하나당 레파지토리 하나)깃은 내 소스코드를 이 레파지토리에 올려주는 바쁜 친구그래서 소스코드 올린다고 할 때, 깃허브에 가입하고 레파지토리를 만들어주고, 깃도 설치해준다.과정을 보기전에 전체적인 흐름을 보고 시작하자.내 PC의 workspace 내의 프로젝트가 바로 레파지토리에 연결되는 것이 아니라깃 저장소라는 공간을 만들고 이 깃 저장소가 레파지토리와 연결되는 것이다.그래서,1) 깃 저장소를 만들고(git init)2) workspace -&gt; 깃 저장소 이렇게 올라간다. (commit)   이때 중간에 장바구니에 add로 중간중간 공유 파일을 담아주고 깃 저장소에 올림3) 깃 저장소 -&gt; 레파지토리 (push)시작은 달콤하게 깃허브 페이지에서   레파지토리 생성  Settings / Mange access / Invite a collaborator 에서 조원 초대  깃설치 git-scm.com  Git bash 오픈 / cd 프로젝트 폴더Git bash  사용자 등록git config –global user.name “nageom”git config –global user.email “nageom1123@naver.com” //깃허브 아이디내 컴퓨터에 깃 저장소 만들기Git Bash (위치 : 프로젝트 폴더 내)  git init 명령어그러면 폴더 내에 .git이 생성됨을 확인할 수 있다. (깃 저장소)공유할 파일 외의 파일 제외 (.gitignore 파일 생성)      git status 명령어(git로 공유한 파일과 공유할 장바구니 내부를 볼 수 있다. )        code .  명령어 (visual code가 열림)    vs에서 .gitignore 파일 생성 (깃에게 제외할 파일을 알려줌)  .gitignore 파일에 제외할 파일 이름 적음bin.classpath.project.settings이런식  git status로 파일 이름 하나 적을때마다 공유하는 파일 이름 확인 (빨간글씨)파일 -&gt;  장바구니 (git add)  git add .gitignore  git add .  (전부 공유한다. )장바구니 -&gt; 깃 저장소 (git commit -m)  git commit -m “first commit”깃 저장소 + 레파지토리 연동(git remote add)       git remote add origin https://githumb.com/내아이디/레파지토리이름.git (레파지토리 주소)(이때, origin은 변수명이다. 뒤의 주소를 origin 으로 기억해라 라는뜻)    확인git remote -v이때, (fetch), (push) 두개 뜸  그럼 연결은 끝깃 저장소 -&gt; 레파지토리      git push origin masterorigin변수 주소 안에 넣어라        로그인 했는데도 안될때git config –system –unset-all credential.helper(로그인 정보 없애기)  ===============================================연결 끝한 이후  git add .  git commit -m “commit”  git push origin master   이제 다른 사람 레파지토리에서 내려받아 사용하는 경우레파지토리 소스코드 내려받기1) 내 workspace에 폴더 하나 생성 (프로젝트가 될 폴더)2) 내 pc에 저장소 만듦(git init)( 공유는 저장소만 가능하다. 받을 소스코드는 우선 깃 저장소에 들어가게 해야한다.)  git init3) 내 저장소와 공유할 레파지토리 연결 (git remote)  git remote add origin https://github.com/조장아이디/레파지토리이름.git가져오기(git pull)   git pull origin master————–위의 두 과정 또는 cmd에서 git clone https://github.com/조장아이디/레파지토리이름.git  프로젝트가될폴더이름ex )  git clone https://github.com/nageom/salemarket.git salemarketGitBash 위치는 salemarket 위이클립스 업뎃File/importGeneral / Projects from Folder or Archive  next  import 할 경로를 바꿔줌라이브러리 Build Path는 내가 해줘야함. / 라이브러리들 우클릭 Build Path=====================================================연결 이 후,변경사항을 받아올때도  git pull origin master내 변경사항 올릴때도git push origin master(안될때는 pull 먼저 해줌(최신 버전으로 업뎃 하고 내꺼 올리는식)  )=======================================================  회사에서 회사 master말고 내 브랜치를 만들어 push 할 경우git checkout -b freshman내 브랜치 만듦 (GitBash 위치: 프로젝트 내에서 명령)(freshman은 브랜치 이름)  이제 push 될 브랜치가 master에서 freshman으로 바뀜git push origin freshman  올림이제 내 코드 봐달라고 request  회사 레파지토리에 접속해보면 내가 push한 내역을 Compare &amp; pull request 하게 되어있음  클릭  멘트 블라블라  -&gt; Create pull requestPull requests가 생김  이건 회사에서 확인하고 Merge ㅎㅎ ",
+        "url": "/spring-git"
+    }
+    ,
+    
+    "spring-basic": {
+        "title": "Spring - basic",
+            "author": "nageom",
+            "category": "",
+            "content": "Spring",
+        "url": "/Spring-basic"
+    }
+    ,
+    
+    "oracle-datatype-2": {
+        "title": "Oracle-DataType_2",
+            "author": "nageom",
+            "category": "",
+            "content": " 연관 게시물      Oracle RDBMS란? SQL은?     Oracle 데이터타입? 3) 데이터타입   데이터 타입 : 컬럼이 저장되는 데이터 유형이다. 이는 문자 데이터, 숫자 데이터 , 날짜 데이터, LOB 데이터 타입이 있다.",
+        "url": "/oracle-DataType_2"
+    }
+    ,
+    
+    "oracle-basic-1": {
+        "title": "Oracle-basic_1",
+            "author": "nageom",
+            "category": "",
+            "content": " 연관 게시물      Oracle RDBMS란? SQL은?     Oracle 데이터타입? 1) RDBMS : 관계형 데이터베이스 관리 시스템  데이터베이스의 종류: 네트워크형, 계층형, 관계형, NoSQL DB 그 중, 시각적으로 쉽게 데이터를 확인 할 수 있는 장점으로 가장 많이 사용되는 형태의 데이터베이스를RDB_관계형 데이터베이스라고 합니다.행과열 조합으로 테이블 형태를 띄고있으며 각 테이블과 테이블의 관계를 제약조건에 따라 구분할 수 있으며 대표적으로 Oracle, MySQL, MriaDB, MS-SQL 등이 있습니다.2)  SQL    (Oracle)  관계형 데이터베이서 관리 시스템 (RDBMS)의 데이터를 관리하기 위해 설계된 특수 목적의 프로그래밍 언어즉! 쉽게! 데이터를 관리하기위해 사용하는 언어입니다.백번 설명보다 해보는게 최고입니다. 바로 사용법 보도록하죠개념적으로  DDL_Data Definition Language (데이터 정의어)테이블 자체를 생성,변경,삭제 등  DML_Data Manipulation Language (데이터 조작어)테이블안의 내용을 조회,삽입,삭제 등   DCL_Data Control Language (데이터 제어어)DB에 접근하고 객체를 사용함에 대한 권한에 대한 명령어  TCL_Transaction Control Language (트랜잭션 제어어)논리적인 작업의 단위를 묶어서 DML 에 의한 조작된 결과를 작업단위(트랜잭션)별로 제어하는 명령어  :&gt; 그냥 아차! 싶은 작업을 되돌릴수도 있고, 아차! 하기전에 저장하기도 할 수 있는 명령어    ",
+        "url": "/oracle-basic_1"
+    }
+    ,
+    
+    "java-equals": {
+        "title": "Java_equals와 '=='연산자 그리고 hashCode()",
+            "author": "nageom",
+            "category": "",
+            "content": "안녕하세요 오늘은 비교비교 equals 와 ‘==’ 에 대해 알아보려합니다.  우선  equals는 메서드 ==연산자는 비교를 위한 연산자입니다.== 연산자는 대상의 주소값을 비교하고equals는 오버라이딩을 통해 원하는 값을 비교할 수 있도록 한다. 우선 equals(Object obj) 매개변수로 객체의 참조변수를 받아서 비교하여 그 결과를 boolean값으로 알려 주는 역할을 한다. Object 클래스에 정의되어 있는 equals메서드의 실제 내용public boolean equals(Object obj) {     return (this==obj);}이 코드에서 알 수 있듯이 두 객체의 같고 다름을 참조변수(주소값)의 값으로 판단한다. 그렇기 때문에 서로 다른 두 객체를 equals 메서드로 비교하면 항상 false를 결과로 얻게 된다.public static void main(String[] args) { Obj obj1 = new obj(10); Obj obj2 = new obj(10);  System.out.println(obj1.equals(obj2));// false class Obj {  int value;    Obj(int value) {    this.value=value;  }}**그렇다면 equals 메서드로 Obj 인스턴스가 가지고 있는 value값을 비교 하도록 할 수는 없을까?이럴땐 Obj 클래스에서 equals메서드를 오버라이딩하여 주소가 아니라 객체에 저장된 내용을 비교하도록 변경하면 된다.class Person {  int value;    public boolean equals(Object obj) {     if(obj instanceof Person) {         return id==((Person).obj).id; //obj가 Object타입이므로 id 값을 참조하기 위해서는 Person타입으로 형변환이 필요하다.      }else{         return false;     }   }}class EqualEx2 { public static void main(String[] args) {    Person p1 = new Person(1020);    Person p2 = new Person(1020); if(p1 == p2) {    System.out.println(\"두 객체는 같다\"); }else {    System.out.println(\"두 객체는 다르다\");  } if(p1.equals(p2)) {    System.out.println(\"두 객체는 같다\"); }else {    System.out.println(\"두 객체는 다르다\");  }결과값은 “두 객체는 다르다”“두 객체는 같다”가 나왔다.String 클래스 역시  hashCode란?Object클래스는 hashCode() 라는 메서드를 가지고 있습니다 hashCode() 메서드는 말그대로 hashCode를 생성해 리턴해주는 메서드이죠 hashcode란 Object클래스의 메서드가 리턴하는 각 객체에 대응하는 고유한 정수값을 이야기하며     기본적으로 hashCode는 객체의 주소값과 연관이 있습니다비교했을때 주소값이 다른 obj와 obj2의 hashcode값이 다르죠 그리고 obj2의 주소값 @ 뒤의 값 6d06d69c (16진수) -&gt; hashCode 1829164700(10진수) 값으로변환이 되는것을 볼 수 있습니다. 그렇다면 주소값만으로도 hashCode처럼 대상을 비교할 수 있지않나?그럼 equals랑 ==이랑 같게 쓰여야하는거 아닌가?라는 생각을 했었는데  멍-충 주소값이 서로 다르지만 문자열은 같은 두 String 객체를 가지고 hashCode를 비교해보았습니다.주소값은 다르지만 같은 문자열에 대해 hashCode가 같은 것을 볼 수 있습니다.  [응? 주소값으로 hashCode만드는데 주소값이 다른데 hashCode가 같네? 모순모순!]이라고 할 뻔 했지만   String의 hashCode() 는 재정의가 되어 사용된다.가 정답입니다.String은 문자열이고 “에이”와 “에이”가 주소가 다르다고 다른말이라면 hashCode의 의미가 없을뿐더러 발생할 수 있는 나쁜 예로  -&gt; HashMap에서 일치하는 key 값을 찾아낼 수 없게 되겠죠 그래서 String은 hashCode를 생성할 때 주소값 말고 문자열로 생성하는 것으로 hashCode() 메서드가 재정의 된 것이랍니다.여기까지 equals메서드와 ‘==’연산자의 간단한 차이였습니다.아래는 String 기본 설명 살짝 덧붙여봤습니다.우선 spring 둘의 주소값이 다른 이유String aa = \"에이\";String bb =new String(\"에이\");리터널 aa변수는 stack 메모리에, “에이”라는 문자열은 Heap 메모리 내에 String pool 이라는 곳에 저장. 그 주소가 aa변수에 저장됩니다. 또한 String pool에 저장될때 intern() 이라는 메서드가 실행되는데  intern() = 같은 값이 있는 경우 기존 값의 메모리 주소를 사용하고, 다른 값일 경우 객체를 생성해 값을 저장하고 그 메모리 주소를 리턴합니다.Spring pool이 HashMap 자료구조 형태로 중복된 데이터 저장을 막습니다. 그래서String c = \"씨\";String cc = \"씨\";c == cc --&gt; true 라는 결과를 얻게되는것이죠.반대로   new 연산자 사용시 bb은 stack메모리에, “Hello” 는 일반 Heap 메모리 내에 생성되어 문자열이 같더라도 계속 새로운 인스턴스가 생성되게 되는것입니다. 그렇다면 메모리관리를 위해서라도 String은 리터널로 생성하는것이 권장되겠죠? 오늘도 화이팅입니다!",
+        "url": "/java-equals"
+    }
+    ,
+    
+    "error-jdk": {
+        "title": "REST-API JDK ERROR",
+            "author": "nageom",
+            "category": "",
+            "content": "now.. no korean.. I will fix it later… Error: A JNI error has occurred, please check your installation and try againproject right click -&gt; Properties    Java Compiler -&gt; Compiler compliance level-&gt; change versionif problem again.. project right click -&gt; ‘Properties’ ‘Java Build Path’ -&gt; ‘Libraries’ check the ‘JRE System Library’ is red   Is it red?? click ‘Add Library…’ on the right side -&gt;  click ‘JRE System Library’ !!",
+        "url": "/error-JDK"
+    }
+    ,
+    
+    "some-listandgist": {
+        "title": "추천 목록, gist 보여주기",
+            "author": "nageom",
+            "category": "",
+            "content": " 연관 게시물     코드보여주기    추천 목록, gist 보여주기마크업 언어 사용 예시1) 목록 보여줄때 (홀따음표 제거)  ”{“% include python-table-of-contents.html %}”_includes / oracle-table-of-contents.html 목록파일 추가해줘야함2) gist 문서가져올때 (따음표 제거)  &lt;’script src=”https://gist.github.com/nageom/7dcd0b8fedc4ce5e44003d237e2fc0fa.js”&gt;&lt;/script’&gt;{‘% gist nageom/7dcd0b8fedc4ce5e44003d237e2fc0fa %’} 는 해야할 것이 많다.. 예상치못한 에러때문에 시간을 너무 허비해서 안쓰기로함.",
+        "url": "/some-listAndGist"
+    }
+    ,
+    
+    "some-code": {
+        "title": "코드 보여주기",
+            "author": "nageom",
+            "category": "",
+            "content": "마크업언어 활용하기 코드 넣기 (검정바탕)  ’~~~javascript’@RequestMapping(value=\"/content/getPersonNumber\", method=RequestMethod.GET)@ResponseBody\t\t\t\t//inputcode는 날짜와 cid public int getPersonNumber(String inputcode, String cid) {//\t\tString date = req.getParameter(\"inputcode\");//\t\tint cid = Integer.parseInt(req.getParameter(\"cid\"));    int cid2 = Integer.parseInt(cid);    System.out.println(\"inputcode: \"+ inputcode);    System.out.println(\"cid2: \"+ cid2);",
+        "url": "/some-code"
+    }
+    ,
+    
+    "gettysburg-address": {
+        "title": "Gettysburg Address",
+            "author": "abraham",
+            "category": "",
+            "content": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
+        "url": "/gettysburg-address"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://nageom.github.io/">nageom's blog</a> &copy; 2021</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Search nageom's blog</h1>
+                <p class="subscribe-overlay-description">
+                    lunr.js를 이용한 posts 검색 </p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()"
+               id="searchtext" type="text" name="searchtext"
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-xxxxxxxx-x', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

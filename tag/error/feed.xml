@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://nageom.github.io/tag/error/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://nageom.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-12-03T13:01:30+00:00</updated>
+  <id>https://nageom.github.io/tag/error/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">nageom’s blog | </title>
+  
+
+  
+    <subtitle>티끌모아 공부방</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">자바스크립트 backtick(`)과 single quoto(‘) 나만 주의..</title>
+      <link href="https://nageom.github.io/error-typescript" rel="alternate" type="text/html" title="자바스크립트 backtick(`)과 single quoto(') 나만 주의.." />
+      <published>2021-11-03T00:00:00+00:00</published>
+      <updated>2021-11-03T00:00:00+00:00</updated>
+      <id>https://nageom.github.io/error-typescript</id>
+      <content type="html" xml:base="https://nageom.github.io/error-typescript">&lt;hr /&gt;
+
+&lt;p&gt;오늘 겪은 오류는 
+&lt;img src=&quot;../../assets/built/images/error/5.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;
+응? 뭐라는거야..&lt;br /&gt;
+쟤는 서있고 쟤는 좀 누워있네..하고 찾아보니까 backtick (`) 이라고하는 새로운 문자연결 표기방식으로 키보드 &lt;strong&gt;(Shift + ~)&lt;/strong&gt;를 치면 나온다&lt;/p&gt;
+
+&lt;p&gt;자바스크립트는 처음이라 진짜 몰랐다.. 
+어디에 쓰이는고.. 하니&lt;/p&gt;
+
+&lt;p&gt;처음에 내가 겪은 오류 
+&lt;img src=&quot;../../assets/built/images/error/6.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;
+&lt;img src=&quot;../../assets/built/images/error/7.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;
+아니 다들 홀따옴표 썼는데 &lt;u&gt;${}(place holder)&lt;/u&gt; 안에 변수 읽히던데 왜!! 나만 안돼!!!라고 했는데 
+사실 홀따옴표가 아니역따 ㅎ&lt;/p&gt;
+
+&lt;h5&gt;backtick (`)&lt;/h5&gt;
+
+&lt;p&gt;얘의 명칭은 grave accent &lt;br /&gt;
+backtick, backquoto 라고도 불리며
+‘억음부호’라는 한국이름도 있다.&lt;br /&gt;
+&lt;u&gt;자바스크립트 ES6 부터 백틱 기호를 사용한 문자열을 템플릿 리터널&lt;/u&gt;이라고 부른다.&lt;br /&gt;&lt;br /&gt;
+새로운 문자연결 표기방식인데,&lt;br /&gt;
+기존에 console.log(“내 이름은” + name + “나이는”+ age); 식의 문자열 출력이 &lt;br /&gt;
+따옴표(““)와 더하기 기호(+) 없이 백틱 기호 하나로  &lt;br /&gt;
+console.log(`내 이름은 ${name} 나이는 ${age}) 가 한줄에 출력 가능해진다.&lt;br /&gt;
+&lt;img src=&quot;../../assets/built/images/error/8.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;
+&lt;img src=&quot;../../assets/built/images/error/9.png&quot; alt=&quot;ex_screenshot&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/built/images/zzal/gaebiscon.jpg&quot; alt=&quot;ex_screenshot&quot; /&gt;
+나처럼 이걸로 헤매는 사람은 없겠ㅣ..&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>nageom</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="error" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">REST-API JDK ERROR</title>
+      <link href="https://nageom.github.io/error-JDK" rel="alternate" type="text/html" title="REST-API JDK ERROR" />
+      <published>2021-05-25T00:14:00+00:00</published>
+      <updated>2021-05-25T00:14:00+00:00</updated>
+      <id>https://nageom.github.io/error-JDK</id>
+      <content type="html" xml:base="https://nageom.github.io/error-JDK">&lt;hr /&gt;
+
+&lt;p&gt;now.. no korean.. 
+I will fix it later… &lt;br /&gt;
+Error: A JNI error has occurred, please check your installation and try again
+&lt;img src=&quot;../../assets/built/images/error/1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;
+project right click -&amp;gt; Properties    &lt;br /&gt;
+Java Compiler -&amp;gt; Compiler compliance level-&amp;gt; change version
+&lt;img src=&quot;../../assets/built/images/error/2.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;if problem again.. 
+project right click -&amp;gt; ‘Properties’ &lt;br /&gt;
+‘Java Build Path’ -&amp;gt; ‘Libraries’ &lt;br /&gt;
+check the ‘JRE System Library’ is red   &lt;br /&gt;
+Is it red?? &lt;br /&gt;
+&lt;img src=&quot;../../assets/built/images/error/3.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;click ‘Add Library…’ on the right side &lt;br /&gt;
+-&amp;gt;  click ‘JRE System Library’ !!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/built/images/error/4.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>nageom</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="error" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
